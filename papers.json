@@ -1,0 +1,1754 @@
+[
+  {
+    "id": "separate-biology-1-foundation",
+    "title": "Biology Paper 1 — Foundation · Original practice",
+    "subject": "Biology",
+    "paper": 1,
+    "tier": "Foundation",
+    "minutes": 105,
+    "marks": 100,
+    "coverage": [
+      "Cell biology",
+      "Organisation",
+      "Infection and response",
+      "Bioenergetics",
+      "Separate Biology content"
+    ],
+    "questions": [
+      {
+        "title": "Viewing leaf cells",
+        "topic": "Cell biology",
+        "stem": "A student observes leaf cells with a light microscope. A drawing of one cell is 36 mm long. The actual cell is 0.09 mm long.",
+        "parts": [
+          {
+            "q": "Name the structure that contains genetic material and the structure where photosynthesis occurs.",
+            "m": 2,
+            "ms": [
+              "Nucleus (1).",
+              "Chloroplast (1)."
+            ]
+          },
+          {
+            "q": "Calculate the magnification of the drawing. Show your working.",
+            "m": 2,
+            "ms": [
+              "Magnification = image size / actual size (1).",
+              "36 / 0.09 = 400 (1)."
+            ],
+            "answer": 400,
+            "unit": "times",
+            "tolerance": 1e-06
+          },
+          {
+            "q": "Describe how to prepare a thin leaf sample on a microscope slide.",
+            "m": 3,
+            "ms": [
+              "Place a thin sample in a drop of water on a slide (1).",
+              "Lower a coverslip gently at an angle to reduce trapped air (1).",
+              "Remove excess water and begin observing with low-power objective (1)."
+            ]
+          },
+          {
+            "q": "Give three differences between a bacterial cell and a leaf cell.",
+            "m": 3,
+            "ms": [
+              "Bacteria lack a nucleus; leaf cells have one (1).",
+              "Bacteria have no chloroplasts; photosynthetic leaf cells have chloroplasts (1).",
+              "Bacteria have no mitochondria; leaf cells have mitochondria (1). Accept bacterial circular DNA/plasmids versus chromosomes in a nucleus as an alternative distinct difference."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Osmosis in potato cylinders",
+        "topic": "Cell biology",
+        "stem": "<table><thead><tr><th>Solution</th><th>Initial mass / g</th><th>Final mass / g</th></tr></thead><tbody><tr><td>Water</td><td>4</td><td>4.8</td></tr><tr><td>Concentrated sugar solution</td><td>4</td><td>3.6</td></tr></tbody></table>",
+        "parts": [
+          {
+            "q": "Calculate the increase in mass of the cylinder in water.",
+            "m": 2,
+            "ms": [
+              "4.8 - 4.0 (1).",
+              "0.8 g (1)."
+            ],
+            "answer": 0.8,
+            "unit": "g",
+            "tolerance": 1e-06
+          },
+          {
+            "q": "Calculate the percentage increase in mass of this cylinder.",
+            "m": 2,
+            "ms": [
+              "0.8 / 4.0 x 100 (1).",
+              "20% (1)."
+            ],
+            "answer": 20,
+            "unit": "%",
+            "tolerance": 1e-06
+          },
+          {
+            "q": "Explain why the cylinder in concentrated sugar solution loses mass.",
+            "m": 3,
+            "ms": [
+              "Water moves out of potato cells (1).",
+              "Through partially permeable membranes (1).",
+              "By osmosis, from a more dilute solution inside to a more concentrated solution outside (1)."
+            ]
+          },
+          {
+            "q": "Describe three controls or improvements that make this comparison more reliable.",
+            "m": 3,
+            "ms": [
+              "Use cylinders of equal dimensions/from the same potato (1).",
+              "Use the same immersion time and temperature (1).",
+              "Repeat with several cylinders and calculate means; or blot each cylinder consistently before weighing (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Enzymes and digestion",
+        "topic": "Organisation",
+        "stem": "Amylase digests starch. In a test at 35 °C, starch takes 120 seconds to disappear. At 45 °C it takes 60 seconds.",
+        "parts": [
+          {
+            "q": "Name the product type made by amylase and the reagent used to test for starch.",
+            "m": 2,
+            "ms": [
+              "Sugars (1).",
+              "Iodine solution (1)."
+            ]
+          },
+          {
+            "q": "Calculate the ratio of the time at 35 °C to the time at 45 °C. Give the simplest whole-number ratio.",
+            "m": 2,
+            "ms": [
+              "120:60 (1).",
+              "2:1 (1)."
+            ]
+          },
+          {
+            "q": "Explain how bile helps the digestion of fats.",
+            "m": 3,
+            "ms": [
+              "Neutralises stomach acid in the small intestine (1).",
+              "Provides alkaline conditions for enzymes (1).",
+              "Emulsifies fats into small droplets, increasing surface area for lipase (1)."
+            ]
+          },
+          {
+            "q": "Explain why amylase works very slowly at 80 °C.",
+            "m": 3,
+            "ms": [
+              "High temperature changes the shape of the enzyme/active site (1).",
+              "The substrate no longer fits the active site (1).",
+              "The enzyme is denatured, so fewer enzyme-substrate complexes form (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Transport in the body",
+        "topic": "Organisation",
+        "stem": "Blood circulates between the heart, lungs and body tissues.",
+        "parts": [
+          {
+            "q": "Name the blood component that carries oxygen and the component involved in clotting.",
+            "m": 2,
+            "ms": [
+              "Red blood cells (1).",
+              "Platelets (1)."
+            ]
+          },
+          {
+            "q": "Explain why the left ventricle has a thicker muscular wall than the right ventricle.",
+            "m": 2,
+            "ms": [
+              "Left ventricle pumps blood around the whole body (1).",
+              "Needs to generate higher pressure than the right ventricle, which pumps to nearby lungs (1)."
+            ]
+          },
+          {
+            "q": "Explain three features of alveoli that make gas exchange effective.",
+            "m": 3,
+            "ms": [
+              "Large surface area increases exchange (1).",
+              "Thin walls provide short diffusion distance (1).",
+              "Good blood supply/ventilation maintains a concentration gradient (1)."
+            ]
+          },
+          {
+            "q": "Describe how coronary heart disease develops and one treatment.",
+            "m": 3,
+            "ms": [
+              "Fatty deposits build up in coronary arteries (1).",
+              "Reduced blood flow reduces oxygen supply to heart muscle (1).",
+              "Stent holds artery open or statins lower blood cholesterol and slow deposit formation (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Preventing infectious disease",
+        "topic": "Infection and response",
+        "stem": "A school has 800 pupils. Following a vaccination programme, 680 pupils are vaccinated.",
+        "parts": [
+          {
+            "q": "Calculate the percentage of pupils vaccinated.",
+            "m": 2,
+            "ms": [
+              "680 / 800 x 100 (1).",
+              "85% (1)."
+            ],
+            "answer": 85,
+            "unit": "%",
+            "tolerance": 1e-06
+          },
+          {
+            "q": "State one bacterial disease and one viral disease from the course.",
+            "m": 2,
+            "ms": [
+              "Salmonella food poisoning or gonorrhoea (1).",
+              "Measles, HIV or tobacco mosaic virus (1)."
+            ]
+          },
+          {
+            "q": "Explain how vaccination reduces the risk of becoming ill after later exposure to a pathogen.",
+            "m": 6,
+            "ms": [
+              "Vaccine introduces dead/inactive pathogen or pathogen antigens.",
+              "Antigens stimulate white blood cells.",
+              "White blood cells produce specific antibodies.",
+              "Some white blood cells remain as memory cells.",
+              "On later exposure the specific antibodies are produced faster.",
+              "Antibodies destroy the pathogen before it causes serious illness. Accept a valid explanation of reduced transmission protecting unvaccinated people as an alternative final point."
+            ],
+            "note": "Award one mark for each distinct valid linked point, maximum 6."
+          }
+        ]
+      },
+      {
+        "title": "Photosynthesis in pondweed",
+        "topic": "Bioenergetics",
+        "stem": "<table><thead><tr><th>Lamp distance / cm</th><th>Bubbles in 1 minute</th></tr></thead><tbody><tr><td>10</td><td>44</td></tr><tr><td>20</td><td>22</td></tr><tr><td>30</td><td>12</td></tr></tbody></table>",
+        "parts": [
+          {
+            "q": "Name the gas in the bubbles and the organelle that absorbs light.",
+            "m": 2,
+            "ms": [
+              "Oxygen (1).",
+              "Chloroplast (1)."
+            ]
+          },
+          {
+            "q": "Calculate the decrease in bubbles per minute between 10 cm and 30 cm.",
+            "m": 2,
+            "ms": [
+              "44 - 12 (1).",
+              "32 bubbles per minute (1)."
+            ],
+            "answer": 32,
+            "unit": "bubbles/min",
+            "tolerance": 1e-06
+          },
+          {
+            "q": "Explain the pattern in the table.",
+            "m": 3,
+            "ms": [
+              "Light intensity decreases as lamp distance increases (1).",
+              "Less light energy is available for photosynthesis (1).",
+              "Photosynthesis rate decreases, so fewer oxygen bubbles are produced each minute (1)."
+            ]
+          },
+          {
+            "q": "Suggest three improvements to the method.",
+            "m": 3,
+            "ms": [
+              "Collect gas volume rather than count unequal bubbles (1).",
+              "Keep temperature constant using a water bath/heat shield (1).",
+              "Repeat each distance and calculate a mean; or control carbon dioxide with the same bicarbonate solution (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Respiration during exercise",
+        "topic": "Bioenergetics",
+        "stem": "A runner starts a fast sprint. Their muscles need more energy.",
+        "parts": [
+          {
+            "q": "Complete the word equation for aerobic respiration: glucose + ____ → ____ + water.",
+            "m": 2,
+            "ms": [
+              "Oxygen (1).",
+              "Carbon dioxide (1)."
+            ]
+          },
+          {
+            "q": "State two changes to the body during exercise that deliver more oxygen to muscles.",
+            "m": 2,
+            "ms": [
+              "Heart rate increases (1).",
+              "Breathing rate and/or depth increases (1)."
+            ]
+          },
+          {
+            "q": "Compare aerobic and anaerobic respiration in human muscles.",
+            "m": 3,
+            "ms": [
+              "Aerobic uses oxygen; anaerobic does not (1).",
+              "Anaerobic forms lactic acid; aerobic forms carbon dioxide and water (1).",
+              "Anaerobic transfers less energy per glucose molecule (1)."
+            ]
+          },
+          {
+            "q": "Explain why breathing remains fast for a while after the sprint.",
+            "m": 3,
+            "ms": [
+              "Lactic acid accumulated when oxygen supply was insufficient (1).",
+              "Extra oxygen is needed to react with/remove accumulated lactic acid (1).",
+              "This extra oxygen requirement is the oxygen debt (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Comparing antiseptics",
+        "stem": "<p>Students use a teacher-approved bacterial culture on agar. Equal paper discs contain antiseptic A, antiseptic B or sterile water. Mean clear-zone diameters are A: 12 mm; B: 8 mm; water: 0 mm.</p>",
+        "topic": "Culturing microorganisms",
+        "parts": [
+          {
+            "q": "Explain why the agar and inoculating equipment should be sterile.",
+            "m": 2,
+            "ms": [
+              "Sterilisation removes unwanted microorganisms.",
+              "This reduces contamination so growth reflects the intended bacterial culture."
+            ]
+          },
+          {
+            "q": "Give two controlled variables, other than disc size.",
+            "m": 2,
+            "ms": [
+              "Use the same bacterial species / starting concentration.",
+              "Keep agar depth, incubation temperature or incubation time the same (one additional valid control)."
+            ]
+          },
+          {
+            "q": "Use π = 3.14 to calculate the area of A’s clear circular zone.",
+            "m": 3,
+            "ms": [
+              "Radius = 12/2 = 6 mm.",
+              "Area = πr² = 3.14 × 36.",
+              "Area = 113.04 mm²."
+            ],
+            "answer": 113.04,
+            "unit": "mm²"
+          },
+          {
+            "q": "State a conclusion, its supporting evidence, and one reason to repeat the investigation.",
+            "m": 3,
+            "ms": [
+              "A inhibits growth more than B under the tested conditions.",
+              "A has a larger clear zone than B; the water control has none.",
+              "Repeats allow a mean and identification of variation / anomalous results."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Investigating yellow leaves",
+        "stem": "<p>Tomato plants have yellow leaves and slow growth. No pathogen has yet been identified. Group 1 receives a complete mineral solution; group 2 receives an identical solution without magnesium. All other conditions are kept equal.</p>",
+        "topic": "Plant disease and mineral deficiency",
+        "parts": [
+          {
+            "q": "Explain why a yellow leaf does not by itself prove infection.",
+            "m": 2,
+            "ms": [
+              "Several conditions can cause yellowing.",
+              "A mineral deficiency rather than a pathogen may be responsible."
+            ]
+          },
+          {
+            "q": "Explain why lacking magnesium can reduce growth.",
+            "m": 3,
+            "ms": [
+              "Magnesium is required for chlorophyll production.",
+              "Less chlorophyll reduces light absorption / photosynthesis.",
+              "Less glucose is available to make biomass / support growth."
+            ]
+          },
+          {
+            "q": "State three controls for the comparison.",
+            "m": 3,
+            "ms": [
+              "Use the same plant species and similar starting age / size.",
+              "Provide the same light and temperature (one valid environmental control).",
+              "Provide equal solution volumes and all other mineral concentrations."
+            ]
+          },
+          {
+            "q": "Suggest a useful additional diagnostic method and explain its purpose.",
+            "m": 2,
+            "ms": [
+              "Use a suitable laboratory test / pathogen identification or validated antibody test.",
+              "It can identify or provide evidence of a particular pathogen rather than relying on symptoms alone."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Defending plants",
+        "stem": "<p>A leaf-eating mammal attacks plants with soft leaves. A second plant has thorns and contains a toxic chemical. A third plant has damaged bark and a fungal infection.</p>",
+        "topic": "Plant defences",
+        "parts": [
+          {
+            "q": "Explain how thorns and a toxic chemical can reduce damage.",
+            "m": 3,
+            "ms": [
+              "Thorns can deter or injure herbivores, reducing feeding.",
+              "Toxic chemicals can poison / deter herbivores.",
+              "Reduced feeding preserves tissues needed for growth / photosynthesis."
+            ]
+          },
+          {
+            "q": "Describe two physical barriers, other than thorns, and explain one of their effects.",
+            "m": 3,
+            "ms": [
+              "Cellulose cell walls provide a physical barrier.",
+              "Waxy cuticle or bark provides another physical barrier.",
+              "A barrier reduces pathogen entry into plant tissues."
+            ]
+          },
+          {
+            "q": "Explain why bark damage can increase infection risk.",
+            "m": 2,
+            "ms": [
+              "Damage breaches a physical barrier.",
+              "Fungal pathogens can enter exposed tissues more easily."
+            ]
+          },
+          {
+            "q": "Give two ways a plant can defend itself after infection or attack.",
+            "m": 2,
+            "ms": [
+              "Produce antibacterial chemicals / defensive poisons.",
+              "Shed infected leaves or use another valid specified defence such as curling leaves."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "separate-biology-1-higher",
+    "title": "Biology Paper 1 — Higher · Original practice",
+    "subject": "Biology",
+    "paper": 1,
+    "tier": "Higher",
+    "minutes": 105,
+    "marks": 100,
+    "coverage": [
+      "Cell biology",
+      "Organisation",
+      "Infection and response",
+      "Bioenergetics",
+      "Separate Biology content"
+    ],
+    "questions": [
+      {
+        "title": "Exchange surfaces and cell size",
+        "topic": "Cell biology",
+        "stem": "Model cells are cubes. Cube A has side length 1 mm; cube B has side length 3 mm. Surface area of a cube = 6 × side²; volume = side³.",
+        "parts": [
+          {
+            "q": "Calculate the surface-area-to-volume ratio of cube B.",
+            "m": 3,
+            "ms": [
+              "Surface area = 6 x 9 = 54 mm² (1).",
+              "Volume = 27 mm³ (1).",
+              "Ratio = 2:1 (1)."
+            ]
+          },
+          {
+            "q": "Explain why diffusion alone may be insufficient for a large multicellular organism.",
+            "m": 3,
+            "ms": [
+              "Smaller surface-area-to-volume ratio than a small organism (1).",
+              "Longer internal diffusion distances (1).",
+              "Diffusion cannot supply all cells rapidly enough to meet demand for oxygen/nutrients (1)."
+            ]
+          },
+          {
+            "q": "A micrograph is 72 mm wide at ×600. Calculate the real width in micrometres.",
+            "m": 2,
+            "ms": [
+              "72 / 600 = 0.12 mm (1).",
+              "120 micrometres (1)."
+            ],
+            "answer": 120,
+            "unit": "µm",
+            "tolerance": 1e-06
+          },
+          {
+            "q": "Explain how active transport differs from diffusion.",
+            "m": 2,
+            "ms": [
+              "Active transport moves substances against their concentration gradient; diffusion is down it (1).",
+              "Active transport requires energy from respiration; diffusion does not (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Interpreting an osmosis investigation",
+        "topic": "Cell biology",
+        "stem": "<table><thead><tr><th>Sugar concentration / mol dm⁻³</th><th>Mean mass change / %</th></tr></thead><tbody><tr><td>0.2</td><td>6</td></tr><tr><td>0.3</td><td>2</td></tr><tr><td>0.4</td><td>-2</td></tr><tr><td>0.5</td><td>-7</td></tr></tbody></table>",
+        "parts": [
+          {
+            "q": "Estimate the concentration giving no net mass change by linear interpolation between 0.3 and 0.4 mol dm⁻³.",
+            "m": 2,
+            "ms": [
+              "Zero lies halfway between +2 and -2 (1).",
+              "0.35 mol dm⁻³ (1)."
+            ],
+            "answer": 0.35,
+            "unit": "mol dm⁻³",
+            "tolerance": 1e-06
+          },
+          {
+            "q": "A cylinder initially has mass 5.50 g and loses 7% of its mass. Calculate its final mass.",
+            "m": 3,
+            "ms": [
+              "Mass loss = 5.50 x 0.07 (1).",
+              "Mass loss = 0.385 g (1).",
+              "Final mass = 5.115 g; accept 5.12 g (1)."
+            ],
+            "answer": 5.115,
+            "unit": "g",
+            "tolerance": 0.01
+          },
+          {
+            "q": "Explain why zero net mass change does not mean water molecules have stopped moving.",
+            "m": 2,
+            "ms": [
+              "Water still moves in both directions through the membrane (1).",
+              "Equal average rates produce no net transfer (1)."
+            ]
+          },
+          {
+            "q": "Identify a possible systematic error and explain a practical improvement and its benefit.",
+            "m": 3,
+            "ms": [
+              "Valid systematic error such as consistently leaving surface solution on cylinders before weighing (1).",
+              "Blot each cylinder using a standard procedure (1).",
+              "Reduces bias caused by measuring surface solution rather than tissue mass (1). Accept another coherent error-improvement-benefit sequence."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Enzyme evidence",
+        "topic": "Organisation",
+        "stem": "<table><thead><tr><th>pH</th><th>Time for starch to disappear / s</th></tr></thead><tbody><tr><td>4</td><td>180</td></tr><tr><td>6</td><td>60</td></tr><tr><td>7</td><td>30</td></tr><tr><td>9</td><td>120</td></tr></tbody></table>",
+        "parts": [
+          {
+            "q": "Using rate = 1/time, calculate the reaction rate at pH 7 to 3 significant figures.",
+            "m": 2,
+            "ms": [
+              "1 / 30 (1).",
+              "0.0333 s⁻¹ (1)."
+            ],
+            "answer": 0.03333333333333333,
+            "unit": "s⁻¹",
+            "tolerance": 0.0001
+          },
+          {
+            "q": "Calculate how many times faster the reaction is at pH 7 than at pH 4.",
+            "m": 2,
+            "ms": [
+              "(1/30) / (1/180), or 180/30 (1).",
+              "6 times (1)."
+            ],
+            "answer": 6,
+            "unit": "times",
+            "tolerance": 1e-06
+          },
+          {
+            "q": "Explain the effect of pH on enzyme activity.",
+            "m": 3,
+            "ms": [
+              "Changes in pH can alter the active-site shape (1).",
+              "Substrate becomes less complementary (1).",
+              "Fewer enzyme-substrate complexes form; sufficiently extreme pH can denature the enzyme (1)."
+            ]
+          },
+          {
+            "q": "Explain why temperature, enzyme concentration and starch concentration must each be controlled.",
+            "m": 3,
+            "ms": [
+              "Temperature affects collision rate/denaturation (1).",
+              "Enzyme concentration affects the number of available active sites (1).",
+              "Starch concentration affects collision frequency/substrate availability, so changes could confound the pH comparison (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Heart disease and evidence",
+        "topic": "Organisation",
+        "stem": "In a study, 18 of 300 people in group A developed heart disease, compared with 45 of 300 in group B. Group A took part in an exercise programme. The groups were not randomly allocated.",
+        "parts": [
+          {
+            "q": "Calculate the percentage developing heart disease in group A.",
+            "m": 2,
+            "ms": [
+              "18 / 300 x 100 (1).",
+              "6% (1)."
+            ],
+            "answer": 6,
+            "unit": "%",
+            "tolerance": 1e-06
+          },
+          {
+            "q": "Explain why the study does not prove that exercise alone caused the difference.",
+            "m": 2,
+            "ms": [
+              "Groups may differ in other risk factors such as diet/smoking/age (1).",
+              "These confounding factors could explain part/all of the difference (1)."
+            ]
+          },
+          {
+            "q": "Explain how the heart and blood vessels maintain effective delivery of oxygen to body tissues.",
+            "m": 6,
+            "ms": [
+              "Double circulation sends blood to lungs and then to body.",
+              "Right ventricle pumps deoxygenated blood to lungs.",
+              "Oxygen enters blood at alveoli.",
+              "Left ventricle produces high pressure for circulation to body tissues.",
+              "Arteries carry blood away from heart and withstand high pressure.",
+              "Capillaries have thin walls enabling short diffusion distance into tissues. Accept valves preventing backflow or red cells carrying oxygen using haemoglobin as alternative relevant points."
+            ],
+            "note": "Award one mark per distinct relevant linked point, maximum 6."
+          }
+        ]
+      },
+      {
+        "title": "Infection and immunity",
+        "topic": "Infection and response",
+        "stem": "A viral infection causes symptoms in some patients. A doctor explains that antibiotics will not cure the viral infection.",
+        "parts": [
+          {
+            "q": "Explain why antibiotics are ineffective against viruses.",
+            "m": 2,
+            "ms": [
+              "Antibiotics target bacterial structures/processes (1).",
+              "Viruses reproduce inside host cells and do not have the same targets (1)."
+            ]
+          },
+          {
+            "q": "Describe three ways white blood cells defend the body against pathogens.",
+            "m": 3,
+            "ms": [
+              "Phagocytosis/engulfing pathogens (1).",
+              "Producing specific antibodies (1).",
+              "Producing antitoxins to neutralise toxins (1)."
+            ]
+          },
+          {
+            "q": "Explain how antibiotic resistance can increase in a bacterial population.",
+            "m": 3,
+            "ms": [
+              "Mutation produces a resistant bacterium/variation already exists (1).",
+              "Antibiotic kills susceptible bacteria, leaving resistant bacteria (1).",
+              "Resistant bacteria reproduce and pass on resistance, increasing its frequency (1)."
+            ]
+          },
+          {
+            "q": "Give two reasons why a new drug is tested before use in patients.",
+            "m": 2,
+            "ms": [
+              "Determine toxicity/safety (1).",
+              "Determine effectiveness or an appropriate dose (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Limiting photosynthesis",
+        "topic": "Bioenergetics",
+        "stem": "At a fixed temperature, a plant absorbs 2.4 mg of carbon dioxide in 4 minutes at light setting A and 4.8 mg in 4 minutes at setting B. Doubling the light again gives no further increase.",
+        "parts": [
+          {
+            "q": "Calculate the carbon dioxide uptake rate at setting B.",
+            "m": 2,
+            "ms": [
+              "4.8 / 4 (1).",
+              "1.2 mg/min (1)."
+            ],
+            "answer": 1.2,
+            "unit": "mg/min",
+            "tolerance": 1e-06
+          },
+          {
+            "q": "Calculate the percentage increase in uptake from A to B.",
+            "m": 2,
+            "ms": [
+              "(4.8 - 2.4) / 2.4 x 100 (1).",
+              "100% (1)."
+            ],
+            "answer": 100,
+            "unit": "%",
+            "tolerance": 1e-06
+          },
+          {
+            "q": "Explain why doubling light beyond B may give no further increase.",
+            "m": 3,
+            "ms": [
+              "Light is no longer the limiting factor (1).",
+              "Carbon dioxide concentration or temperature may limit the rate (1).",
+              "Increasing that limiting factor, within a suitable range, would allow rate to increase (1)."
+            ]
+          },
+          {
+            "q": "A grower proposes heating the greenhouse all night to increase photosynthesis. Evaluate this proposal.",
+            "m": 3,
+            "ms": [
+              "No photosynthesis without light at night (1).",
+              "Heating costs money/energy and may not raise yield enough to cover costs (1).",
+              "It may be useful only with lighting and sufficient carbon dioxide, or for preventing cold damage; conclusion must link to conditions (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Metabolism and exercise",
+        "topic": "Bioenergetics",
+        "stem": "A person runs at increasing speed until oxygen delivery can no longer meet demand.",
+        "parts": [
+          {
+            "q": "Explain the relationship between respiration and metabolism.",
+            "m": 2,
+            "ms": [
+              "Respiration transfers energy from glucose (1).",
+              "This energy supports metabolic reactions such as protein synthesis or conversion of glucose to glycogen (1)."
+            ]
+          },
+          {
+            "q": "Explain why anaerobic respiration leads to muscle fatigue and an oxygen debt.",
+            "m": 3,
+            "ms": [
+              "Glucose is incompletely broken down to lactic acid (1).",
+              "Lactic acid accumulation contributes to fatigue (1).",
+              "Extra oxygen is required after exercise to react with/remove the lactic acid (1)."
+            ]
+          },
+          {
+            "q": "Describe how lactic acid is processed after exercise.",
+            "m": 3,
+            "ms": [
+              "Transported in blood from muscles to liver (1).",
+              "Converted back into glucose in the liver (1).",
+              "Oxygen/energy is required during recovery; accept some glucose stored as glycogen (1)."
+            ]
+          },
+          {
+            "q": "Compare anaerobic respiration in yeast with that in muscles.",
+            "m": 2,
+            "ms": [
+              "Yeast produces ethanol and carbon dioxide; muscles produce lactic acid (1).",
+              "Both transfer energy without oxygen/from incomplete breakdown of glucose (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Assessing an antiseptic claim",
+        "stem": "<p>An antiseptic company compares equal discs on agar seeded with one approved bacterial strain. Mean inhibition diameters are control: 6 mm; low concentration: 10 mm; high concentration: 14 mm. All discs are 6 mm wide. The company claims its product kills every type of pathogen.</p>",
+        "topic": "Microbiology and experimental evidence",
+        "parts": [
+          {
+            "q": "Calculate the clear-zone area outside the high-concentration disc, using π = 3.14.",
+            "m": 3,
+            "ms": [
+              "Outer radius = 7 mm and disc radius = 3 mm.",
+              "Subtract areas: π(7² − 3²).",
+              "Area = 125.6 mm²."
+            ],
+            "answer": 125.6,
+            "unit": "mm²"
+          },
+          {
+            "q": "Explain why the claim is not justified.",
+            "m": 3,
+            "ms": [
+              "Only one bacterial strain was tested, not every pathogen.",
+              "Inhibition of visible growth does not prove all cells were killed.",
+              "The claim extends beyond the experimental conditions / ignores viruses, fungi or other untested pathogens."
+            ]
+          },
+          {
+            "q": "Describe two precautions that reduce contamination and one school incubation precaution.",
+            "m": 3,
+            "ms": [
+              "Sterilise medium / equipment.",
+              "Open lids briefly and use aseptic inoculation.",
+              "Incubate at 25°C and do not reopen incubated plates."
+            ]
+          },
+          {
+            "q": "Why report several independent plates rather than a single plate?",
+            "m": 1,
+            "ms": [
+              "To assess variation and improve reliability of a mean."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Targeted antibody delivery",
+        "stem": "<p>A tumour has antigen X on many of its cells. Scientists make a monoclonal antibody against X and attach a drug. In a trial, 42 of 70 treated patients improve, compared with 21 of 70 receiving the comparison treatment.</p>",
+        "topic": "Monoclonal antibodies",
+        "parts": [
+          {
+            "q": "Describe how a hybridoma producing the antibody is made.",
+            "m": 3,
+            "ms": [
+              "Expose a mouse to the antigen and obtain antibody-producing lymphocytes.",
+              "Fuse lymphocytes with tumour cells.",
+              "Select and clone a suitable hybridoma to produce identical antibodies."
+            ]
+          },
+          {
+            "q": "Explain the advantage of attaching the drug to this antibody.",
+            "m": 3,
+            "ms": [
+              "The antibody binds specifically to antigen X.",
+              "Attached drug is delivered to antigen-bearing target cells.",
+              "This may reduce exposure / damage to healthy cells compared with non-targeted delivery."
+            ]
+          },
+          {
+            "q": "Calculate the difference in improvement percentage points.",
+            "m": 3,
+            "ms": [
+              "Treatment: 42/70 × 100 = 60%.",
+              "Comparison: 21/70 × 100 = 30%.",
+              "Difference = 30 percentage points."
+            ],
+            "answer": 30,
+            "unit": "percentage points"
+          },
+          {
+            "q": "Give one reason the improvement data alone do not establish that the treatment is preferable.",
+            "m": 1,
+            "ms": [
+              "Side effects, long-term outcome, cost or comparable trial design must also be evaluated."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Diagnosing a crop problem",
+        "stem": "<p>A crop has yellow leaves. Some plants also have black spots. An agronomist compares magnesium content, performs a pathogen test and investigates whether spraying a fungicide improves growth.</p>",
+        "topic": "Plant disease and defences",
+        "parts": [
+          {
+            "q": "Distinguish two possible causes of yellow leaves and explain a growth effect.",
+            "m": 3,
+            "ms": [
+              "Magnesium deficiency can reduce chlorophyll.",
+              "A pathogen can damage photosynthetic tissue.",
+              "Either can reduce photosynthesis and glucose available for growth."
+            ]
+          },
+          {
+            "q": "Explain why a positive pathogen test does not prove every yellow leaf is caused only by that pathogen.",
+            "m": 2,
+            "ms": [
+              "The test identifies presence / a marker, not all causes of every symptom.",
+              "Mineral deficiency or other environmental causes may coexist."
+            ]
+          },
+          {
+            "q": "Design a controlled comparison of the fungicide’s effect.",
+            "m": 3,
+            "ms": [
+              "Randomly allocate similar affected plants to fungicide and control groups.",
+              "Keep nutrient supply, light, water and other conditions constant.",
+              "Repeat with enough plants and compare mean growth using the same measurement interval."
+            ]
+          },
+          {
+            "q": "Explain how an intact cuticle and a defensive chemical can help plants.",
+            "m": 2,
+            "ms": [
+              "A cuticle reduces pathogen entry as a physical barrier.",
+              "A defensive chemical can inhibit microbes or deter herbivores."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "separate-biology-2-foundation",
+    "title": "Biology Paper 2 — Foundation · Original practice",
+    "subject": "Biology",
+    "paper": 2,
+    "tier": "Foundation",
+    "minutes": 105,
+    "marks": 100,
+    "coverage": [
+      "Homeostasis and response",
+      "Inheritance, variation and evolution",
+      "Ecology",
+      "Separate Biology content"
+    ],
+    "questions": [
+      {
+        "title": "Reflexes and reaction time",
+        "topic": "Homeostasis and response",
+        "stem": "Five ruler-drop distances are 16, 18, 15, 17 and 19 cm.",
+        "parts": [
+          {
+            "q": "Calculate the mean distance.",
+            "m": 2,
+            "ms": [
+              "Sum = 85 cm (1).",
+              "85 / 5 = 17 cm (1)."
+            ],
+            "answer": 17,
+            "unit": "cm",
+            "tolerance": 1e-06
+          },
+          {
+            "q": "Name the type of cell that detects a stimulus and the type of cell that carries an impulse to a muscle.",
+            "m": 2,
+            "ms": [
+              "Receptor (1).",
+              "Motor neurone (1)."
+            ]
+          },
+          {
+            "q": "Describe the route taken by an impulse in a reflex arc from a receptor to a muscle.",
+            "m": 3,
+            "ms": [
+              "Sensory neurone carries impulse to central nervous system (1).",
+              "Relay neurone passes impulse within CNS (1).",
+              "Motor neurone carries impulse to the muscle/effector (1)."
+            ]
+          },
+          {
+            "q": "Explain three controls or improvements in a ruler-drop investigation.",
+            "m": 3,
+            "ms": [
+              "Same starting position/zero aligned with fingers (1).",
+              "Same hand/person and posture when comparing conditions (1).",
+              "Repeat and calculate mean; avoid cues by varying delay before release (one valid improvement for 1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Blood glucose control",
+        "topic": "Homeostasis and response",
+        "stem": "After a meal, blood glucose concentration rises.",
+        "parts": [
+          {
+            "q": "Name the organ that produces insulin and state how insulin travels to target organs.",
+            "m": 2,
+            "ms": [
+              "Pancreas (1).",
+              "In the blood (1)."
+            ]
+          },
+          {
+            "q": "State two effects of insulin that reduce blood glucose concentration.",
+            "m": 2,
+            "ms": [
+              "Glucose moves from blood into cells (1).",
+              "Glucose is converted to glycogen in liver/muscles (1)."
+            ]
+          },
+          {
+            "q": "Compare Type 1 and Type 2 diabetes.",
+            "m": 3,
+            "ms": [
+              "Type 1 pancreas produces little/no insulin (1).",
+              "Type 2 body cells respond less effectively to insulin (1).",
+              "Type 1 often treated with insulin injections; Type 2 often managed with controlled carbohydrate diet and exercise (1)."
+            ]
+          },
+          {
+            "q": "Explain why a person with diabetes should use several blood glucose readings rather than one reading to judge control.",
+            "m": 3,
+            "ms": [
+              "Glucose changes during the day (1).",
+              "Meals/exercise affect readings (1).",
+              "Several readings reveal patterns and reduce the influence of an unusual reading (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Hormones and reproduction",
+        "topic": "Homeostasis and response",
+        "stem": "Hormones coordinate the menstrual cycle.",
+        "parts": [
+          {
+            "q": "State where oestrogen is mainly produced and one of its roles in the menstrual cycle.",
+            "m": 2,
+            "ms": [
+              "Ovaries (1).",
+              "Builds/thickens uterus lining (1)."
+            ]
+          },
+          {
+            "q": "Name the hormone that causes ovulation and the hormone that stimulates egg maturation.",
+            "m": 2,
+            "ms": [
+              "LH causes ovulation (1).",
+              "FSH stimulates egg maturation (1)."
+            ]
+          },
+          {
+            "q": "Explain three ways contraception can prevent pregnancy.",
+            "m": 6,
+            "ms": [
+              "Barrier method: a condom or diaphragm forms a physical barrier.",
+              "The barrier prevents sperm reaching the egg, so fertilisation cannot occur.",
+              "Hormonal method: an oral contraceptive supplies reproductive hormones.",
+              "These can inhibit egg maturation or ovulation, so an egg is not available for fertilisation.",
+              "Intrauterine method: an IUD is placed inside the uterus. Accept sterilisation blocking sperm ducts or oviducts as an alternative method.",
+              "The IUD can prevent implantation, impair sperm/fertilisation, or release hormones that thicken cervical mucus. For sterilisation: gametes cannot meet. Award this explanation mark only with the matching method. Do not credit abortion as contraception."
+            ],
+            "note": "Award up to 2 marks for each of three distinct methods; maximum 6."
+          }
+        ]
+      },
+      {
+        "title": "Inheritance of a recessive condition",
+        "topic": "Inheritance, variation and evolution",
+        "stem": "A recessive allele d causes a condition. Both parents have genotype Dd. The parents’ gametes are already arranged in this incomplete Punnett square: <table><thead><tr><th>Gametes</th><th>D</th><th>d</th></tr></thead><tbody><tr><th>D</th><td>DD</td><td>Box A</td></tr><tr><th>d</th><td>Box B</td><td>dd</td></tr></tbody></table>",
+        "parts": [
+          {
+            "q": "State the meaning of allele and genotype.",
+            "m": 2,
+            "ms": [
+              "Allele is a version of a gene (1).",
+              "Genotype is the combination of alleles an individual has (1)."
+            ]
+          },
+          {
+            "q": "Complete Box A and Box B in the provided Punnett square.",
+            "m": 2,
+            "ms": [
+              "Box A = Dd (1).",
+              "Box B = Dd (1)."
+            ]
+          },
+          {
+            "q": "Calculate the probability of an offspring having the condition. Give a percentage.",
+            "m": 2,
+            "ms": [
+              "Only dd has the condition; 1 of 4 (1).",
+              "25% (1)."
+            ],
+            "answer": 25,
+            "unit": "%",
+            "tolerance": 1e-06
+          },
+          {
+            "q": "Explain why a dominant allele can be expressed in a heterozygous person, and why this does not mean it is always common in a population.",
+            "m": 4,
+            "ms": [
+              "Heterozygous means two different alleles (1).",
+              "One copy of a dominant allele is sufficient to affect phenotype (1).",
+              "Dominance describes expression, not how frequent an allele is (1).",
+              "Frequency also depends on inheritance, selection and chance/population history (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Selection and biodiversity",
+        "topic": "Inheritance, variation and evolution",
+        "stem": "Some beetles are green and some are brown. Birds find green beetles more easily on dark soil.",
+        "parts": [
+          {
+            "q": "State what is meant by variation and name one environmental cause of variation.",
+            "m": 2,
+            "ms": [
+              "Differences between individuals of a species (1).",
+              "Diet/light/exercise or another valid environmental factor (1)."
+            ]
+          },
+          {
+            "q": "Explain how the proportion of brown beetles could increase over many generations.",
+            "m": 4,
+            "ms": [
+              "There is inherited variation in colour (1).",
+              "Brown beetles are less likely to be eaten (1).",
+              "More survive to reproduce (1).",
+              "They pass alleles for brown colour to offspring, increasing frequency (1)."
+            ]
+          },
+          {
+            "q": "Give two reasons why a species may become extinct.",
+            "m": 2,
+            "ms": [
+              "Environmental change/habitat loss/new predator (one for 1).",
+              "New disease/competition/catastrophic event (a second distinct reason for 1)."
+            ]
+          },
+          {
+            "q": "State two benefits of maintaining biodiversity.",
+            "m": 2,
+            "ms": [
+              "Helps maintain stable ecosystems/interdependence (1).",
+              "Preserves genetic resources/food/medicines or other valid ecosystem service (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sampling a field",
+        "topic": "Ecology",
+        "stem": "Ten randomly placed quadrats each cover 0.25 m². A total of 60 daisies are counted. The field has area 200 m².",
+        "parts": [
+          {
+            "q": "Calculate the total area sampled.",
+            "m": 2,
+            "ms": [
+              "10 x 0.25 (1).",
+              "2.5 m² (1)."
+            ],
+            "answer": 2.5,
+            "unit": "m²",
+            "tolerance": 1e-06
+          },
+          {
+            "q": "Estimate the number of daisies in the field.",
+            "m": 3,
+            "ms": [
+              "Mean density = 60 / 2.5 (1).",
+              "24 daisies/m² (1).",
+              "24 x 200 = 4800 daisies (1)."
+            ],
+            "answer": 4800,
+            "unit": "daisies",
+            "tolerance": 1e-06
+          },
+          {
+            "q": "Describe how to place quadrats randomly.",
+            "m": 2,
+            "ms": [
+              "Set up numbered coordinates across the field (1).",
+              "Use random numbers to select positions (1)."
+            ]
+          },
+          {
+            "q": "Explain two limitations of this estimate.",
+            "m": 3,
+            "ms": [
+              "Daisies may be unevenly distributed (1).",
+              "Small sampled fraction may not represent the whole field (1).",
+              "Counting/identification or seasonal differences can affect the estimate (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Material cycles",
+        "topic": "Ecology",
+        "stem": "Microorganisms break down dead leaves in a woodland. Water and carbon are continually recycled.",
+        "parts": [
+          {
+            "q": "Name the process by which plants remove carbon dioxide from the atmosphere and the process by which decomposers release it.",
+            "m": 2,
+            "ms": [
+              "Photosynthesis (1).",
+              "Respiration (1)."
+            ]
+          },
+          {
+            "q": "Describe how water from the sea can return to the sea after falling on a woodland.",
+            "m": 3,
+            "ms": [
+              "Water evaporates from the sea and condenses to form clouds (1).",
+              "Precipitation/rain falls onto the woodland (1).",
+              "Water returns by surface runoff/rivers or groundwater flow (1)."
+            ]
+          },
+          {
+            "q": "Describe how carbon from a leaf can return to a new tree.",
+            "m": 3,
+            "ms": [
+              "Decomposers break down leaf material (1).",
+              "Respiration releases carbon dioxide to atmosphere (1).",
+              "New tree absorbs carbon dioxide for photosynthesis, building biomass (1)."
+            ]
+          },
+          {
+            "q": "Suggest two actions that reduce human impacts on biodiversity.",
+            "m": 2,
+            "ms": [
+              "Protect/restore habitats, such as reforestation (1).",
+              "Reduce pollution/waste, conservation breeding, or sustainable resource use (a second valid action for 1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Focusing on a book",
+        "stem": "<p>A student looks from a distant tree to a nearby book. Light must be focused on the retina. Another student is short-sighted: distant light focuses in front of the retina.</p>",
+        "topic": "The eye",
+        "parts": [
+          {
+            "q": "State the functions of the retina and optic nerve.",
+            "m": 2,
+            "ms": [
+              "The retina contains light-sensitive receptors.",
+              "The optic nerve carries impulses from the eye to the brain."
+            ]
+          },
+          {
+            "q": "Describe how the eye accommodates to the nearby book.",
+            "m": 3,
+            "ms": [
+              "Ciliary muscles contract.",
+              "Suspensory ligaments loosen.",
+              "The lens becomes thicker / refracts light more strongly."
+            ]
+          },
+          {
+            "q": "State how pupil size changes in bright light and explain its benefit.",
+            "m": 2,
+            "ms": [
+              "The pupil becomes smaller.",
+              "Less light enters, protecting the light-sensitive retina."
+            ]
+          },
+          {
+            "q": "Name the correcting lens for short sight and explain where corrected light should focus.",
+            "m": 2,
+            "ms": [
+              "Use a concave lens.",
+              "It refracts the light so the final image is focused on the retina."
+            ]
+          },
+          {
+            "q": "Give one alternative to spectacles for correcting a vision defect.",
+            "m": 1,
+            "ms": [
+              "Contact lenses, appropriate laser surgery or lens replacement."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Treating kidney failure",
+        "stem": "<p>A patient with kidney failure receives dialysis three times a week. A possible transplant would require a donor and medicines to reduce rejection.</p>",
+        "topic": "Kidney function and dialysis",
+        "parts": [
+          {
+            "q": "Name the organ that produces urea and the organ that removes it from blood.",
+            "m": 2,
+            "ms": [
+              "Urea is produced in the liver.",
+              "Kidneys remove it from blood."
+            ]
+          },
+          {
+            "q": "Name two useful substances normally reabsorbed by kidneys after filtration.",
+            "m": 2,
+            "ms": [
+              "Glucose.",
+              "An appropriate amount of water or ions."
+            ]
+          },
+          {
+            "q": "Describe the basic action of dialysis.",
+            "m": 3,
+            "ms": [
+              "Blood passes alongside dialysis fluid separated by a partially permeable membrane.",
+              "Urea moves from blood into dialysis fluid down a concentration gradient.",
+              "Blood cells and large proteins are retained."
+            ]
+          },
+          {
+            "q": "Compare a transplant with continuing dialysis.",
+            "m": 3,
+            "ms": [
+              "A successful transplant can give continuous function / avoid repeated dialysis sessions.",
+              "It requires a donor and has surgical / rejection risks.",
+              "Immune-suppressing medicines reduce rejection but increase infection risk."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Light and seedling growth",
+        "stem": "<p>Ten similar seedlings receive light from the left. Ten controls receive light equally from all sides. Both groups receive the same water, temperature and growing medium. After four days, shoots in the first group bend left.</p>",
+        "topic": "Plant tropisms",
+        "parts": [
+          {
+            "q": "Name this directional growth response and explain the word positive.",
+            "m": 2,
+            "ms": [
+              "Phototropism.",
+              "Positive means growth towards the light stimulus."
+            ]
+          },
+          {
+            "q": "Explain why the evenly lit control group is useful.",
+            "m": 2,
+            "ms": [
+              "It provides a comparison without directional lighting.",
+              "A difference can therefore be linked more confidently to light direction."
+            ]
+          },
+          {
+            "q": "Give two measurements or records that improve the investigation.",
+            "m": 2,
+            "ms": [
+              "Measure shoot length / change in length.",
+              "Record direction using accurate labelled drawings or a consistent angle measure."
+            ]
+          },
+          {
+            "q": "Explain how plant hormones can cause bending.",
+            "m": 2,
+            "ms": [
+              "Unequal hormone / auxin distribution develops across the shoot.",
+              "The two sides grow at different rates."
+            ]
+          },
+          {
+            "q": "State the usual growth response of a root and shoot to gravity.",
+            "m": 2,
+            "ms": [
+              "Roots grow towards gravity / positive gravitropism.",
+              "Shoots grow against gravity / negative gravitropism."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "separate-biology-2-higher",
+    "title": "Biology Paper 2 — Higher · Original practice",
+    "subject": "Biology",
+    "paper": 2,
+    "tier": "Higher",
+    "minutes": 105,
+    "marks": 100,
+    "coverage": [
+      "Homeostasis and response",
+      "Inheritance, variation and evolution",
+      "Ecology",
+      "Separate Biology content"
+    ],
+    "questions": [
+      {
+        "title": "Comparing nervous and hormonal control",
+        "topic": "Homeostasis and response",
+        "stem": "<table><thead><tr><th>Condition</th><th>Reaction time 1 / ms</th><th>Reaction time 2 / ms</th><th>Reaction time 3 / ms</th></tr></thead><tbody><tr><td>Quiet</td><td>210</td><td>220</td><td>230</td></tr><tr><td>Distraction</td><td>270</td><td>280</td><td>290</td></tr></tbody></table>",
+        "parts": [
+          {
+            "q": "Calculate the percentage increase in mean reaction time with distraction.",
+            "m": 3,
+            "ms": [
+              "Means 220 ms and 280 ms (1).",
+              "Increase = 60 ms; 60/220 x 100 (1).",
+              "27.3% to 3 significant figures (1)."
+            ],
+            "answer": 27.3,
+            "unit": "%",
+            "tolerance": 0.1
+          },
+          {
+            "q": "Explain how an impulse crosses a synapse.",
+            "m": 3,
+            "ms": [
+              "Impulse triggers release of a neurotransmitter (1).",
+              "Chemical diffuses across gap (1).",
+              "Binds to receptors on next neurone and triggers a new electrical impulse (1)."
+            ]
+          },
+          {
+            "q": "Compare nervous and hormonal coordination.",
+            "m": 2,
+            "ms": [
+              "Nervous signals travel along neurones; hormones are carried in blood (1).",
+              "Nervous responses generally faster/shorter lasting and more localised; hormonal responses generally slower/longer lasting (1)."
+            ]
+          },
+          {
+            "q": "Suggest two ways to improve the validity of this comparison.",
+            "m": 2,
+            "ms": [
+              "Test same people in both conditions with order randomised (1).",
+              "Control sleep/caffeine/practice and other distractions, or use more participants (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Negative feedback",
+        "topic": "Homeostasis and response",
+        "stem": "A fasting person has falling blood glucose concentration. For the thyroxine question, use this information: the pituitary releases TSH, which stimulates the thyroid gland to release thyroxine.",
+        "parts": [
+          {
+            "q": "Explain how glucagon restores blood glucose concentration.",
+            "m": 4,
+            "ms": [
+              "Pancreas detects low blood glucose/releases glucagon (1).",
+              "Glucagon travels to liver in blood (1).",
+              "Stimulates conversion of glycogen to glucose (1).",
+              "Glucose released into blood raises concentration (1)."
+            ]
+          },
+          {
+            "q": "Explain why this is negative feedback.",
+            "m": 2,
+            "ms": [
+              "Response opposes the initial fall (1).",
+              "As concentration returns to normal, stimulation/glucagon secretion decreases (1)."
+            ]
+          },
+          {
+            "q": "Explain how adrenaline prepares the body for action.",
+            "m": 2,
+            "ms": [
+              "Increases heart rate (1).",
+              "Increases delivery of oxygen and glucose to muscles for increased respiration (1)."
+            ]
+          },
+          {
+            "q": "Explain how thyroxine secretion is controlled when its concentration becomes too high.",
+            "m": 2,
+            "ms": [
+              "High thyroxine inhibits pituitary release of TSH (1).",
+              "Less TSH stimulates thyroid, reducing thyroxine secretion (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Reproductive hormone interactions",
+        "topic": "Homeostasis and response",
+        "stem": "A clinic treats some cases of infertility with hormones. Success is not guaranteed.",
+        "parts": [
+          {
+            "q": "State the roles of FSH and LH during fertility treatment.",
+            "m": 2,
+            "ms": [
+              "FSH stimulates maturation of eggs (1).",
+              "LH stimulates ovulation/release of an egg (1)."
+            ]
+          },
+          {
+            "q": "Explain how oestrogen and progesterone help regulate the menstrual cycle.",
+            "m": 4,
+            "ms": [
+              "Oestrogen stimulates rebuilding uterus lining (1).",
+              "Oestrogen inhibits FSH and stimulates LH release (1).",
+              "Progesterone maintains uterus lining (1).",
+              "Progesterone inhibits FSH and LH (1)."
+            ]
+          },
+          {
+            "q": "A clinic reports 72 births from 240 treatment cycles. Calculate its birth rate per treatment cycle as a percentage.",
+            "m": 2,
+            "ms": [
+              "72/240 x 100 (1).",
+              "30% (1)."
+            ],
+            "answer": 30,
+            "unit": "%",
+            "tolerance": 1e-06
+          },
+          {
+            "q": "Give one benefit and one risk or disadvantage of IVF.",
+            "m": 2,
+            "ms": [
+              "Can enable an infertile couple to have a child (1).",
+              "Multiple births/hormone side effects/emotional or financial cost; one valid disadvantage (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Meiosis and inheritance",
+        "topic": "Inheritance, variation and evolution",
+        "stem": "A recessive allele a causes a genetic condition. A carrier Aa has a child with a person aa who has the condition.",
+        "parts": [
+          {
+            "q": "Use a genetic cross to find the probability of a child having the condition. Give a decimal probability.",
+            "m": 3,
+            "ms": [
+              "Carrier gametes A and a; affected parent gamete a (1).",
+              "Offspring Aa and aa in equal proportions (1).",
+              "Probability 1/2 or 50% (1)."
+            ],
+            "answer": 0.5,
+            "unit": "probability",
+            "tolerance": 1e-06
+          },
+          {
+            "q": "Explain how meiosis and fertilisation maintain chromosome number across generations.",
+            "m": 3,
+            "ms": [
+              "Meiosis halves chromosome number in gametes (1).",
+              "Fertilisation joins/fuses two gamete nuclei (1).",
+              "Restores the full chromosome number in the zygote (1)."
+            ]
+          },
+          {
+            "q": "Explain why siblings can have different phenotypes even with the same parents.",
+            "m": 2,
+            "ms": [
+              "Sexual reproduction produces different combinations of parental alleles (1).",
+              "Environmental differences can also affect phenotype (1)."
+            ]
+          },
+          {
+            "q": "Evaluate using the result of this cross to predict the outcomes for exactly two children.",
+            "m": 2,
+            "ms": [
+              "Probability applies independently to each conception (1).",
+              "It does not guarantee that exactly one of two children will have the condition (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Antibiotic resistance and genetic engineering",
+        "topic": "Inheritance, variation and evolution",
+        "stem": "A hospital finds that an increasing proportion of bacteria are resistant to an antibiotic.",
+        "parts": [
+          {
+            "q": "Explain how resistance becomes more common and how prescribing decisions can slow this process.",
+            "m": 6,
+            "ms": [
+              "Random mutation creates an allele giving resistance/variation already exists.",
+              "Antibiotic creates a selection pressure.",
+              "Susceptible bacteria are killed.",
+              "Resistant bacteria survive and reproduce rapidly.",
+              "Resistance allele is passed to offspring, increasing its frequency.",
+              "Prescribing antibiotics only when needed reduces selection pressure. Accept completion of the prescribed course as an alternative control, with a correct explanation."
+            ],
+            "note": "Award one mark per distinct valid linked point, maximum 6."
+          },
+          {
+            "q": "Describe how bacteria can be genetically engineered to produce human insulin.",
+            "m": 4,
+            "ms": [
+              "Human insulin gene is isolated using enzymes (1).",
+              "Gene inserted into a vector/plasmid using enzymes (1).",
+              "Vector introduces gene into bacteria (1).",
+              "Modified bacteria are grown and express the gene to produce insulin, which is collected/purified (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Interdependence and sampling",
+        "topic": "Ecology",
+        "stem": "A field has area 800 m². Twenty 0.5 m² quadrats contain a total of 150 clover plants. Fewer clover plants are found near a shaded hedge.",
+        "parts": [
+          {
+            "q": "Estimate the total number of clover plants in the field.",
+            "m": 3,
+            "ms": [
+              "Area sampled = 20 x 0.5 = 10 m² (1).",
+              "Density = 150/10 = 15 plants/m² (1).",
+              "Estimate = 15 x 800 = 12000 plants (1)."
+            ],
+            "answer": 12000,
+            "unit": "plants",
+            "tolerance": 1e-06
+          },
+          {
+            "q": "Design an investigation of the effect of distance from the hedge on clover abundance.",
+            "m": 4,
+            "ms": [
+              "Place a tape/transect perpendicular to hedge (1).",
+              "Sample quadrats at regular measured distances (1).",
+              "Count clover using a consistent inclusion rule and record light intensity/other relevant factor (1).",
+              "Repeat parallel transects and calculate mean abundance at each distance (1)."
+            ]
+          },
+          {
+            "q": "Explain why the association with shade does not prove that light is the only cause.",
+            "m": 3,
+            "ms": [
+              "Other factors may vary with distance (1).",
+              "For example water/mineral availability/trampling/competition (1).",
+              "Need control or additional measurement/manipulation of these variables to test causation (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Carbon and water cycles",
+        "topic": "Ecology",
+        "stem": "A restoration project plants 400 trees. In a simplified model, each tree removes an average of 12 kg carbon dioxide per year. In practice, the value varies with tree age and environmental conditions.",
+        "parts": [
+          {
+            "q": "Calculate the total carbon dioxide removed per year in this model.",
+            "m": 2,
+            "ms": [
+              "400 x 12 (1).",
+              "4800 kg per year (1)."
+            ],
+            "answer": 4800,
+            "unit": "kg/year",
+            "tolerance": 1e-06
+          },
+          {
+            "q": "Explain how carbon from dead leaves can return to the atmosphere.",
+            "m": 2,
+            "ms": [
+              "Microorganisms/decomposers break down dead material (1).",
+              "Their respiration releases carbon dioxide (1)."
+            ]
+          },
+          {
+            "q": "Explain how water is continually recycled between the sea, atmosphere and land.",
+            "m": 3,
+            "ms": [
+              "Evaporation from sea/land and transpiration from plants move water into air (1).",
+              "Water vapour condenses into clouds and falls as precipitation (1).",
+              "Runoff/rivers/groundwater return water to the sea (1)."
+            ]
+          },
+          {
+            "q": "Explain how deforestation can increase atmospheric carbon dioxide.",
+            "m": 3,
+            "ms": [
+              "Fewer trees remove carbon dioxide by photosynthesis (1).",
+              "Burning felled trees releases carbon dioxide (1).",
+              "Decay/respiration of dead biomass also releases carbon dioxide (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Keeping warm and conserving water",
+        "stem": "<p>A runner finishes training in cold dry air. Core temperature falls slightly and blood becomes more concentrated because water has been lost. No water is drunk immediately.</p>",
+        "topic": "Thermoregulation and ADH",
+        "parts": [
+          {
+            "q": "Explain how shivering and vasoconstriction oppose the temperature fall.",
+            "m": 4,
+            "ms": [
+              "Shivering involves repeated muscle contraction and increased respiration.",
+              "Energy is transferred to thermal stores.",
+              "Vasoconstriction reduces blood flow near the skin.",
+              "This reduces energy transfer to the surroundings."
+            ]
+          },
+          {
+            "q": "Explain the ADH response to the more concentrated blood.",
+            "m": 4,
+            "ms": [
+              "A change in blood water concentration is detected in the brain.",
+              "The pituitary releases more ADH.",
+              "Kidney tubules become more permeable to water.",
+              "More water is reabsorbed into blood, producing a smaller volume of concentrated urine."
+            ]
+          },
+          {
+            "q": "Explain why this is negative feedback.",
+            "m": 2,
+            "ms": [
+              "The responses oppose the original change in water concentration.",
+              "As conditions return towards normal, the corrective ADH signal decreases."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Researching a brain injury",
+        "stem": "<p>A patient has impaired balance after a brain injury. MRI shows damage near the cerebellum. Researchers consider electrical stimulation during a clinically necessary procedure.</p>",
+        "topic": "Brain research and eye accommodation",
+        "parts": [
+          {
+            "q": "State the normal function of the cerebellum and explain one limitation of linking the scan to the symptom.",
+            "m": 2,
+            "ms": [
+              "The cerebellum coordinates movement / balance.",
+              "Connected pathways may also be affected, so the symptom does not isolate one region’s function."
+            ]
+          },
+          {
+            "q": "Evaluate electrical stimulation as evidence for brain function.",
+            "m": 4,
+            "ms": [
+              "A reproducible response can link activation of a region to a function.",
+              "Complex connections mean stimulation may influence other regions.",
+              "Delicate brain tissue creates a risk of irreversible harm.",
+              "Informed consent and likely clinical benefit must justify the procedure."
+            ]
+          },
+          {
+            "q": "The patient looks from a near object to a distant one. Explain accommodation.",
+            "m": 4,
+            "ms": [
+              "Ciliary muscles relax.",
+              "Suspensory ligaments tighten.",
+              "The lens is pulled thinner.",
+              "It refracts light less strongly to focus the distant object on the retina."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Assessing food-production choices",
+        "stem": "<p>A farm’s feed contains 6000 kg dry biomass and its livestock gain 480 kg dry biomass. A proposed system reduces animal movement and controls temperature. The farm also considers replacing part of its output with fungal mycoprotein.</p>",
+        "topic": "Biomass and food security",
+        "parts": [
+          {
+            "q": "Calculate biomass transfer efficiency.",
+            "m": 2,
+            "ms": [
+              "Efficiency = gain / input × 100.",
+              "480/6000 × 100 = 8%."
+            ],
+            "answer": 8,
+            "unit": "%"
+          },
+          {
+            "q": "Explain two reasons the remaining input biomass does not become new livestock biomass.",
+            "m": 2,
+            "ms": [
+              "Some food is not digested and is egested.",
+              "Some absorbed material is lost through respiration / excretion, such as carbon dioxide, water or urea."
+            ]
+          },
+          {
+            "q": "Explain how the proposed livestock system could increase yield and give one drawback.",
+            "m": 3,
+            "ms": [
+              "Less movement reduces energy transferred in muscle activity.",
+              "Controlled temperature reduces energy demand for keeping warm.",
+              "A valid drawback concerns welfare, disease, cost or resource use."
+            ]
+          },
+          {
+            "q": "Explain one requirement for producing fungal mycoprotein and evaluate a potential benefit and limitation.",
+            "m": 3,
+            "ms": [
+              "A suitable carbohydrate supply, oxygen for aerobic growth or controlled temperature supports fungal growth in fermenters.",
+              "A valid benefit includes protein production with potentially less livestock demand.",
+              "A limitation such as energy / input costs, environmental impacts or consumer acceptance must be considered."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,4385 @@
+{
+  "units": [
+    {
+      "id": "cells",
+      "title": "Cell biology",
+      "subtitle": "Cells, division and transport",
+      "paper": [
+        1
+      ]
+    },
+    {
+      "id": "organisation",
+      "title": "Organisation",
+      "subtitle": "Digestion, circulation and plants",
+      "paper": [
+        1
+      ]
+    },
+    {
+      "id": "infection",
+      "title": "Infection and response",
+      "subtitle": "Pathogens, immunity and medicines",
+      "paper": [
+        1
+      ]
+    },
+    {
+      "id": "bioenergetics",
+      "title": "Bioenergetics",
+      "subtitle": "Photosynthesis and respiration",
+      "paper": [
+        1
+      ]
+    },
+    {
+      "id": "homeostasis",
+      "title": "Homeostasis and response",
+      "subtitle": "Coordination and control",
+      "paper": [
+        2
+      ]
+    },
+    {
+      "id": "inheritance",
+      "title": "Inheritance, variation and evolution",
+      "subtitle": "Genes and changing populations",
+      "paper": [
+        2
+      ]
+    },
+    {
+      "id": "ecology",
+      "title": "Ecology",
+      "subtitle": "Ecosystems and sustainability",
+      "paper": [
+        2
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b-cells",
+      "unit": "cells",
+      "title": "Animal, plant and bacterial cells",
+      "spec": "4.1.1.1–4.1.1.2",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Nuclei contain genetic material; ribosomes make proteins; mitochondria carry out aerobic respiration.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Nuclei contain genetic material; ribosomes make proteins; mitochondria carry out aerobic respiration. Cytoplasm supports many reactions and membranes control movement. Photosynthetic plant cells also have chloroplasts, cellulose walls and a permanent vacuole.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Bacteria have a membrane, wall, cytoplasm and ribosomes but no nucleus. Their main DNA forms a loop; plasmids are extra DNA rings. Underground root hair cells normally lack chloroplasts, so do not draw every plant cell as a photosynthetic leaf cell.</p>"
+        }
+      ],
+      "keypoints": [
+        "Nuclei contain genetic material; ribosomes make proteins; mitochondria carry out aerobic respiration.",
+        "Bacteria have a membrane, wall, cytoplasm and ribosomes but no nucleus."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which structure makes proteins?",
+          "opts": [
+            "Ribosome",
+            "Mitochondrion",
+            "Cell wall"
+          ],
+          "a": 0,
+          "why": "Ribosome"
+        },
+        {
+          "q": "Where is the main bacterial DNA?",
+          "opts": [
+            "Free in cytoplasm",
+            "Inside a nucleus",
+            "Inside a chloroplast"
+          ],
+          "a": 0,
+          "why": "Free in cytoplasm"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain three differences between a typical photosynthetic plant cell and a bacterial cell.",
+          "m": 3,
+          "ms": [
+            "Plant DNA is enclosed in a nucleus; bacterial DNA is not.",
+            "The plant cell has chloroplasts; the bacterium does not.",
+            "The plant cell has a permanent vacuole; the bacterium does not."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-microscopy",
+      "unit": "cells",
+      "title": "Microscopy and magnification",
+      "spec": "4.1.1.5",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Magnification enlarges an image; resolution distinguishes close points.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Magnification enlarges an image; resolution distinguishes close points. Electron microscopes reveal finer detail than light microscopes because they have greater resolution as well as greater magnification. Enlarging a blurry image does not reveal new detail.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Magnification = image size ÷ actual size. Convert units before dividing: 1 mm = 1000 μm. A 36 mm image representing a 12 μm cell has magnification 36000 ÷ 12 = 3000. Magnification has no unit.</p>"
+        }
+      ],
+      "keypoints": [
+        "Magnification enlarges an image; resolution distinguishes close points.",
+        "Magnification = image size ÷ actual size."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "A 20 μm cell appears 40 mm long. Calculate magnification.",
+          "a": 2000,
+          "unit": "",
+          "tol": 0.005,
+          "why": "40000 μm ÷ 20 μm = 2000."
+        },
+        {
+          "q": "What distinguishes two close organelles?",
+          "opts": [
+            "Darker labels",
+            "High resolution",
+            "A larger print alone"
+          ],
+          "a": 1,
+          "why": "High resolution"
+        }
+      ],
+      "exam": [
+        {
+          "q": "A cell image is 54 mm wide at ×1800. Calculate actual width in micrometres.",
+          "m": 3,
+          "ms": [
+            "Actual size = image size / magnification.",
+            "54/1800 = 0.03 mm.",
+            "0.03 mm = 30 μm."
+          ]
+        }
+      ],
+      "sim": "magnification",
+      "practical": {
+        "title": "Required practical 1 · Light microscopy",
+        "method": [
+          "Place a thin plant tissue layer on a slide, add suitable stain and lower a coverslip at an angle.",
+          "Start on low power and focus with coarse then fine adjustment; increase power as appropriate.",
+          "Observe plant and prepared animal cells; make clear proportional labelled drawings with a scale or magnification."
+        ],
+        "variables": [
+          "Keep specimen thickness and illumination suitable.",
+          "Record eyepiece and objective magnifications."
+        ],
+        "safety": [
+          "Handle glass slides carefully.",
+          "Avoid stain contact and follow school eye-protection guidance."
+        ],
+        "analysis": "Use image size divided by magnification for actual size, with consistent units. Total microscope magnification equals eyepiece × objective."
+      }
+    },
+    {
+      "id": "b-specialisation",
+      "unit": "cells",
+      "title": "Specialisation and differentiation",
+      "spec": "4.1.1.3–4.1.1.4",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Differentiation develops specialised structures.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Differentiation develops specialised structures. Most animal cells differentiate early; many plant cells retain this ability throughout life. Mature animal cell division mainly supports repair and replacement. Explain why a feature suits a task rather than merely listing features.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Sperm have a tail for swimming and many mitochondria. Nerve cells have long extensions for impulse transmission; muscle cells have contractile proteins. Root hairs enlarge absorbing area. Hollow lignified xylem conducts water; living phloem transports sugars.</p>"
+        }
+      ],
+      "keypoints": [
+        "Differentiation develops specialised structures.",
+        "Sperm have a tail for swimming and many mitochondria."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "What is differentiation?",
+          "opts": [
+            "All cells losing DNA",
+            "Fusion of gametes",
+            "Developing specialised cell structures"
+          ],
+          "a": 2,
+          "why": "Developing specialised cell structures"
+        },
+        {
+          "q": "Why is a root hair useful?",
+          "opts": [
+            "It makes the root photosynthesise",
+            "It prevents mineral uptake",
+            "It increases absorbing area"
+          ],
+          "a": 2,
+          "why": "It increases absorbing area"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain three adaptations of a sperm cell for fertilisation.",
+          "m": 3,
+          "ms": [
+            "A tail allows movement towards an egg.",
+            "Many mitochondria support respiration for movement.",
+            "Enzymes in the head help penetrate egg coverings."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-mitosis",
+      "unit": "cells",
+      "title": "Mitosis and the cell cycle",
+      "spec": "4.1.2.1–4.1.2.2",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Chromosomes contain DNA and many genes; body cells normally have chromosome pairs.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Chromosomes contain DNA and many genes; body cells normally have chromosome pairs. Before division, a cell grows, increases its organelles and copies its DNA. These preparations give daughter cells complete genetic information and cell machinery.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>During mitosis, chromosome copies separate and nuclei divide. Cytoplasm and membrane then divide to form two genetically identical cells with the original chromosome number. Mitosis supports growth and repair, whereas meiosis forms gametes.</p>"
+        }
+      ],
+      "keypoints": [
+        "Chromosomes contain DNA and many genes; body cells normally have chromosome pairs.",
+        "During mitosis, chromosome copies separate and nuclei divide."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Three cells each complete two rounds of division. How many result?",
+          "a": 12,
+          "unit": "",
+          "tol": 0.005,
+          "why": "3 × 2 × 2 = 12."
+        },
+        {
+          "q": "What happens before mitosis?",
+          "opts": [
+            "DNA is copied",
+            "Chromosomes halve",
+            "Gametes fuse"
+          ],
+          "a": 0,
+          "why": "DNA is copied"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Describe how the cell cycle produces two genetically identical daughter cells.",
+          "m": 3,
+          "ms": [
+            "DNA is replicated before division.",
+            "Copies of each chromosome separate to opposite ends and nuclei divide.",
+            "Cytoplasm and membrane divide, leaving identical chromosome sets."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-stem",
+      "unit": "cells",
+      "title": "Stem cells: benefits, risks and ethics",
+      "spec": "4.1.2.3",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Stem cells are unspecialised cells that can divide and differentiate.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Stem cells are unspecialised cells that can divide and differentiate. Embryonic stem cells can form most human cell types; adult bone-marrow stem cells produce a more limited range, including blood cells. Plant meristems can produce different plant tissues throughout life.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Replacement cells may help damaged tissues, but infection and uncontrolled division are risks. Therapeutic cloning produces genetically matched cells, reducing rejection. Embryo use raises ethical objections. Meristems can rapidly clone rare plants or crops with desirable characteristics.</p>"
+        }
+      ],
+      "keypoints": [
+        "Stem cells are unspecialised cells that can divide and differentiate.",
+        "Replacement cells may help damaged tissues, but infection and uncontrolled division are risks."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Where are adult human stem cells found?",
+          "opts": [
+            "Mature red blood cells",
+            "Bone marrow",
+            "Tooth enamel"
+          ],
+          "a": 1,
+          "why": "Bone marrow"
+        },
+        {
+          "q": "Why use genetically matched stem cells?",
+          "opts": [
+            "To remove every protein",
+            "To reduce rejection",
+            "To prevent all cell division"
+          ],
+          "a": 1,
+          "why": "To reduce rejection"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Evaluate embryonic stem cells for replacing damaged nerve tissue.",
+          "m": 3,
+          "ms": [
+            "They can differentiate into a wider range of cell types than many adult stem cells.",
+            "A biological risk such as infection or uncontrolled division must be considered.",
+            "Potential treatment benefit must be weighed against ethical concerns about embryo use."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-diffusion",
+      "unit": "cells",
+      "title": "Diffusion and exchange surfaces",
+      "spec": "4.1.3.1",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Diffusion is net movement down a concentration gradient.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Diffusion is net movement down a concentration gradient. Higher temperature, larger area and a steeper gradient usually increase its rate. Oxygen and carbon dioxide cross cell membranes by diffusion; the process itself requires no energy from respiration.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>As size increases, surface area to volume ratio decreases. Large organisms need specialised exchange surfaces and transport systems. Alveoli and villi have large areas and short diffusion distances; blood flow and ventilation maintain gradients.</p>"
+        }
+      ],
+      "keypoints": [
+        "Diffusion is net movement down a concentration gradient.",
+        "As size increases, surface area to volume ratio decreases."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "A cube has side 2 cm. Express its surface area to volume ratio as x:1.",
+          "a": 3,
+          "unit": "",
+          "tol": 0.005,
+          "why": "Area 24 cm²; volume 8 cm³; 24:8 = 3:1."
+        },
+        {
+          "q": "Which change speeds diffusion?",
+          "opts": [
+            "A thicker barrier",
+            "A smaller area",
+            "A steeper gradient"
+          ],
+          "a": 2,
+          "why": "A steeper gradient"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why alveoli exchange gases rapidly.",
+          "m": 3,
+          "ms": [
+            "Many alveoli provide a large surface area.",
+            "Thin walls give a short diffusion distance.",
+            "Ventilation and blood flow maintain concentration gradients."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-osmosis",
+      "unit": "cells",
+      "title": "Osmosis and percentage mass change",
+      "spec": "4.1.3.2",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Osmosis is net water movement through a partially permeable membrane from a dilute solution to a more concentrated solution.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Osmosis is net water movement through a partially permeable membrane from a dilute solution to a more concentrated solution. Water moves both ways, but there is a net movement when concentrations differ. Water entry can make plant cells turgid.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Percentage mass change = (final − initial mass) ÷ initial mass × 100. Changing from 2.0 g to 2.3 g gives +15%; a negative value means loss. A graph crossing zero estimates a solution concentration causing no net water movement.</p>"
+        }
+      ],
+      "keypoints": [
+        "Osmosis is net water movement through a partially permeable membrane from a dilute solution to a more concentrated solution.",
+        "Percentage mass change = (final − initial mass) ÷ initial mass × 100."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "A cylinder changes from 4.0 g to 3.6 g. Calculate percentage mass change.",
+          "a": -10,
+          "unit": "%",
+          "tol": 0.005,
+          "why": "(3.6−4.0)/4.0 × 100 = −10%."
+        },
+        {
+          "q": "When does water enter a cell by osmosis?",
+          "opts": [
+            "Outside is more dilute than inside",
+            "Outside is more concentrated",
+            "Water cannot cross any membrane"
+          ],
+          "a": 0,
+          "why": "Outside is more dilute than inside"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why potato tissue loses mass in concentrated sugar solution.",
+          "m": 3,
+          "ms": [
+            "The outside solution is more concentrated than the cell contents.",
+            "Water moves out by osmosis across partially permeable cell membranes.",
+            "Water loss reduces tissue mass."
+          ]
+        }
+      ],
+      "sim": "osmosis",
+      "practical": {
+        "title": "Required practical 3 · Osmosis in plant tissue",
+        "method": [
+          "Cut equal potato cylinders and record initial masses.",
+          "Immerse in equal volumes of a concentration range for equal times.",
+          "Remove, blot consistently and reweigh; repeat each concentration."
+        ],
+        "variables": [
+          "Independent: sugar or salt concentration.",
+          "Dependent: percentage mass change.",
+          "Control dimensions, tissue source, solution volume, temperature and time."
+        ],
+        "safety": [
+          "Use cutting equipment on a suitable surface under supervision.",
+          "Do not eat laboratory samples."
+        ],
+        "analysis": "Calculate percentage changes and means. Plot concentration against percentage change and interpolate the zero-change concentration, recognising scatter and measurement uncertainty."
+      }
+    },
+    {
+      "id": "b-active",
+      "unit": "cells",
+      "title": "Active transport and comparing transport",
+      "spec": "4.1.3.3",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Active transport moves substances against a concentration gradient, from lower to higher concentration.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Active transport moves substances against a concentration gradient, from lower to higher concentration. It requires energy from respiration. Root hairs absorb mineral ions from dilute soil solutions; intestinal cells can absorb sugars against their gradient.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Diffusion moves particles down a gradient; osmosis specifically describes water through a partially permeable membrane; active transport needs energy. Many mitochondria can support energy-demanding transport. The presence of a membrane alone does not prove osmosis: identify the substance moving.</p>"
+        }
+      ],
+      "keypoints": [
+        "Active transport moves substances against a concentration gradient, from lower to higher concentration.",
+        "Diffusion moves particles down a gradient; osmosis specifically describes water through a partially permeable membrane; active transport needs energy."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which process requires energy from respiration?",
+          "opts": [
+            "Osmosis",
+            "Active transport",
+            "Diffusion"
+          ],
+          "a": 1,
+          "why": "Active transport"
+        },
+        {
+          "q": "Mineral concentration is lower in soil than a root cell. Uptake uses…",
+          "opts": [
+            "Diffusion down the gradient",
+            "Active transport",
+            "Osmosis of ions"
+          ],
+          "a": 1,
+          "why": "Active transport"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why low oxygen availability can reduce mineral uptake by roots.",
+          "m": 3,
+          "ms": [
+            "Less oxygen reduces aerobic respiration.",
+            "Less energy is available for active transport.",
+            "Mineral ions need to move against their concentration gradient."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-culture",
+      "unit": "cells",
+      "title": "Culturing bacteria and inhibition zones",
+      "spec": "4.1.1.6",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": true,
+      "summary": "Bacteria reproduce by binary fission.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Bacteria reproduce by binary fission. Sterile medium and equipment, brief lid opening and sterile inoculation reduce contamination. Incubating school cultures at 25°C reduces the risk of growing harmful human pathogens. Do not reopen incubated plates.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Equal discs carrying antiseptics can be compared using clear inhibition zones. Use area = πr² with radius half the diameter. Keep disc size, agar depth, bacterial species and incubation conditions constant. A clear zone indicates inhibited growth, not necessarily that every cell was killed.</p>"
+        },
+        {
+          "title": "Growth calculations",
+          "html": "<p>If each bacterium divides once every 30 minutes under specified ideal conditions, a culture starting with 100 bacteria reaches 100 × 2⁴ = 1600 after two hours. Count the number of complete divisions before using powers of two. Real cultures eventually slow as resources fall and wastes accumulate.</p>"
+        }
+      ],
+      "keypoints": [
+        "Bacteria reproduce by binary fission.",
+        "Equal discs carrying antiseptics can be compared using clear inhibition zones."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "A clear circle has diameter 10 mm. Use π = 3.14 to calculate area.",
+          "a": 78.5,
+          "unit": "mm²",
+          "tol": 0.005,
+          "why": "Radius 5 mm; 3.14 × 25 = 78.5 mm²."
+        },
+        {
+          "q": "Why incubate school cultures at 25°C?",
+          "opts": [
+            "To sterilise agar",
+            "Because no bacteria grow at 37°C",
+            "To reduce harmful-pathogen risk"
+          ],
+          "a": 2,
+          "why": "To reduce harmful-pathogen risk"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain three precautions in preparing a bacterial culture.",
+          "m": 3,
+          "ms": [
+            "Sterilise medium and equipment to remove contaminants.",
+            "Minimise lid opening to reduce airborne contamination.",
+            "Secure without fully sealing the lid and incubate at 25°C to reduce risk."
+          ]
+        }
+      ],
+      "practical": {
+        "title": "Required practical 2 · Antiseptics and bacterial growth",
+        "method": [
+          "Use teacher-approved cultures and aseptic technique to inoculate sterile agar evenly.",
+          "Add equally sized discs with different antiseptics or concentrations and a solvent control.",
+          "Secure the lid without fully sealing it; incubate at 25°C and measure zones without reopening."
+        ],
+        "variables": [
+          "Independent: antiseptic type or concentration, changing one at a time.",
+          "Dependent: inhibition-zone area.",
+          "Control species, agar depth, disc size, incubation time and temperature."
+        ],
+        "safety": [
+          "Use approved non-pathogenic organisms under supervision.",
+          "Never open incubated plates; follow school disposal procedures."
+        ],
+        "analysis": "Calculate πr² from measured diameters. State whether the disc area is included and apply the same rule consistently. Repeat independent plates and compare means."
+      }
+    },
+    {
+      "id": "b-digestion",
+      "unit": "organisation",
+      "title": "Organisation and digestion",
+      "spec": "4.2.1–4.2.2.1",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Similar cells form tissues, tissues form organs and organs cooperate in systems.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Similar cells form tissues, tissues form organs and organs cooperate in systems. Digestion changes large insoluble molecules into small soluble molecules. Villi provide a large absorbing area and a rich blood supply in the small intestine.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Amylase from salivary glands, pancreas and small intestine breaks starch into sugars. Proteases from stomach, pancreas and small intestine produce amino acids. Lipases from pancreas and small intestine produce glycerol and fatty acids. Liver-made bile is stored in the gall bladder, neutralises acid and emulsifies fat; it is not an enzyme.</p>"
+        }
+      ],
+      "keypoints": [
+        "Similar cells form tissues, tissues form organs and organs cooperate in systems.",
+        "Amylase from salivary glands, pancreas and small intestine breaks starch into sugars."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Protein digestion produces…",
+          "opts": [
+            "Amino acids",
+            "Starch",
+            "Only fatty acids"
+          ],
+          "a": 0,
+          "why": "Amino acids"
+        },
+        {
+          "q": "Where is bile made?",
+          "opts": [
+            "Liver",
+            "Gall bladder",
+            "Stomach"
+          ],
+          "a": 0,
+          "why": "Liver"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how bile assists fat digestion.",
+          "m": 3,
+          "ms": [
+            "It neutralises acid, providing alkaline conditions for lipase.",
+            "It emulsifies fat into smaller droplets.",
+            "This increases surface area available to lipase."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-enzymes",
+      "unit": "organisation",
+      "title": "Enzymes, temperature and pH",
+      "spec": "4.2.2.1",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Enzymes are biological catalysts, usually proteins.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Enzymes are biological catalysts, usually proteins. A substrate fits an active site, products are released and the enzyme can be reused. The lock-and-key model explains specificity but is simplified. Catalysts speed reactions without being used up.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Warming initially increases collisions and rate. Above an optimum, active-site shape changes and enzymes denature; extreme pH can do the same. Cold normally slows activity without denaturing. For disappearance of a fixed substrate amount, compare relative rate using 1/time.</p>"
+        }
+      ],
+      "keypoints": [
+        "Enzymes are biological catalysts, usually proteins.",
+        "Warming initially increases collisions and rate."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Starch digestion takes 25 s. Calculate 1/time.",
+          "a": 0.04,
+          "unit": "s⁻¹",
+          "tol": 0.005,
+          "why": "1/25 = 0.04 s⁻¹."
+        },
+        {
+          "q": "Why is a denatured enzyme less effective?",
+          "opts": [
+            "It creates extra oxygen",
+            "Its active site no longer fits the substrate",
+            "It becomes starch"
+          ],
+          "a": 1,
+          "why": "Its active site no longer fits the substrate"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why an enzyme works well at 37°C but poorly at 70°C.",
+          "m": 3,
+          "ms": [
+            "High temperature alters protein structure.",
+            "The active site changes shape / denatures.",
+            "Fewer substrate molecules fit, so fewer enzyme–substrate complexes form."
+          ]
+        }
+      ],
+      "sim": "enzyme",
+      "practical": {
+        "title": "Required practical 5 · pH and amylase",
+        "method": [
+          "Equilibrate amylase, starch and buffer at a chosen water-bath temperature.",
+          "Mix measured volumes and sample onto iodine every 30 seconds.",
+          "Record when iodine no longer turns blue-black; repeat at a range of pH values."
+        ],
+        "variables": [
+          "Independent: pH using buffers.",
+          "Dependent: time until starch is undetectable, or 1/time.",
+          "Control temperature, concentrations, volumes and sampling interval."
+        ],
+        "safety": [
+          "Wear eye protection and avoid iodine contact.",
+          "Use school-approved amylase rather than saliva."
+        ],
+        "analysis": "Plot mean relative rate against pH. The endpoint lies between the last positive and first negative sample, limiting time resolution to the sampling interval."
+      }
+    },
+    {
+      "id": "b-foodtests",
+      "unit": "organisation",
+      "title": "Food tests and controls",
+      "spec": "4.2.2.1",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Iodine turns blue-black with starch.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Iodine turns blue-black with starch. Heated Benedict’s reagent gives a green to brick-red precipitate with reducing sugars. Biuret turns lilac with protein. Sudan III stains a lipid layer red. Use the correct test conditions; reagent colour alone without the method may mislead.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Use clean separate tubes and droppers, standardised volumes and equal heating time. A known positive checks that the test works; water is a negative control. A negative result means none was detected under those conditions, not proof that absolutely none exists.</p>"
+        }
+      ],
+      "keypoints": [
+        "Iodine turns blue-black with starch.",
+        "Use clean separate tubes and droppers, standardised volumes and equal heating time."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which indicates protein?",
+          "opts": [
+            "Orange iodine",
+            "Blue Benedict’s after heating",
+            "Lilac Biuret result"
+          ],
+          "a": 2,
+          "why": "Lilac Biuret result"
+        },
+        {
+          "q": "Which test requires a hot water bath?",
+          "opts": [
+            "Iodine",
+            "A ruler measurement",
+            "Benedict’s"
+          ],
+          "a": 2,
+          "why": "Benedict’s"
+        }
+      ],
+      "exam": [
+        {
+          "q": "A food turns iodine blue-black but heated Benedict’s stays blue. Interpret the results and name a useful control.",
+          "m": 3,
+          "ms": [
+            "Starch is detected.",
+            "Reducing sugar is not detected under the conditions.",
+            "A known sugar solution checks the Benedict’s reagent and heating."
+          ]
+        }
+      ],
+      "practical": {
+        "title": "Required practical 4 · Food tests",
+        "method": [
+          "Prepare similar food suspensions in separate labelled tubes.",
+          "Test starch with iodine, reducing sugars with heated Benedict’s and protein with Biuret.",
+          "Use the school-approved lipid test, such as Sudan III, and record known positive and water controls."
+        ],
+        "variables": [
+          "Standardise food mass, solvent volume and reagent volumes.",
+          "Control heating duration for Benedict’s comparisons."
+        ],
+        "safety": [
+          "Wear eye protection for reagents.",
+          "Handle hot water baths carefully and never taste samples."
+        ],
+        "analysis": "Record observations separately from conclusions. Negative tests need working positive controls before interpretation."
+      }
+    },
+    {
+      "id": "b-heart",
+      "unit": "organisation",
+      "title": "Heart, vessels and gas exchange",
+      "spec": "4.2.2.2",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "The right ventricle pumps through the pulmonary artery to lungs; pulmonary veins return blood to the left side.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>The right ventricle pumps through the pulmonary artery to lungs; pulmonary veins return blood to the left side. The left ventricle pumps through the aorta to the body; venae cavae return blood. Coronary arteries supply heart muscle. Valves reduce backflow and a right-atrial pacemaker coordinates rate.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Arteries carry blood away under pressure and have muscular elastic walls. Veins return blood at lower pressure and have valves; thin capillaries permit exchange. Air travels through trachea and bronchi to alveoli, whose large area, thin walls and capillary supply support diffusion.</p>"
+        }
+      ],
+      "keypoints": [
+        "The right ventricle pumps through the pulmonary artery to lungs; pulmonary veins return blood to the left side.",
+        "Arteries carry blood away under pressure and have muscular elastic walls."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which vessel carries blood to lungs?",
+          "opts": [
+            "Pulmonary artery",
+            "Pulmonary vein",
+            "Aorta"
+          ],
+          "a": 0,
+          "why": "Pulmonary artery"
+        },
+        {
+          "q": "70 cm³ per beat at 80 beats/min gives what flow?",
+          "a": 5600,
+          "unit": "cm³/min",
+          "tol": 0.005,
+          "why": "70 × 80 = 5600."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why the left ventricle has a thicker muscular wall than the right.",
+          "m": 3,
+          "ms": [
+            "It pumps blood around the whole body.",
+            "It must generate a higher pressure.",
+            "More muscle produces a greater force of contraction."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-blood",
+      "unit": "organisation",
+      "title": "Blood and cardiovascular treatments",
+      "spec": "4.2.2.3–4.2.2.4",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Plasma transports dissolved materials including glucose, urea and carbon dioxide.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Plasma transports dissolved materials including glucose, urea and carbon dioxide. Red cells carry oxygen using haemoglobin and have a biconcave shape and no nucleus. White cells defend against pathogens; platelets help clot blood and reduce blood loss.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Fatty deposits narrow coronary arteries, reducing oxygen supply to heart muscle. Stents hold arteries open; statins reduce blood cholesterol. Replacement valves, pacemakers, donor hearts and temporary artificial hearts address different problems. Compare benefits with procedure risks, side effects and donor availability.</p>"
+        }
+      ],
+      "keypoints": [
+        "Plasma transports dissolved materials including glucose, urea and carbon dioxide.",
+        "Fatty deposits narrow coronary arteries, reducing oxygen supply to heart muscle."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which component helps clot blood?",
+          "opts": [
+            "Red cells",
+            "Platelets",
+            "Glucose"
+          ],
+          "a": 1,
+          "why": "Platelets"
+        },
+        {
+          "q": "What does a coronary stent do?",
+          "opts": [
+            "Replaces every valve",
+            "Keeps a narrowed artery open",
+            "Makes insulin"
+          ],
+          "a": 1,
+          "why": "Keeps a narrowed artery open"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Give a benefit and limitation of a stent and explain why coronary flow matters.",
+          "m": 3,
+          "ms": [
+            "A stent improves blood flow through a narrowed artery.",
+            "Surgery, infection or clotting presents a risk.",
+            "Heart muscle receives more oxygen for aerobic respiration."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-health",
+      "unit": "organisation",
+      "title": "Health, risk factors and cancer",
+      "spec": "4.2.2.5–4.2.2.7",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Health includes physical and mental wellbeing.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Health includes physical and mental wellbeing. Communicable diseases spread between organisms; non-communicable ones do not. Risk factors increase probability, not certainty. Smoking increases lung disease risk; obesity increases type 2 diabetes risk; heavy alcohol use can damage liver tissue.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Correlation alone does not establish causation: age, diet or other confounders may explain an association. Cancer involves uncontrolled division. Benign tumours stay local; malignant tumours invade and can spread to form secondary tumours. Environmental exposure and inherited factors can both influence risk.</p>"
+        }
+      ],
+      "keypoints": [
+        "Health includes physical and mental wellbeing.",
+        "Correlation alone does not establish causation: age, diet or other confounders may explain an association."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "A risk factor…",
+          "opts": [
+            "Guarantees disease",
+            "Must always be inherited",
+            "Increases disease probability"
+          ],
+          "a": 2,
+          "why": "Increases disease probability"
+        },
+        {
+          "q": "A malignant tumour can…",
+          "opts": [
+            "Never divide",
+            "Only cause an infectious disease",
+            "Invade tissues and spread"
+          ],
+          "a": 2,
+          "why": "Invade tissues and spread"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Why does a survey linking low exercise and heart disease not prove causation?",
+          "m": 3,
+          "ms": [
+            "Correlation alone does not establish cause.",
+            "A confounding factor such as age or smoking may affect both.",
+            "Further evidence with appropriate comparisons / controls is needed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-plants",
+      "unit": "organisation",
+      "title": "Plant tissues and transport",
+      "spec": "4.2.3.1–4.2.3.2",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Palisade cells contain many chloroplasts; spongy mesophyll has air spaces.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Palisade cells contain many chloroplasts; spongy mesophyll has air spaces. Guard cells control stomata. Dead hollow lignified xylem carries water and mineral ions; living phloem translocates dissolved sugars from sources to tissues using or storing them.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Evaporation from leaf cells and diffusion through stomata drive transpiration. Replacement water moves up xylem from roots. Wind and warmth often increase loss; humidity reduces the water-vapour gradient. A potometer estimates water uptake, which differs slightly from transpiration because plants use some water.</p>"
+        }
+      ],
+      "keypoints": [
+        "Palisade cells contain many chloroplasts; spongy mesophyll has air spaces.",
+        "Evaporation from leaf cells and diffusion through stomata drive transpiration."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which tissue transports sugars?",
+          "opts": [
+            "Phloem",
+            "Xylem",
+            "Epidermis only"
+          ],
+          "a": 0,
+          "why": "Phloem"
+        },
+        {
+          "q": "Why does high humidity reduce transpiration?",
+          "opts": [
+            "It reduces the water-vapour gradient",
+            "It removes all stomata",
+            "It turns xylem into phloem"
+          ],
+          "a": 0,
+          "why": "It reduces the water-vapour gradient"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why wind can increase water uptake by a leafy shoot.",
+          "m": 3,
+          "ms": [
+            "Wind removes humid air near the leaf.",
+            "The steeper gradient increases water-vapour diffusion / transpiration.",
+            "Water lost from leaves is replaced through the xylem."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-pathogens",
+      "unit": "infection",
+      "title": "Pathogens and named diseases",
+      "spec": "4.3.1.1–4.3.1.5",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Viruses reproduce inside host cells; bacteria can multiply and produce toxins.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Viruses reproduce inside host cells; bacteria can multiply and produce toxins. Measles spreads in droplets, causing fever and rash; HIV damages immune cells and can lead to AIDS. Tobacco mosaic virus causes discoloured leaf areas and reduces photosynthesis.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Salmonella causes food poisoning: hygiene and poultry vaccination reduce transmission. Gonorrhoea is bacterial and sexually transmitted. Rose black spot is fungal. Malaria is caused by a protist carried by mosquitoes: nets and removal of breeding sites reduce transmission.</p>"
+        }
+      ],
+      "keypoints": [
+        "Viruses reproduce inside host cells; bacteria can multiply and produce toxins.",
+        "Salmonella causes food poisoning: hygiene and poultry vaccination reduce transmission."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "What causes malaria?",
+          "opts": [
+            "A fungus",
+            "A protist",
+            "The mosquito itself as a bacterium"
+          ],
+          "a": 1,
+          "why": "A protist"
+        },
+        {
+          "q": "Why can TMV reduce growth?",
+          "opts": [
+            "It makes animal hormones",
+            "Leaf damage reduces photosynthesis",
+            "It creates extra chlorophyll"
+          ],
+          "a": 1,
+          "why": "Leaf damage reduces photosynthesis"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how mosquito nets and removing standing water reduce malaria spread.",
+          "m": 3,
+          "ms": [
+            "Nets reduce mosquito bites.",
+            "Removing standing water reduces mosquito breeding.",
+            "Fewer bites by infected mosquitoes reduce protist transmission."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-defence",
+      "unit": "infection",
+      "title": "Human defences and vaccination",
+      "spec": "4.3.1.6–4.3.1.7",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Skin forms a barrier and clots close wounds.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Skin forms a barrier and clots close wounds. Nose hairs and mucus trap particles; airway cilia move mucus towards the throat. Stomach acid kills many swallowed pathogens. White cells engulf pathogens, make specific antibodies and produce antitoxins.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Vaccines present harmless pathogen antigens and stimulate an immune response. Later exposure triggers faster specific antibody production, often preventing serious illness. High uptake reduces transmission and can protect vulnerable people. Compare rates in comparable populations rather than raw case totals.</p>"
+        }
+      ],
+      "keypoints": [
+        "Skin forms a barrier and clots close wounds.",
+        "Vaccines present harmless pathogen antigens and stimulate an immune response."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "What neutralises bacterial toxins?",
+          "opts": [
+            "Red-cell nuclei",
+            "Insulin",
+            "Antitoxins"
+          ],
+          "a": 2,
+          "why": "Antitoxins"
+        },
+        {
+          "q": "Why does vaccination help on later exposure?",
+          "opts": [
+            "All antibiotics become unnecessary",
+            "It guarantees no transmission ever",
+            "A faster specific immune response occurs"
+          ],
+          "a": 2,
+          "why": "A faster specific immune response occurs"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how vaccination can prevent later disease.",
+          "m": 3,
+          "ms": [
+            "Pathogen antigens stimulate a primary immune response safely.",
+            "Later exposure triggers faster production of specific antibodies.",
+            "The pathogen is destroyed before serious illness develops."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-drugs",
+      "unit": "infection",
+      "title": "Antibiotics and developing medicines",
+      "spec": "4.3.1.8–4.3.1.9",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Antibiotics act on bacteria, not viruses reproducing inside cells.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Antibiotics act on bacteria, not viruses reproducing inside cells. Painkillers relieve symptoms without necessarily destroying pathogens. Penicillin came from mould; aspirin developed from willow chemistry and digitalis from foxgloves. Resistant strains make suitable prescribing important.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Preclinical tests use cells, tissues and animals. Low-dose healthy-volunteer trials examine safety before patient trials assess efficacy and dose. Random allocation and double-blind comparisons reduce bias; a placebo is useful where ethical. Sufficient sample size and peer review strengthen conclusions.</p>"
+        }
+      ],
+      "keypoints": [
+        "Antibiotics act on bacteria, not viruses reproducing inside cells.",
+        "Preclinical tests use cells, tissues and animals."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Why do antibiotics not treat viral infections?",
+          "opts": [
+            "Viruses lack the bacterial targets and reproduce inside host cells",
+            "Viruses are bigger than all bacteria",
+            "Antibiotics only act on plants"
+          ],
+          "a": 0,
+          "why": "Viruses lack the bacterial targets and reproduce inside host cells"
+        },
+        {
+          "q": "Double-blind means…",
+          "opts": [
+            "Neither participants nor assessors know treatment allocation",
+            "Only participants know",
+            "Everyone receives two drugs"
+          ],
+          "a": 0,
+          "why": "Neither participants nor assessors know treatment allocation"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain three ways to improve the validity of a drug trial.",
+          "m": 3,
+          "ms": [
+            "Random allocation reduces systematic group differences.",
+            "An appropriate comparison group helps identify the treatment effect.",
+            "Blinding reduces expectation and observer bias."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-monoclonal",
+      "unit": "infection",
+      "title": "Monoclonal antibodies",
+      "spec": "4.3.2",
+      "paper": [
+        1
+      ],
+      "tier": "higher",
+      "separate": true,
+      "summary": "Monoclonal antibodies bind one particular antigen.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Monoclonal antibodies bind one particular antigen. Antibody-producing lymphocytes from an exposed mouse are fused with tumour cells to form hybridomas. A selected hybridoma is cloned and grown, combining antibody specificity with repeated division.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Pregnancy tests detect hCG using antibodies. Labelled antibodies locate molecules or disease markers; attached drugs can target cancer cells. Targeting may reduce healthy-tissue damage, but side effects, cost and uncertain effectiveness still matter.</p>"
+        }
+      ],
+      "keypoints": [
+        "Monoclonal antibodies bind one particular antigen.",
+        "Pregnancy tests detect hCG using antibodies."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Why use a hybridoma?",
+          "opts": [
+            "It is a bacterium without DNA",
+            "It combines antibody production and repeated division",
+            "It makes every antigen"
+          ],
+          "a": 1,
+          "why": "It combines antibody production and repeated division"
+        },
+        {
+          "q": "What makes targeted binding possible?",
+          "opts": [
+            "Absence of proteins",
+            "Antibody specificity for an antigen",
+            "Equal binding to every molecule"
+          ],
+          "a": 1,
+          "why": "Antibody specificity for an antigen"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how a drug attached to a monoclonal antibody can target cancer cells.",
+          "m": 3,
+          "ms": [
+            "The antibody recognises an antigen on target cells.",
+            "An attached drug is delivered with the antibody.",
+            "This can concentrate treatment at target cells and reduce healthy-tissue exposure."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-plantdefence",
+      "unit": "infection",
+      "title": "Plant disease and defence",
+      "spec": "4.3.3",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": true,
+      "summary": "Stunting, spots, decay and discolouration can indicate disease, but symptoms may have other causes.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Stunting, spots, decay and discolouration can indicate disease, but symptoms may have other causes. Manuals, laboratories and antibody-based tests aid diagnosis. Nitrate deficiency stunts growth through reduced protein synthesis; magnesium deficiency causes chlorosis through reduced chlorophyll. Aphids are pests rather than pathogens.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Cell walls, waxy cuticles and bark provide physical barriers. Plants may shed infected leaves or make antibacterial chemicals and poisons. Thorns and hairs deter herbivores. Link each defence to its threat; plants do not produce human white blood cells.</p>"
+        }
+      ],
+      "keypoints": [
+        "Stunting, spots, decay and discolouration can indicate disease, but symptoms may have other causes.",
+        "Cell walls, waxy cuticles and bark provide physical barriers."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which deficiency reduces chlorophyll?",
+          "opts": [
+            "Nitrate only",
+            "Oxygen",
+            "Magnesium"
+          ],
+          "a": 2,
+          "why": "Magnesium"
+        },
+        {
+          "q": "Which is a physical plant defence?",
+          "opts": [
+            "Insulin",
+            "White blood cells",
+            "Waxy cuticle"
+          ],
+          "a": 2,
+          "why": "Waxy cuticle"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why yellow leaves do not prove infection and suggest an alternative explanation and investigation.",
+          "m": 3,
+          "ms": [
+            "The symptom is not specific to a pathogen.",
+            "Magnesium deficiency can cause reduced chlorophyll / chlorosis.",
+            "Use diagnostic testing or a controlled nutrient comparison."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-photo",
+      "unit": "bioenergetics",
+      "title": "Photosynthesis and glucose uses",
+      "spec": "4.4.1.1, 4.4.1.3",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Photosynthesis transfers light energy to chemical stores: carbon dioxide + water → glucose + oxygen.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Photosynthesis transfers light energy to chemical stores: carbon dioxide + water → glucose + oxygen. Chlorophyll absorbs light and the process is endothermic. Recognise CO₂, H₂O, C₆H₁₂O₆ and O₂. Plants respire continuously; photosynthesis needs light.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Glucose supplies respiration and can become starch, oils or cellulose. Nitrate ions supply nitrogen for amino acid and protein synthesis. Insoluble starch is useful for storage because it has little direct osmotic effect compared with an equivalent number of dissolved sugar molecules.</p>"
+        }
+      ],
+      "keypoints": [
+        "Photosynthesis transfers light energy to chemical stores: carbon dioxide + water → glucose + oxygen.",
+        "Glucose supplies respiration and can become starch, oils or cellulose."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which gas enters for photosynthesis?",
+          "opts": [
+            "Carbon dioxide",
+            "Oxygen only",
+            "Nitrogen gas directly"
+          ],
+          "a": 0,
+          "why": "Carbon dioxide"
+        },
+        {
+          "q": "Why are nitrates needed?",
+          "opts": [
+            "For amino acid and protein synthesis",
+            "To prevent all respiration",
+            "To turn leaves into roots"
+          ],
+          "a": 0,
+          "why": "For amino acid and protein synthesis"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain three uses of glucose in a growing plant.",
+          "m": 3,
+          "ms": [
+            "Respiration transfers energy for cellular processes.",
+            "Cellulose forms cell walls.",
+            "Starch or oils store material, or amino acids are made with nitrate-derived nitrogen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-photo-rate",
+      "unit": "bioenergetics",
+      "title": "Photosynthesis rate and pondweed",
+      "spec": "4.4.1.2",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Light, carbon dioxide, temperature and chlorophyll amount affect photosynthesis.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Light, carbon dioxide, temperature and chlorophyll amount affect photosynthesis. At low light, increasing intensity often raises oxygen production. A horizontal curve shows constant rate rather than no photosynthesis; interpret what the axes actually measure.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Compare oxygen per unit time while controlling plant species and size, carbon dioxide and temperature. Allow equilibration and repeat. Bubble counting is convenient but unequal bubble volumes limit accuracy; gas collection measures volume more directly.</p>"
+        }
+      ],
+      "keypoints": [
+        "Light, carbon dioxide, temperature and chlorophyll amount affect photosynthesis.",
+        "Compare oxygen per unit time while controlling plant species and size, carbon dioxide and temperature."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "18 cm³ oxygen is collected in 6 minutes. Calculate rate.",
+          "a": 3,
+          "unit": "cm³/min",
+          "tol": 0.005,
+          "why": "18/6 = 3."
+        },
+        {
+          "q": "What does a horizontal oxygen-rate curve indicate?",
+          "opts": [
+            "No respiration",
+            "A constant rate",
+            "No photosynthesis"
+          ],
+          "a": 1,
+          "why": "A constant rate"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Suggest three improvements to a pondweed experiment comparing light levels.",
+          "m": 3,
+          "ms": [
+            "Control temperature to avoid lamp heating as a confounder.",
+            "Keep plant size and carbon dioxide supply consistent.",
+            "Collect gas volume over equal periods and repeat for means."
+          ]
+        }
+      ],
+      "sim": "photosynthesis",
+      "practical": {
+        "title": "Required practical 6 · Light intensity and photosynthesis",
+        "method": [
+          "Place pondweed in bicarbonate solution and arrange oxygen collection.",
+          "Change lamp distance or measured intensity, allowing equilibration.",
+          "Measure oxygen over a fixed period, repeat and calculate mean rates."
+        ],
+        "variables": [
+          "Independent: lamp distance or measured intensity.",
+          "Dependent: gas volume per time, or bubble count with its limitation.",
+          "Control temperature, carbon dioxide, species and plant size."
+        ],
+        "safety": [
+          "Keep electricity away from water.",
+          "Handle glass and cutting tools carefully; a cool LED reduces heating."
+        ],
+        "analysis": "Bubble sizes vary, so gas volume is generally a better measure. Control heating separately from light; net oxygen production is influenced by respiration as well as photosynthesis."
+      }
+    },
+    {
+      "id": "b-photo-higher",
+      "unit": "bioenergetics",
+      "title": "Limiting factors and greenhouse economics",
+      "spec": "4.4.1.2 (HT)",
+      "paper": [
+        1
+      ],
+      "tier": "higher",
+      "separate": false,
+      "summary": "A limiting factor prevents further increase in photosynthesis under the current conditions.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>A limiting factor prevents further increase in photosynthesis under the current conditions. If extra carbon dioxide raises a plateau, carbon dioxide was limiting there. A different point may be limited by light or temperature; compare curves rather than assigning one universal limiting factor.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>In the point-source model, light intensity is proportional to 1/distance². Doubling distance quarters intensity. Greenhouse heating, lighting and carbon dioxide can increase yield only when useful; compare extra crop revenue against running costs to assess profit.</p>"
+        }
+      ],
+      "keypoints": [
+        "A limiting factor prevents further increase in photosynthesis under the current conditions.",
+        "In the point-source model, light intensity is proportional to 1/distance²."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Intensity is 80 units at 10 cm. Estimate intensity at 20 cm.",
+          "a": 20,
+          "unit": "units",
+          "tol": 0.005,
+          "why": "Distance doubles, so intensity divides by 4."
+        },
+        {
+          "q": "Revenue rises £600 and costs rise £750. Profit changes by…",
+          "opts": [
+            "A £150 increase",
+            "A £1350 increase",
+            "A £150 decrease"
+          ],
+          "a": 2,
+          "why": "A £150 decrease"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Extra light has no effect but extra carbon dioxide raises rate. Explain and give an economic implication.",
+          "m": 3,
+          "ms": [
+            "Light is not limiting under the tested conditions.",
+            "Carbon dioxide is limiting because adding it raises rate.",
+            "Extra lighting alone adds cost without improving production."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-respiration",
+      "unit": "bioenergetics",
+      "title": "Aerobic and anaerobic respiration",
+      "spec": "4.4.2.1",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Respiration is an exothermic cellular process supplying energy for movement, synthesis and keeping warm.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Respiration is an exothermic cellular process supplying energy for movement, synthesis and keeping warm. Aerobic respiration uses glucose and oxygen and produces carbon dioxide and water. Breathing moves air; it is not respiration. Both plants and animals respire.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Muscles respiring anaerobically form lactic acid and transfer less energy per glucose because breakdown is incomplete. Yeast and plant cells can produce ethanol and carbon dioxide anaerobically. Fermentation supplies carbon dioxide to raise bread dough and ethanol for alcoholic drinks.</p>"
+        }
+      ],
+      "keypoints": [
+        "Respiration is an exothermic cellular process supplying energy for movement, synthesis and keeping warm.",
+        "Muscles respiring anaerobically form lactic acid and transfer less energy per glucose because breakdown is incomplete."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Aerobic respiration produces…",
+          "opts": [
+            "Carbon dioxide and water",
+            "Glucose and oxygen",
+            "Ethanol and oxygen"
+          ],
+          "a": 0,
+          "why": "Carbon dioxide and water"
+        },
+        {
+          "q": "Why is less energy transferred anaerobically?",
+          "opts": [
+            "Glucose breakdown is incomplete",
+            "Extra oxygen is made",
+            "No living cells are involved"
+          ],
+          "a": 0,
+          "why": "Glucose breakdown is incomplete"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Compare anaerobic respiration in muscles and yeast.",
+          "m": 3,
+          "ms": [
+            "Both break down glucose without oxygen.",
+            "Muscles produce lactic acid; yeast produces ethanol and carbon dioxide.",
+            "Both transfer less energy per glucose than aerobic respiration."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-exercise",
+      "unit": "bioenergetics",
+      "title": "Exercise responses and metabolism",
+      "spec": "4.4.2.2–4.4.2.3",
+      "paper": [
+        1
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Exercise raises muscular energy demand.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Exercise raises muscular energy demand. Heart rate, breathing rate and breath volume increase, supplying oxygen and glucose and removing carbon dioxide. Insufficient oxygen leads to additional anaerobic respiration and lactic acid accumulation, contributing to fatigue.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Metabolism is all reactions in cells or an organism: respiration, making carbohydrates from glucose, lipids from glycerol and fatty acids, and proteins from amino acids. Excess amino acids are broken down to form urea. Plants need nitrate ions when synthesising amino acids.</p>"
+        }
+      ],
+      "keypoints": [
+        "Exercise raises muscular energy demand.",
+        "Metabolism is all reactions in cells or an organism: respiration, making carbohydrates from glucose, lipids from glycerol and fatty acids, and proteins from amino acids."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Why does heart rate rise in exercise?",
+          "opts": [
+            "To turn oxygen into lactic acid",
+            "To deliver oxygen and glucose faster",
+            "To stop muscle blood flow"
+          ],
+          "a": 1,
+          "why": "To deliver oxygen and glucose faster"
+        },
+        {
+          "q": "Metabolism means…",
+          "opts": [
+            "Only stomach digestion",
+            "All reactions in a cell or organism",
+            "Only breathing"
+          ],
+          "a": 1,
+          "why": "All reactions in a cell or organism"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why heart rate and breathing rate increase during exercise.",
+          "m": 3,
+          "ms": [
+            "Muscle energy demand / respiration increases.",
+            "Faster breathing supplies oxygen and removes carbon dioxide.",
+            "Faster circulation delivers oxygen and glucose to muscles."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-debt",
+      "unit": "bioenergetics",
+      "title": "Lactic acid and oxygen debt",
+      "spec": "4.4.2.2 (HT)",
+      "paper": [
+        1
+      ],
+      "tier": "higher",
+      "separate": false,
+      "summary": "After intense exercise, blood carries lactic acid from muscles to the liver, where it is converted back to glucose.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>After intense exercise, blood carries lactic acid from muscles to the liver, where it is converted back to glucose. The extra oxygen needed during recovery to remove accumulated lactic acid is called oxygen debt in the GCSE model.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>An oxygen-uptake trace returns gradually towards resting levels. Compare recovery uptake with the resting baseline rather than counting all oxygen breathed. An extra 1.5 litres each minute over four minutes totals six litres in a simplified constant-rate example.</p>"
+        }
+      ],
+      "keypoints": [
+        "After intense exercise, blood carries lactic acid from muscles to the liver, where it is converted back to glucose.",
+        "An oxygen-uptake trace returns gradually towards resting levels."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Additional uptake averages 2 L/min for 3 min. Calculate extra oxygen.",
+          "a": 6,
+          "unit": "L",
+          "tol": 0.005,
+          "why": "2 × 3 = 6."
+        },
+        {
+          "q": "Where is lactic acid converted back to glucose?",
+          "opts": [
+            "Alveoli",
+            "Bladder",
+            "Liver"
+          ],
+          "a": 2,
+          "why": "Liver"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain elevated oxygen uptake after intense exercise.",
+          "m": 3,
+          "ms": [
+            "Anaerobic respiration has caused lactic acid accumulation.",
+            "Blood carries it to the liver for conversion back to glucose.",
+            "Extra oxygen is needed during recovery, forming oxygen debt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-nerves",
+      "unit": "homeostasis",
+      "title": "Homeostasis, neurones and reflexes",
+      "spec": "4.5.1–4.5.2.1",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Homeostasis maintains suitable internal conditions for cells, including temperature, glucose and water levels.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Homeostasis maintains suitable internal conditions for cells, including temperature, glucose and water levels. Receptors detect stimuli, coordination centres process information and effectors respond. The CNS is the brain and spinal cord; electrical impulses travel along neurones.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>A reflex pathway includes receptor, sensory neurone, relay neurone, motor neurone and effector. Chemical transmitters cross synapses. Reflexes are rapid and automatic without conscious decision-making, protecting against damage. The brain can receive information without initiating the first protective response.</p>"
+        }
+      ],
+      "keypoints": [
+        "Homeostasis maintains suitable internal conditions for cells, including temperature, glucose and water levels.",
+        "A reflex pathway includes receptor, sensory neurone, relay neurone, motor neurone and effector."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which neurone carries information towards the CNS?",
+          "opts": [
+            "Sensory",
+            "Motor",
+            "A red blood cell"
+          ],
+          "a": 0,
+          "why": "Sensory"
+        },
+        {
+          "q": "An effector is…",
+          "opts": [
+            "A muscle or gland producing a response",
+            "Only a receptor",
+            "The stimulus itself"
+          ],
+          "a": 0,
+          "why": "A muscle or gland producing a response"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Describe withdrawal of a hand from a hot object.",
+          "m": 3,
+          "ms": [
+            "A receptor detects the stimulus and a sensory neurone carries an impulse to the CNS.",
+            "Signals pass across synapses via a relay neurone to a motor neurone.",
+            "A muscle contracts to withdraw the hand."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-reaction",
+      "unit": "homeostasis",
+      "title": "Investigating reaction time",
+      "spec": "4.5.2.1",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "A falling ruler caught by a participant provides a distance used to estimate reaction time through a conversion table.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>A falling ruler caught by a participant provides a distance used to estimate reaction time through a conversion table. Investigate a safe factor such as distraction or practice. Obtain consent, permit withdrawal and do not administer medication or deprive participants of sleep.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Keep the start position, catching hand and release procedure constant. Randomise condition order to reduce practice effects; repeat across participants. Distance is not time, so report units honestly and use a suitable conversion before quoting seconds.</p>"
+        }
+      ],
+      "keypoints": [
+        "A falling ruler caught by a participant provides a distance used to estimate reaction time through a conversion table.",
+        "Keep the start position, catching hand and release procedure constant."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Fall distances are 12, 14 and 16 cm. Calculate the mean.",
+          "a": 14,
+          "unit": "cm",
+          "tol": 0.005,
+          "why": "42/3 = 14."
+        },
+        {
+          "q": "Which reduces order bias?",
+          "opts": [
+            "Deleting slow trials",
+            "Randomising condition order",
+            "Always testing distraction last"
+          ],
+          "a": 1,
+          "why": "Randomising condition order"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain three controls in a ruler-drop comparison of distraction.",
+          "m": 3,
+          "ms": [
+            "Use consistent hand and ruler starting positions.",
+            "Randomise or counterbalance condition order.",
+            "Repeat trials across participants and compare means."
+          ]
+        }
+      ],
+      "practical": {
+        "title": "Required practical 7 · Human reaction time",
+        "method": [
+          "Obtain consent and explain a safe comparison such as distraction.",
+          "Drop a ruler unexpectedly from a consistent start while a participant catches it.",
+          "Record distance, repeat in randomised condition order and use a conversion table if quoting time."
+        ],
+        "variables": [
+          "Independent: selected safe factor.",
+          "Dependent: fall distance or converted time.",
+          "Control catching hand, posture, ruler position and instructions."
+        ],
+        "safety": [
+          "Allow participants to withdraw.",
+          "Do not administer stimulants or medication or deliberately deprive sleep."
+        ],
+        "analysis": "Compare repeated participant means. Record unusual values and investigate rather than deleting results solely because they disagree with a prediction."
+      }
+    },
+    {
+      "id": "b-brain",
+      "unit": "homeostasis",
+      "title": "Brain regions and their roles",
+      "spec": "4.5.2.2",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": true,
+      "summary": "The cerebral cortex supports conscious thought, memory and language.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>The cerebral cortex supports conscious thought, memory and language. The cerebellum coordinates movement and balance; the medulla controls automatic functions such as breathing and heart rate. Regions are highly interconnected rather than isolated units.</p>"
+        },
+        {
+          "title": "Identify regions on a diagram",
+          "html": "<p>Locate the large folded cerebral cortex, the smaller cerebellum towards the back, and the medulla in the brainstem. Associate each region with its main functions. A labelled diagram is a model of a complex organ; use landmarks and relative positions rather than relying only on colours.</p>"
+        }
+      ],
+      "keypoints": [
+        "The cerebral cortex supports conscious thought, memory and language.",
+        "Link a symptom to a relevant function but avoid diagnosing solely from it."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which region coordinates balance?",
+          "opts": [
+            "Medulla",
+            "Cornea",
+            "Cerebellum"
+          ],
+          "a": 2,
+          "why": "Cerebellum"
+        },
+        {
+          "q": "Which helps control heart rate?",
+          "opts": [
+            "Retina",
+            "Cerebellum only",
+            "Medulla"
+          ],
+          "a": 2,
+          "why": "Medulla"
+        }
+      ],
+      "exam": [
+        {
+          "q": "State the main functions of the cerebral cortex, cerebellum and medulla.",
+          "m": 3,
+          "ms": [
+            "Cerebral cortex: conscious thought, intelligence, memory or language.",
+            "Cerebellum: coordination of movement or balance.",
+            "Medulla: automatic functions such as breathing or heart rate."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-brain-research",
+      "unit": "homeostasis",
+      "title": "Investigating brain function",
+      "spec": "4.5.2.2 (HT)",
+      "paper": [
+        2
+      ],
+      "tier": "higher",
+      "separate": true,
+      "summary": "Brain mapping uses observations of patients with damage, electrical stimulation and MRI.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Brain mapping uses observations of patients with damage, electrical stimulation and MRI. Each provides different evidence: scans show structures and patient observations link damage to function. Electrical stimulation can reveal a response when a region is activated.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Complex connections make cause and effect difficult to isolate. Brain tissue is delicate and procedures can cause irreversible harm. Evaluate consent, likely clinical benefit, uncertainties and risks; a clear observed response does not justify every invasive investigation.</p>"
+        }
+      ],
+      "keypoints": [
+        "Brain mapping uses observations of patients with damage, electrical stimulation and MRI.",
+        "Complex connections make cause and effect difficult to isolate."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which technique images brain structure?",
+          "opts": [
+            "MRI",
+            "A quadrat",
+            "Benedict’s test"
+          ],
+          "a": 0,
+          "why": "MRI"
+        },
+        {
+          "q": "Why can damage studies be difficult to interpret?",
+          "opts": [
+            "Several connected functions can be affected",
+            "All patients have identical damage",
+            "The brain lacks connections"
+          ],
+          "a": 0,
+          "why": "Several connected functions can be affected"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Evaluate electrical stimulation for mapping brain function.",
+          "m": 3,
+          "ms": [
+            "It can link activity in a region to an observed response.",
+            "Interconnected pathways limit conclusions about isolated functions.",
+            "Risk of damage must be weighed against clinical benefit with informed consent."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-eye",
+      "unit": "homeostasis",
+      "title": "The eye and accommodation",
+      "spec": "4.5.2.3",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": true,
+      "summary": "Cornea and lens refract light onto the retina; the optic nerve carries impulses.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Cornea and lens refract light onto the retina; the optic nerve carries impulses. The sclera protects the eye. The iris changes pupil size: circular muscles contract and radial muscles relax in bright light, reducing entry; dim light reverses this.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>For near focus, ciliary muscles contract, suspensory ligaments loosen and the lens becomes thicker. For distance, muscles relax, ligaments tighten and the lens thins. Myopia focuses before the retina and uses a concave correcting lens; hyperopia focuses behind and uses a convex lens. Treatments have benefits and risks.</p>"
+        }
+      ],
+      "keypoints": [
+        "Cornea and lens refract light onto the retina; the optic nerve carries impulses.",
+        "For near focus, ciliary muscles contract, suspensory ligaments loosen and the lens becomes thicker."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Near focus requires ciliary muscles to…",
+          "opts": [
+            "Become the pupil",
+            "Contract",
+            "Relax"
+          ],
+          "a": 1,
+          "why": "Contract"
+        },
+        {
+          "q": "Short sight is corrected using a…",
+          "opts": [
+            "Flat window only",
+            "Concave lens",
+            "Convex lens"
+          ],
+          "a": 1,
+          "why": "Concave lens"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Describe how an eye focuses on a nearby object.",
+          "m": 3,
+          "ms": [
+            "Ciliary muscles contract.",
+            "Suspensory ligaments loosen.",
+            "The lens thickens and refracts light more strongly onto the retina."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-temperature",
+      "unit": "homeostasis",
+      "title": "Body temperature control",
+      "spec": "4.5.2.4",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": true,
+      "summary": "The thermoregulatory centre in the brain monitors blood temperature and receives input from skin receptors.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>The thermoregulatory centre in the brain monitors blood temperature and receives input from skin receptors. Too much warmth triggers sweating and dilation of vessels supplying skin. Cold triggers less sweating, constriction of skin vessels and shivering.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Begin an answer with the direction of the temperature change, then identify the response. Do not claim capillaries move nearer the skin. Distinguish the controlled internal temperature from changing outside temperature; these are automatic control responses, not conscious decisions.</p>"
+        }
+      ],
+      "keypoints": [
+        "The thermoregulatory centre in the brain monitors blood temperature and receives input from skin receptors.",
+        "Begin an answer with the direction of the temperature change, then identify the response."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which occurs when too warm?",
+          "opts": [
+            "Increased shivering",
+            "Constriction of all skin vessels",
+            "Increased sweating"
+          ],
+          "a": 2,
+          "why": "Increased sweating"
+        },
+        {
+          "q": "Where is the thermoregulatory centre?",
+          "opts": [
+            "Pancreas",
+            "Bladder",
+            "Brain"
+          ],
+          "a": 2,
+          "why": "Brain"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Describe three responses to low core temperature.",
+          "m": 3,
+          "ms": [
+            "Skin blood vessels constrict.",
+            "Sweating decreases or stops.",
+            "Skeletal muscles contract repeatedly, causing shivering."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-temperature-higher",
+      "unit": "homeostasis",
+      "title": "Explaining thermoregulation",
+      "spec": "4.5.2.4 (HT)",
+      "paper": [
+        2
+      ],
+      "tier": "higher",
+      "separate": true,
+      "summary": "Evaporation of sweat transfers energy from skin to the surroundings.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Evaporation of sweat transfers energy from skin to the surroundings. Vasodilation increases blood flow near the surface and energy transfer. In humid air, reduced evaporation can make sweating less effective, so visible sweat does not guarantee efficient cooling.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Vasoconstriction reduces surface blood flow and energy loss. Shivering involves muscle contraction and increased respiration, transferring energy to thermal stores. These responses oppose a fall in temperature and reduce when conditions recover: negative feedback.</p>"
+        }
+      ],
+      "keypoints": [
+        "Evaporation of sweat transfers energy from skin to the surroundings.",
+        "Vasoconstriction reduces surface blood flow and energy loss."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Why does sweat evaporation cool skin?",
+          "opts": [
+            "Energy is transferred away",
+            "Glucose becomes oxygen",
+            "Respiration stops"
+          ],
+          "a": 0,
+          "why": "Energy is transferred away"
+        },
+        {
+          "q": "Vasoconstriction conserves energy because…",
+          "opts": [
+            "Less warm blood flows near skin",
+            "Capillaries leave the body",
+            "The heart stops"
+          ],
+          "a": 0,
+          "why": "Less warm blood flows near skin"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how shivering and vasoconstriction help in cold conditions.",
+          "m": 3,
+          "ms": [
+            "Shivering increases muscle contraction and respiration.",
+            "More energy is transferred to thermal stores.",
+            "Vasoconstriction reduces skin blood flow and transfer to surroundings."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-endocrine",
+      "unit": "homeostasis",
+      "title": "Endocrine glands, insulin and diabetes",
+      "spec": "4.5.3.1–4.5.3.2",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Endocrine glands release hormones into blood; target tissues respond.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Endocrine glands release hormones into blood; target tissues respond. Effects are often slower and longer-lasting than nervous responses. Know pituitary, thyroid, adrenals, pancreas, ovaries and testes. Pituitary hormones influence several other glands.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>High glucose stimulates pancreatic insulin, increasing glucose uptake and conversion to glycogen in liver and muscle. Type 1 diabetes involves too little insulin; type 2 involves poor cellular response to insulin. Insulin treatment, diet, exercise and other medicines have different roles depending on the condition.</p>"
+        }
+      ],
+      "keypoints": [
+        "Endocrine glands release hormones into blood; target tissues respond.",
+        "High glucose stimulates pancreatic insulin, increasing glucose uptake and conversion to glycogen in liver and muscle."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which gland secretes insulin?",
+          "opts": [
+            "Gall bladder",
+            "Pancreas",
+            "Thyroid"
+          ],
+          "a": 1,
+          "why": "Pancreas"
+        },
+        {
+          "q": "Glycogen is…",
+          "opts": [
+            "An enzyme",
+            "A storage carbohydrate",
+            "A hormone"
+          ],
+          "a": 1,
+          "why": "A storage carbohydrate"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how insulin lowers blood glucose after a meal.",
+          "m": 3,
+          "ms": [
+            "The pancreas detects raised glucose and secretes insulin.",
+            "Glucose moves from blood into cells.",
+            "Excess glucose is converted to glycogen in liver and muscle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-feedback",
+      "unit": "homeostasis",
+      "title": "Glucagon, adrenaline and thyroxine",
+      "spec": "4.5.3.2, 4.5.3.7 (HT)",
+      "paper": [
+        2
+      ],
+      "tier": "higher",
+      "separate": false,
+      "summary": "Low glucose stimulates pancreatic glucagon, causing liver glycogen to become glucose released into blood.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Low glucose stimulates pancreatic glucagon, causing liver glycogen to become glucose released into blood. Insulin and glucagon oppose departures from normal glucose levels. Corrective secretion decreases as conditions recover: negative feedback does not mean every response always lowers every variable.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Adrenaline from adrenals increases heart rate and oxygen/glucose delivery for fight or flight. Thyroxine from thyroid regulates basal metabolic rate and development. Low thyroxine stimulates pituitary signals promoting secretion; high thyroxine inhibits those signals.</p>"
+        }
+      ],
+      "keypoints": [
+        "Low glucose stimulates pancreatic glucagon, causing liver glycogen to become glucose released into blood.",
+        "Adrenaline from adrenals increases heart rate and oxygen/glucose delivery for fight or flight."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which raises low blood glucose?",
+          "opts": [
+            "Insulin",
+            "Amylase",
+            "Glucagon"
+          ],
+          "a": 2,
+          "why": "Glucagon"
+        },
+        {
+          "q": "Negative feedback…",
+          "opts": [
+            "Always lowers everything",
+            "Requires conscious control",
+            "Opposes the original change"
+          ],
+          "a": 2,
+          "why": "Opposes the original change"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain correction of low blood glucose by negative feedback.",
+          "m": 3,
+          "ms": [
+            "The pancreas detects the fall and releases glucagon.",
+            "Liver glycogen is converted to glucose and released into blood.",
+            "Glucagon secretion falls as glucose returns towards normal."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-kidneys",
+      "unit": "homeostasis",
+      "title": "Kidneys, excretion and treatment",
+      "spec": "4.5.3.3",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": true,
+      "summary": "Kidneys remove urea and regulate water and ions.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Excess amino acids are broken down and form urea in the liver; blood carries urea to kidneys for excretion. Kidneys regulate water and ions. Carbon dioxide leaves through lungs; water, ions and a little urea also leave in sweat. Cells losing or gaining too much water by osmosis do not work efficiently.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Dialysis removes waste through a partially permeable membrane using carefully balanced dialysis fluid. It requires regular treatment. A transplant can restore continuous function but requires a donor, surgery and management of rejection. Do not confuse producing urea in the liver with removing it in kidneys.</p>"
+        },
+        {
+          "title": "Filtration and reabsorption",
+          "html": "<p>Kidneys filter blood and selectively reabsorb useful substances such as glucose, some ions and water. Urine normally contains urea, excess ions and water rather than blood cells. Compare values before and after filtration using the units and volumes given; the structure of the nephron is beyond this GCSE requirement.</p>"
+        }
+      ],
+      "keypoints": [
+        "Urea is produced in the liver and removed from blood by the kidneys.",
+        "Dialysis removes waste through a partially permeable membrane using carefully balanced dialysis fluid."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Where is urea produced?",
+          "opts": [
+            "Liver",
+            "Bladder",
+            "Lungs"
+          ],
+          "a": 0,
+          "why": "Liver"
+        },
+        {
+          "q": "Which treatment uses exchange across a membrane?",
+          "opts": [
+            "Dialysis",
+            "A stent",
+            "A pacemaker"
+          ],
+          "a": 0,
+          "why": "Dialysis"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Compare dialysis and a kidney transplant.",
+          "m": 3,
+          "ms": [
+            "Dialysis removes wastes but requires regular time-consuming treatment.",
+            "A successful transplant provides more continuous kidney function.",
+            "Transplantation requires a donor and involves surgical / rejection risks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-kidney-filtration",
+      "unit": "homeostasis",
+      "title": "Selective reabsorption and ADH",
+      "spec": "4.5.3.3 (HT)",
+      "paper": [
+        2
+      ],
+      "tier": "higher",
+      "separate": true,
+      "summary": "Kidneys filter blood and selectively reabsorb all glucose, appropriate ions and sufficient water.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Kidneys filter blood and selectively reabsorb all glucose, appropriate ions and sufficient water. Amino-acid deamination removes the nitrogen-containing part in the liver; ammonia is converted to urea for safer excretion. These details explain why urine composition differs from blood.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Low blood water level is detected in the brain; pituitary ADH increases kidney-tubule permeability, so more water returns to blood. Urine becomes smaller in volume and more concentrated. Plenty of water reduces ADH and increases dilute urine. ADH changes reabsorption, not water creation.</p>"
+        }
+      ],
+      "keypoints": [
+        "Kidneys filter blood and selectively reabsorb all glucose, appropriate ions and sufficient water.",
+        "Low blood water level is detected in the brain; pituitary ADH increases kidney-tubule permeability, so more water returns to blood."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "More ADH normally produces…",
+          "opts": [
+            "No change",
+            "Less, more concentrated urine",
+            "More concentrated urine in a larger volume"
+          ],
+          "a": 1,
+          "why": "Less, more concentrated urine"
+        },
+        {
+          "q": "Which useful molecule is normally fully reabsorbed?",
+          "opts": [
+            "Carbon dioxide",
+            "Glucose",
+            "Urea"
+          ],
+          "a": 1,
+          "why": "Glucose"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain the ADH response to water loss during exercise.",
+          "m": 3,
+          "ms": [
+            "The brain detects low blood water concentration and the pituitary releases more ADH.",
+            "Kidney tubules become more permeable and reabsorb more water.",
+            "A smaller volume of more concentrated urine is produced."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-reproductive-hormones",
+      "unit": "homeostasis",
+      "title": "Reproductive hormones and contraception",
+      "spec": "4.5.3.4–4.5.3.5",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Testosterone from testes supports sperm production and male secondary sexual characteristics; ovarian oestrogen supports female development.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Testosterone from testes supports sperm production and male secondary sexual characteristics; ovarian oestrogen supports female development. FSH matures an egg and LH triggers ovulation. Oestrogen and progesterone maintain the uterus lining. Twenty-eight days is a cycle model; real cycle lengths vary.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Hormonal methods can inhibit egg maturation or release. Barriers prevent sperm reaching eggs; condoms also reduce some STI transmission. Intrauterine devices, spermicides, fertility-awareness methods and sterilisation differ in effectiveness, risks and reversibility. Compare typical-use data where given.</p>"
+        }
+      ],
+      "keypoints": [
+        "Testosterone from testes supports sperm production and male secondary sexual characteristics; ovarian oestrogen supports female development.",
+        "Hormonal methods can inhibit egg maturation or release."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which triggers ovulation?",
+          "opts": [
+            "Insulin",
+            "Thyroxine",
+            "LH"
+          ],
+          "a": 2,
+          "why": "LH"
+        },
+        {
+          "q": "Which can also reduce STI transmission?",
+          "opts": [
+            "Hormone implant alone",
+            "Sterilisation alone",
+            "Condom"
+          ],
+          "a": 2,
+          "why": "Condom"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Compare a condom and a hormonal implant.",
+          "m": 3,
+          "ms": [
+            "Condoms form a barrier preventing sperm reaching eggs.",
+            "Implants release hormones to inhibit egg maturation or release without action at every intercourse.",
+            "Condoms reduce some STI transmission; implants alone do not."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-cycle-ivf",
+      "unit": "homeostasis",
+      "title": "Hormone interactions and IVF",
+      "spec": "4.5.3.4, 4.5.3.6 (HT)",
+      "paper": [
+        2
+      ],
+      "tier": "higher",
+      "separate": false,
+      "summary": "FSH stimulates egg maturation and oestrogen secretion.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>FSH stimulates egg maturation and oestrogen secretion. Oestrogen rebuilds the lining, inhibits FSH and stimulates an LH surge. LH causes ovulation; progesterone maintains the lining and inhibits FSH/LH. Falling progesterone allows the lining to break down if pregnancy does not occur.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Fertility drugs use FSH/LH. IVF matures several eggs, collects them, fertilises them in a laboratory and transfers one or two early embryos to the uterus. Success is uncertain; consider physical and emotional demands, cost and multiple-pregnancy risks as well as benefits.</p>"
+        }
+      ],
+      "keypoints": [
+        "FSH stimulates egg maturation and oestrogen secretion.",
+        "Fertility drugs use FSH/LH."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "What stimulates the LH surge in the model?",
+          "opts": [
+            "Increased oestrogen",
+            "Increased insulin",
+            "Permanent absence of FSH"
+          ],
+          "a": 0,
+          "why": "Increased oestrogen"
+        },
+        {
+          "q": "Where does fertilisation happen in IVF?",
+          "opts": [
+            "Laboratory",
+            "Bladder",
+            "Pituitary"
+          ],
+          "a": 0,
+          "why": "Laboratory"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain hormone use in IVF and give one limitation.",
+          "m": 3,
+          "ms": [
+            "FSH/LH stimulate maturation of several eggs / ovulation.",
+            "Eggs are collected and fertilised in a laboratory before embryo transfer.",
+            "A valid limitation includes variable success, treatment stress or multiple births."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-tropisms",
+      "unit": "homeostasis",
+      "title": "Plant growth responses",
+      "spec": "4.5.4.1",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": true,
+      "summary": "Shoots grow towards light and against gravity; roots usually grow with gravity.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Shoots grow towards light and against gravity; roots usually grow with gravity. These are directional growth responses, not movement of the whole plant. Auxin is associated with unequal growth. Label phototropism and gravitropism using the stimulus and response direction.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Test similar seedlings with one-sided light and a suitable control, or change orientation while controlling illumination. Keep age, species, water and temperature constant. Repeat and record lengths and labelled drawings. Change light or gravity separately to isolate the factor.</p>"
+        },
+        {
+          "title": "Unequal growth",
+          "html": "<p>Plant hormones coordinate growth. Unequal auxin distribution causes different growth rates on opposite sides of a root or shoot, producing bending. This is growth through differential elongation rather than a muscle contraction.</p>"
+        }
+      ],
+      "keypoints": [
+        "Shoots grow towards light and against gravity; roots usually grow with gravity.",
+        "Test similar seedlings with one-sided light and a suitable control, or change orientation while controlling illumination."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Growth towards light is…",
+          "opts": [
+            "A conscious reflex",
+            "Positive phototropism",
+            "Negative osmosis"
+          ],
+          "a": 1,
+          "why": "Positive phototropism"
+        },
+        {
+          "q": "Most roots show…",
+          "opts": [
+            "Positive phototropism only",
+            "Positive gravitropism",
+            "No response to gravity"
+          ],
+          "a": 1,
+          "why": "Positive gravitropism"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Plan an investigation into shoot response to one-sided light.",
+          "m": 3,
+          "ms": [
+            "Use similar seedlings with one-sided light and an appropriately lit control.",
+            "Control water, temperature, species and age.",
+            "Repeat and record growth direction with measurements and labelled drawings."
+          ]
+        }
+      ],
+      "practical": {
+        "title": "Required practical 8 · Seedling growth responses",
+        "method": [
+          "Use similar newly germinated seedlings.",
+          "Investigate one-sided light with an appropriate control, or alter orientation while controlling illumination for gravity.",
+          "Measure growth and make labelled drawings over time with several seedlings."
+        ],
+        "variables": [
+          "Independent: light direction or orientation, tested separately.",
+          "Dependent: growth direction and length change.",
+          "Control species, age, water and temperature."
+        ],
+        "safety": [
+          "Wash hands after handling growing media.",
+          "Keep electrical lighting safely away from water."
+        ],
+        "analysis": "Compare initial and final measurements with controls. Repetition separates a consistent directional response from natural variation."
+      }
+    },
+    {
+      "id": "b-plant-hormones",
+      "unit": "homeostasis",
+      "title": "Explaining and using plant hormones",
+      "spec": "4.5.4.1–4.5.4.2 (HT)",
+      "paper": [
+        2
+      ],
+      "tier": "higher",
+      "separate": true,
+      "summary": "In a shoot lit from one side, auxin accumulates on the shaded side and promotes elongation, causing bending towards light.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>In a shoot lit from one side, auxin accumulates on the shaded side and promotes elongation, causing bending towards light. Auxin inhibits elongation in roots at concentrations that promote shoot growth, helping explain opposite responses to gravity.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Auxins are used in rooting powders, tissue culture and selective weedkillers. Gibberellins promote germination, flowering and fruit growth. Ethene controls ripening, allowing timing after transport. Link hormone action to benefit and consider dose, cost and non-target effects.</p>"
+        }
+      ],
+      "keypoints": [
+        "In a shoot lit from one side, auxin accumulates on the shaded side and promotes elongation, causing bending towards light.",
+        "Auxins are used in rooting powders, tissue culture and selective weedkillers."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which controls ripening?",
+          "opts": [
+            "ADH",
+            "Insulin",
+            "Ethene"
+          ],
+          "a": 2,
+          "why": "Ethene"
+        },
+        {
+          "q": "A shoot bends towards light because…",
+          "opts": [
+            "The lit side always elongates faster",
+            "It contracts like muscle",
+            "The shaded side elongates faster"
+          ],
+          "a": 2,
+          "why": "The shaded side elongates faster"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain the benefit of auxin rooting powder for commercial cuttings.",
+          "m": 3,
+          "ms": [
+            "Auxin promotes root formation.",
+            "Roots allow cuttings to establish as new plants.",
+            "Many plants retaining the parent genotype can be produced."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-repro",
+      "unit": "inheritance",
+      "title": "Reproduction, meiosis and fertilisation",
+      "spec": "4.6.1.1–4.6.1.2",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Sexual reproduction joins gametes and mixes genetic information.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Sexual reproduction joins gametes and mixes genetic information. DNA is replicated once before meiosis, followed by two cell divisions, making four genetically different cells with half the original chromosome number. Human gametes normally have 23 chromosomes; chromosome number is not the same as cell number.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Fertilisation restores paired chromosomes. The zygote grows by mitosis and its cells differentiate. Asexual reproduction has one parent, no gamete fusion and genetically identical offspring apart from mutation. Meiosis creates gametes; mitosis supports growth and asexual reproduction.</p>"
+        }
+      ],
+      "keypoints": [
+        "Sexual reproduction joins gametes and mixes genetic information.",
+        "Fertilisation restores paired chromosomes."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Body cells have 30 chromosomes. How many in a normal gamete?",
+          "a": 15,
+          "unit": "",
+          "tol": 0.005,
+          "why": "Meiosis halves 30 to 15."
+        },
+        {
+          "q": "What restores the full chromosome number?",
+          "opts": [
+            "Fertilisation",
+            "Meiosis alone",
+            "Diffusion"
+          ],
+          "a": 0,
+          "why": "Fertilisation"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain maintenance of chromosome number across generations.",
+          "m": 3,
+          "ms": [
+            "Meiosis halves the chromosome number in gametes.",
+            "Two gametes fuse at fertilisation.",
+            "Their sets combine to restore the normal paired chromosome number."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-repro-evaluation",
+      "unit": "inheritance",
+      "title": "Evaluating reproductive strategies",
+      "spec": "4.6.1.3",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": true,
+      "summary": "Asexual reproduction is fast, needs no mate and preserves a successful genotype in favourable conditions.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Asexual reproduction is fast, needs no mate and preserves a successful genotype in favourable conditions. Sexual reproduction requires more time and energy but generates variation, improving the chance that some offspring survive a changed environment or new disease.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Strawberries can form runners as well as seeds; daffodils divide bulbs. Many fungi use both strategies. Malaria protists reproduce asexually in humans and sexually in mosquitoes. Use the stated conditions to decide which strategy has an advantage.</p>"
+        }
+      ],
+      "keypoints": [
+        "Asexual reproduction is fast, needs no mate and preserves a successful genotype in favourable conditions.",
+        "Strawberries can form runners as well as seeds; daffodils divide bulbs."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "An advantage of asexual reproduction is…",
+          "opts": [
+            "Gametes must fuse",
+            "No mate is needed",
+            "Maximum variation is guaranteed"
+          ],
+          "a": 1,
+          "why": "No mate is needed"
+        },
+        {
+          "q": "Which is asexual?",
+          "opts": [
+            "Fertilisation in a flower",
+            "A strawberry runner forming a plant",
+            "Fusion of sperm and egg"
+          ],
+          "a": 1,
+          "why": "A strawberry runner forming a plant"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Why may sexual reproduction help when a new disease appears?",
+          "m": 3,
+          "ms": [
+            "It generates genetic variation.",
+            "Some offspring may inherit resistance.",
+            "Resistant individuals are more likely to survive and reproduce."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-dna",
+      "unit": "inheritance",
+      "title": "DNA, genes and the genome",
+      "spec": "4.6.1.4",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "DNA is a polymer with two strands forming a double helix.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>DNA is a polymer with two strands forming a double helix. Chromosomes contain DNA; genes are sections coding for amino acid sequences in proteins. A genome is the entire genetic material of an organism. Alleles are versions of genes, not additional organelles.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Genome knowledge can identify disease-associated genes, support research and trace human migration. A variant may increase risk without determining outcome because other genes and environment matter. Evaluate privacy and consent when genetic data are shared.</p>"
+        }
+      ],
+      "keypoints": [
+        "DNA is a polymer with two strands forming a double helix.",
+        "Genome knowledge can identify disease-associated genes, support research and trace human migration."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "A genome is…",
+          "opts": [
+            "One protein",
+            "One chromosome only",
+            "All genetic material of an organism"
+          ],
+          "a": 2,
+          "why": "All genetic material of an organism"
+        },
+        {
+          "q": "A gene codes for…",
+          "opts": [
+            "A mineral ion",
+            "A whole organ directly",
+            "An amino acid sequence in a protein"
+          ],
+          "a": 2,
+          "why": "An amino acid sequence in a protein"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Give a medical use and limitation of genome knowledge.",
+          "m": 3,
+          "ms": [
+            "It can identify variants associated with an inherited disorder.",
+            "This can support diagnosis, risk assessment or treatment research.",
+            "Variants may not determine outcome because other genes and environment contribute."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-nucleotides",
+      "unit": "inheritance",
+      "title": "DNA nucleotides and triplets",
+      "spec": "4.6.1.5",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": true,
+      "summary": "A DNA nucleotide contains sugar, phosphate and one base: A, C, G or T.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>A DNA nucleotide contains sugar, phosphate and one base: A, C, G or T. Repeated sugar and phosphate groups form the backbone. Groups of three bases code for amino acids, so base order determines the order of amino acids.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Proteins are amino acid chains, not DNA-base chains. A simplified coding sequence of twelve bases has four triplets. This calculation is a model rather than a claim that real genes contain only uninterrupted coding DNA.</p>"
+        }
+      ],
+      "keypoints": [
+        "A DNA nucleotide contains sugar, phosphate and one base: A, C, G or T.",
+        "Proteins are amino acid chains, not DNA-base chains."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "A simplified sequence has 36 coding bases. How many triplets?",
+          "a": 12,
+          "unit": "",
+          "tol": 0.005,
+          "why": "36/3 = 12."
+        },
+        {
+          "q": "Every DNA nucleotide contains…",
+          "opts": [
+            "Sugar, phosphate and a base",
+            "A whole chromosome",
+            "Three amino acids"
+          ],
+          "a": 0,
+          "why": "Sugar, phosphate and a base"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Describe how DNA stores information for a protein.",
+          "m": 3,
+          "ms": [
+            "DNA uses four possible bases.",
+            "Their sequence carries the information.",
+            "Base triplets specify the amino acid sequence."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-protein",
+      "unit": "inheritance",
+      "title": "Protein synthesis and genetic variants",
+      "spec": "4.6.1.5 (HT)",
+      "paper": [
+        2
+      ],
+      "tier": "higher",
+      "separate": true,
+      "summary": "Complementary bases pair A–T and C–G.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Complementary bases pair A–T and C–G. A template carries gene instructions to ribosomes; carrier molecules bring amino acids in sequence. The completed chain folds into a functional shape. Detailed RNA structures are beyond the GCSE requirement.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Many mutations have little effect, but some alter amino acids, folding and protein function. Non-coding variants can change gene expression instead of protein sequence. Explain the intermediate protein effect before predicting a phenotype; not every mutation is harmful.</p>"
+        }
+      ],
+      "keypoints": [
+        "Complementary bases pair A–T and C–G.",
+        "Many mutations have little effect, but some alter amino acids, folding and protein function."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "C pairs with…",
+          "opts": [
+            "T",
+            "G",
+            "A"
+          ],
+          "a": 1,
+          "why": "G"
+        },
+        {
+          "q": "A non-coding variant may…",
+          "opts": [
+            "Turn DNA into lipid",
+            "Change gene expression",
+            "Always kill a cell"
+          ],
+          "a": 1,
+          "why": "Change gene expression"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how a mutation could reduce enzyme activity.",
+          "m": 3,
+          "ms": [
+            "A DNA change may alter amino acid sequence.",
+            "Protein folding / active-site shape can change.",
+            "The substrate may fit less well, reducing catalysis."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-inheritance",
+      "unit": "inheritance",
+      "title": "Alleles, disorders and sex inheritance",
+      "spec": "4.6.1.6–4.6.1.8",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Genotype describes alleles and phenotype describes expressed characteristics.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Genotype describes alleles and phenotype describes expressed characteristics. Homozygous means identical alleles; heterozygous means different alleles. A dominant allele is expressed in a heterozygote. Dominant does not mean more common, stronger or beneficial.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Cystic fibrosis uses a recessive inheritance model; polydactyly can be dominant. Interpret pedigrees using the stated symbols and model. In the standard sex-chromosome model, XX is female and XY male; sperm can supply X or Y, giving approximately equal probabilities.</p>"
+        },
+        {
+          "title": "Evaluate embryo screening",
+          "html": "<p>Genetic screening can identify embryos carrying a disorder allele before implantation. Potential benefits include reducing the chance of a serious inherited condition, while limitations include cost, uncertain predictions and ethical concerns about selecting embryos. Evaluate the condition and evidence given without assuming screening guarantees a healthy child.</p>"
+        }
+      ],
+      "keypoints": [
+        "Genotype describes alleles and phenotype describes expressed characteristics.",
+        "Cystic fibrosis uses a recessive inheritance model; polydactyly can be dominant."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Heterozygous means…",
+          "opts": [
+            "Two identical alleles",
+            "No chromosomes",
+            "Two different alleles"
+          ],
+          "a": 2,
+          "why": "Two different alleles"
+        },
+        {
+          "q": "Why can a recessive carrier be unaffected?",
+          "opts": [
+            "The recessive allele disappears",
+            "The person has no DNA",
+            "A dominant allele masks the recessive effect"
+          ],
+          "a": 2,
+          "why": "A dominant allele masks the recessive effect"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Two unaffected parents have a child with a recessive disorder. Explain their genotypes in the single-gene model.",
+          "m": 3,
+          "ms": [
+            "Each must carry the recessive allele inherited by the affected child.",
+            "Each also has a dominant allele because they are unaffected.",
+            "Both are heterozygous carriers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-crosses",
+      "unit": "inheritance",
+      "title": "Constructing Punnett squares",
+      "spec": "4.6.1.6 (HT)",
+      "paper": [
+        2
+      ],
+      "tier": "higher",
+      "separate": false,
+      "summary": "An Aa parent forms gametes carrying A or a, not both.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>An Aa parent forms gametes carrying A or a, not both. Combine one gamete from each parent in a grid. Aa × Aa gives AA, Aa, Aa and aa, each cell equally likely in the simple model.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Probability is not a fixed family outcome. A 25% risk does not guarantee one affected child in every four. Independent births retain the same probability regardless of previous births; expected number equals probability multiplied by sample size.</p>"
+        }
+      ],
+      "keypoints": [
+        "An Aa parent forms gametes carrying A or a, not both.",
+        "Probability is not a fixed family outcome."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Aa × Aa: expected percentage aa?",
+          "a": 25,
+          "unit": "%",
+          "tol": 0.005,
+          "why": "One of four combinations is aa."
+        },
+        {
+          "q": "Risk is 0.25 among 80 offspring. Expected affected number?",
+          "a": 20,
+          "unit": "",
+          "tol": 0.005,
+          "why": "0.25 × 80 = 20."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Construct outcomes for Aa × aa and state the recessive phenotype percentage.",
+          "m": 3,
+          "ms": [
+            "Gametes are A/a and a.",
+            "Offspring are Aa and aa in equal proportions.",
+            "The expected recessive phenotype percentage is 50%."
+          ]
+        }
+      ],
+      "sim": "genetics"
+    },
+    {
+      "id": "b-selection",
+      "unit": "inheritance",
+      "title": "Variation, natural selection and selective breeding",
+      "spec": "4.6.2.1–4.6.2.3",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Variation can be genetic, environmental or both.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Variation can be genetic, environmental or both. Mutations create new variants and sexual reproduction reshuffles information. Inherited variants improving survival and reproduction can become more frequent over generations through natural selection. Individuals do not deliberately evolve because they need to.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Selective breeding chooses parents with desired traits, breeds them, selects suitable offspring and repeats. It can improve yield but reduce genetic diversity and increase inherited defects through inbreeding. Distinguish human choice of parents from environmental selection.</p>"
+        }
+      ],
+      "keypoints": [
+        "Variation can be genetic, environmental or both.",
+        "Selective breeding chooses parents with desired traits, breeds them, selects suitable offspring and repeats."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "New genetic variants originate through…",
+          "opts": [
+            "A need automatically changing genes",
+            "Mutation",
+            "An organism deciding to change"
+          ],
+          "a": 1,
+          "why": "Mutation"
+        },
+        {
+          "q": "A risk of inbreeding is…",
+          "opts": [
+            "No shared alleles",
+            "More inherited defects and reduced diversity",
+            "Guaranteed immunity"
+          ],
+          "a": 1,
+          "why": "More inherited defects and reduced diversity"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how drought resistance becomes more common in a wild plant population.",
+          "m": 3,
+          "ms": [
+            "Plants vary genetically in drought resistance.",
+            "More resistant plants survive and reproduce more successfully.",
+            "Resistance alleles pass to offspring and increase in frequency."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-engineering",
+      "unit": "inheritance",
+      "title": "Genetic engineering: benefits and risks",
+      "spec": "4.6.2.4",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Genetic engineering introduces a gene to produce a desired characteristic.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Genetic engineering introduces a gene to produce a desired characteristic. Modified bacteria can produce human insulin; crops can resist pests or herbicides. This differs from selective breeding, which selects parents carrying existing traits.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Pest resistance may reduce crop loss and some insecticide use. Evaluate non-target effects, gene movement to wild relatives and economic implications. Distinguish a possible concern from demonstrated harm and assess the specific modification using comparative evidence.</p>"
+        }
+      ],
+      "keypoints": [
+        "Genetic engineering introduces a gene to produce a desired characteristic.",
+        "Pest resistance may reduce crop loss and some insecticide use."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which is genetic engineering?",
+          "opts": [
+            "Choosing high-yield parents only",
+            "Water entering roots",
+            "Giving bacteria a human insulin gene"
+          ],
+          "a": 2,
+          "why": "Giving bacteria a human insulin gene"
+        },
+        {
+          "q": "Why can pest resistance raise yield?",
+          "opts": [
+            "Plants never need water",
+            "Respiration stops",
+            "Less tissue is lost to pests"
+          ],
+          "a": 2,
+          "why": "Less tissue is lost to pests"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Evaluate planting a pest-resistant crop near a wildflower habitat.",
+          "m": 3,
+          "ms": [
+            "Reduced pest loss or insecticide use may improve yield.",
+            "Possible non-target effects or gene transfer should be investigated.",
+            "A judgement should use evidence specific to the crop and habitat."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-engineering-steps",
+      "unit": "inheritance",
+      "title": "Transferring genes using vectors",
+      "spec": "4.6.2.4 (HT)",
+      "paper": [
+        2
+      ],
+      "tier": "higher",
+      "separate": false,
+      "summary": "Enzymes isolate a desired gene, which is inserted into a vector such as a plasmid or virus.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Enzymes isolate a desired gene, which is inserted into a vector such as a plasmid or virus. The vector transfers it into recipient cells. Modifying plant or animal cells early in development allows the organism to develop with the characteristic.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>The gene encodes the desired protein while the vector carries it. Not all recipient cells necessarily acquire or express the gene; successful modified cells are selected and grown. Distinguish donor organism, isolated gene, vector and recipient in an explanation.</p>"
+        }
+      ],
+      "keypoints": [
+        "Enzymes isolate a desired gene, which is inserted into a vector such as a plasmid or virus.",
+        "The gene encodes the desired protein while the vector carries it."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "A vector…",
+          "opts": [
+            "Carries a gene into a recipient cell",
+            "Provides all energy",
+            "Destroys every gene"
+          ],
+          "a": 0,
+          "why": "Carries a gene into a recipient cell"
+        },
+        {
+          "q": "Genes are isolated using…",
+          "opts": [
+            "Enzymes",
+            "Quadrats",
+            "Only a ruler"
+          ],
+          "a": 0,
+          "why": "Enzymes"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Describe genetic engineering to produce a human protein in bacteria.",
+          "m": 3,
+          "ms": [
+            "Use enzymes to isolate the human gene.",
+            "Insert it into a vector such as a plasmid.",
+            "Transfer it into bacterial cells and grow suitable modified cells."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-cloning",
+      "unit": "inheritance",
+      "title": "Cloning plants and animals",
+      "spec": "4.6.2.5",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": true,
+      "summary": "Cuttings and sterile tissue culture reproduce useful plant genotypes.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Cuttings and sterile tissue culture reproduce useful plant genotypes. They can rapidly produce many plants, but low diversity creates shared vulnerability. Embryo transplants split early unspecialised embryo cells before implantation into host mothers.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Adult-cell cloning replaces an egg nucleus with an adult body-cell nucleus, stimulates development and implants the embryo. Nuclear DNA matches the body-cell donor. Consider low success, animal welfare and conservation potential rather than describing cloning as risk-free.</p>"
+        }
+      ],
+      "keypoints": [
+        "Cuttings and sterile tissue culture reproduce useful plant genotypes.",
+        "Adult-cell cloning replaces an egg nucleus with an adult body-cell nucleus, stimulates development and implants the embryo."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which uses small plant cell groups in sterile medium?",
+          "opts": [
+            "Meiosis",
+            "Tissue culture",
+            "Pollination"
+          ],
+          "a": 1,
+          "why": "Tissue culture"
+        },
+        {
+          "q": "A clone’s nuclear DNA matches…",
+          "opts": [
+            "All donors equally",
+            "The body-cell nucleus donor",
+            "The host automatically"
+          ],
+          "a": 1,
+          "why": "The body-cell nucleus donor"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain one benefit and two risks of growing cloned crops.",
+          "m": 3,
+          "ms": [
+            "They retain a desired parental genotype / trait.",
+            "Low genetic diversity can leave the crop vulnerable to the same pathogen.",
+            "The same environmental change may affect many genetically similar plants."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-history",
+      "unit": "inheritance",
+      "title": "Darwin, Wallace, Mendel and speciation",
+      "spec": "4.6.3.1–4.6.3.3",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": true,
+      "summary": "Darwin and Wallace independently developed natural selection.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Darwin and Wallace independently developed natural selection. Acceptance was slowed by limited evidence, religious beliefs and poor understanding of inheritance. Lamarck proposed inherited acquired characteristics, which does not generally explain genetic evolution. Mendel found inheritance patterns through pea crosses before DNA was understood.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Isolation prevents gene flow between populations. Different conditions favour different alleles and mutations add variation. Over generations, populations may diverge until they cannot interbreed to produce fertile offspring. New genetic evidence can revise scientific explanations.</p>"
+        }
+      ],
+      "keypoints": [
+        "Darwin and Wallace independently developed natural selection.",
+        "Isolation prevents gene flow between populations."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "What limited early acceptance of Darwin’s explanation?",
+          "opts": [
+            "No variation existed",
+            "All fossils were living",
+            "Inheritance mechanisms were unknown"
+          ],
+          "a": 2,
+          "why": "Inheritance mechanisms were unknown"
+        },
+        {
+          "q": "Species are separated in the usual reproductive model when…",
+          "opts": [
+            "They live one kilometre apart",
+            "They differ slightly in height",
+            "They cannot interbreed to produce fertile offspring"
+          ],
+          "a": 2,
+          "why": "They cannot interbreed to produce fertile offspring"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain speciation following geographical isolation.",
+          "m": 3,
+          "ms": [
+            "A barrier separates populations and prevents gene flow.",
+            "Different selection pressures favour different alleles.",
+            "Accumulated differences prevent interbreeding to produce fertile offspring."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-evidence",
+      "unit": "inheritance",
+      "title": "Fossils, extinction and resistance",
+      "spec": "4.6.3 (shared content)",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Fossils form from preserved remains, mineral replacement or traces such as footprints.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Fossils form from preserved remains, mineral replacement or traces such as footprints. The record is incomplete because soft organisms decay, fossilisation is unusual and rocks can be destroyed. Extinction can follow habitat change, new predators, disease or catastrophic events.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Random variants can give antibiotic resistance. Antibiotics kill susceptible bacteria, leaving resistant survivors to reproduce. Treatment selects existing variants rather than making bacteria choose to adapt. Appropriate prescribing and infection prevention help reduce selection and transmission.</p>"
+        }
+      ],
+      "keypoints": [
+        "Fossils form from preserved remains, mineral replacement or traces such as footprints.",
+        "Random variants can give antibiotic resistance."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Why is the fossil record incomplete?",
+          "opts": [
+            "Many organisms decayed without fossilising",
+            "Every organism fossilises",
+            "Rocks only preserve living cells"
+          ],
+          "a": 0,
+          "why": "Many organisms decayed without fossilising"
+        },
+        {
+          "q": "A resistant survivor may…",
+          "opts": [
+            "Reproduce and pass resistance on",
+            "Lose all DNA",
+            "Become a virus"
+          ],
+          "a": 0,
+          "why": "Reproduce and pass resistance on"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain rising resistance during repeated antibiotic exposure.",
+          "m": 3,
+          "ms": [
+            "Random variation / mutation gives some bacteria resistance.",
+            "Susceptible bacteria are killed while resistant bacteria survive.",
+            "Survivors reproduce and pass on resistance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-classification",
+      "unit": "inheritance",
+      "title": "Classification and evolutionary trees",
+      "spec": "4.6.4",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "The hierarchy is kingdom, phylum, class, order, family, genus and species.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>The hierarchy is kingdom, phylum, class, order, family, genus and species. Binomial names combine genus and species. Trees represent proposed common ancestry; organisms sharing a more recent common ancestor are more closely related.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Molecular and improved microscopic evidence led to Bacteria, Archaea and Eukaryota as domains. Similar appearance need not imply close relationship. Read a tree through its branching points rather than the physical distance between printed names.</p>"
+        }
+      ],
+      "keypoints": [
+        "The hierarchy is kingdom, phylum, class, order, family, genus and species.",
+        "Molecular and improved microscopic evidence led to Bacteria, Archaea and Eukaryota as domains."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which is broadest?",
+          "opts": [
+            "Species",
+            "Kingdom",
+            "Genus"
+          ],
+          "a": 1,
+          "why": "Kingdom"
+        },
+        {
+          "q": "Which shows closest relationship?",
+          "opts": [
+            "The longest names",
+            "The most recent common ancestor",
+            "Names printed side by side"
+          ],
+          "a": 1,
+          "why": "The most recent common ancestor"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why DNA evidence can change classification.",
+          "m": 3,
+          "ms": [
+            "It reveals genetic similarities and differences.",
+            "These indicate evolutionary relationships not obvious from appearance.",
+            "Classification can be revised to reflect common ancestry."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-community",
+      "unit": "ecology",
+      "title": "Communities and environmental factors",
+      "spec": "4.7.1.1–4.7.1.3",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "A population is one species in an area; a community includes all populations; an ecosystem includes the non-living environment.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>A population is one species in an area; a community includes all populations; an ecosystem includes the non-living environment. Plants compete for light, water, minerals and space; animals for food, mates and territory. Interdependence links species through feeding, pollination and shelter.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Biotic factors include predators, pathogens and competitors. Abiotic factors include temperature, light, oxygen, water and pH. Changing one factor may affect many populations. Stability means relatively balanced populations, not numbers that never vary.</p>"
+        }
+      ],
+      "keypoints": [
+        "A population is one species in an area; a community includes all populations; an ecosystem includes the non-living environment.",
+        "Biotic factors include predators, pathogens and competitors."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which is abiotic?",
+          "opts": [
+            "Predator abundance",
+            "A pathogen",
+            "Soil pH"
+          ],
+          "a": 2,
+          "why": "Soil pH"
+        },
+        {
+          "q": "Which is a population?",
+          "opts": [
+            "Every meadow species",
+            "Soil plus all organisms",
+            "All rabbits in a meadow"
+          ],
+          "a": 2,
+          "why": "All rabbits in a meadow"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain possible effects of introducing a predator to a meadow.",
+          "m": 3,
+          "ms": [
+            "It can reduce prey abundance.",
+            "Changes in prey affect their food organisms or competitors.",
+            "Interdependence can cause further community changes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-adaptation",
+      "unit": "ecology",
+      "title": "Adaptations and extremophiles",
+      "spec": "4.7.1.4",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Adaptations can be structural, behavioural or functional.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Adaptations can be structural, behavioural or functional. Link a feature to its environmental challenge and survival benefit. Thick insulation conserves thermal energy; nocturnal activity can avoid daytime heat. Individuals do not acquire inherited adaptations simply because they need them.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Extremophiles inhabit conditions such as high heat, pressure or salinity. Desert plants may have waxy cuticles, reduced leaves and water stores. Trade-offs matter: reducing leaf area conserves water but can reduce light capture. Different adaptations may solve the same problem.</p>"
+        }
+      ],
+      "keypoints": [
+        "Adaptations can be structural, behavioural or functional.",
+        "Extremophiles inhabit conditions such as high heat, pressure or salinity."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which is behavioural?",
+          "opts": [
+            "Nocturnal activity",
+            "A waxy cuticle",
+            "A long root"
+          ],
+          "a": 0,
+          "why": "Nocturnal activity"
+        },
+        {
+          "q": "Why may desert leaves be small?",
+          "opts": [
+            "To reduce water loss area",
+            "To stop respiration",
+            "To absorb sunlight as water"
+          ],
+          "a": 0,
+          "why": "To reduce water loss area"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how a thick cuticle and extensive roots benefit a desert plant.",
+          "m": 3,
+          "ms": [
+            "Cuticle reduces evaporation from leaves.",
+            "Extensive roots access a larger soil volume or deeper water.",
+            "Together they help maintain water supply in dry conditions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-foodchains",
+      "unit": "ecology",
+      "title": "Food chains and predator–prey cycles",
+      "spec": "4.7.2.1",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Producers make biomass, usually by photosynthesis.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Producers make biomass, usually by photosynthesis. Primary consumers eat producers and secondary consumers eat primary consumers. Arrows show biomass movement from food to feeder. Food webs represent several linked feeding relationships.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>More prey can support predator reproduction; more predators can reduce prey, after which predators may decline through food shortage. Changes lag rather than occurring instantly. Weather, disease and competition also influence real populations, so simple cycles are models.</p>"
+        }
+      ],
+      "keypoints": [
+        "Producers make biomass, usually by photosynthesis.",
+        "More prey can support predator reproduction; more predators can reduce prey, after which predators may decline through food shortage."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Grass → rabbit → fox: the rabbit is…",
+          "opts": [
+            "A tertiary consumer",
+            "A primary consumer",
+            "A producer"
+          ],
+          "a": 1,
+          "why": "A primary consumer"
+        },
+        {
+          "q": "Why can predator peaks follow prey peaks?",
+          "opts": [
+            "Axes always run backwards",
+            "Extra prey first supports predator survival and reproduction",
+            "Predators photosynthesise"
+          ],
+          "a": 1,
+          "why": "Extra prey first supports predator survival and reproduction"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why predator numbers may decline after prey numbers fall.",
+          "m": 3,
+          "ms": [
+            "Less prey means less food.",
+            "Predator survival / reproduction falls.",
+            "Population changes occur after a time delay."
+          ]
+        }
+      ],
+      "sim": "population"
+    },
+    {
+      "id": "b-sampling",
+      "unit": "ecology",
+      "title": "Quadrats, transects and abundance",
+      "spec": "4.7.2.1",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Use random coordinates to avoid choosing favourable quadrat locations.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Use random coordinates to avoid choosing favourable quadrat locations. Count consistently and repeat widely. Mean count divided by quadrat area gives density; density times habitat area estimates population. Uneven distribution makes this an estimate, not an exact census.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>A transect investigates distribution along a gradient. Use quadrats at measured intervals and measure the relevant abiotic factor. Repeat transects and standardise counting rules. A correlation with light does not rule out variation in moisture or soil.</p>"
+        }
+      ],
+      "keypoints": [
+        "Use random coordinates to avoid choosing favourable quadrat locations.",
+        "A transect investigates distribution along a gradient."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Mean count is 6 per 0.25 m². Estimate number in 100 m².",
+          "a": 2400,
+          "unit": "",
+          "tol": 0.005,
+          "why": "6/0.25 × 100 = 2400."
+        },
+        {
+          "q": "Why use random quadrat coordinates?",
+          "opts": [
+            "To force identical counts",
+            "To avoid repeats",
+            "To reduce selection bias"
+          ],
+          "a": 2,
+          "why": "To reduce selection bias"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Describe estimating daisies in a field.",
+          "m": 3,
+          "ms": [
+            "Use random coordinates and a consistent quadrat counting rule.",
+            "Take many samples and calculate mean density for the known quadrat area.",
+            "Multiply density by measured total field area."
+          ]
+        }
+      ],
+      "sim": "sampling",
+      "practical": {
+        "title": "Required practical 9 · Population size and distribution",
+        "method": [
+          "Measure habitat area and use random coordinates for abundance quadrats.",
+          "Count a selected species consistently across many quadrats.",
+          "For distribution, place quadrats along repeated transects and measure a relevant abiotic factor."
+        ],
+        "variables": [
+          "Keep quadrat dimensions and counting rules constant.",
+          "Record environmental measurements alongside abundance.",
+          "Repeat across habitat areas or transects."
+        ],
+        "safety": [
+          "Check terrain, weather and site-access risks.",
+          "Avoid disturbing wildlife and wash hands after fieldwork."
+        ],
+        "analysis": "Mean count ÷ quadrat area estimates density; multiply by total area for population. Transects test gradients and do not replace random sampling for unbiased whole-area estimates."
+      }
+    },
+    {
+      "id": "b-cycles",
+      "unit": "ecology",
+      "title": "Carbon and water cycles",
+      "spec": "4.7.2.2",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Photosynthesis incorporates atmospheric carbon into biomass; feeding passes it between organisms.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Photosynthesis incorporates atmospheric carbon into biomass; feeding passes it between organisms. Respiration by plants, animals and decomposers returns carbon dioxide. Decomposition returns mineral ions to soil; combustion releases stored carbon dioxide. Matter is recycled rather than created.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Evaporation and transpiration transfer water to air, condensation forms clouds and precipitation returns it. Runoff and soil movement return water to rivers and oceans. Materials cycle, whereas energy eventually dissipates to surroundings and is not recycled in the same way.</p>"
+        }
+      ],
+      "keypoints": [
+        "Photosynthesis incorporates atmospheric carbon into biomass; feeding passes it between organisms.",
+        "Evaporation and transpiration transfer water to air, condensation forms clouds and precipitation returns it."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which removes atmospheric carbon dioxide?",
+          "opts": [
+            "Photosynthesis",
+            "Combustion",
+            "Respiration"
+          ],
+          "a": 0,
+          "why": "Photosynthesis"
+        },
+        {
+          "q": "Decomposers return to soil…",
+          "opts": [
+            "Mineral ions",
+            "Sunlight",
+            "Newly created atoms"
+          ],
+          "a": 0,
+          "why": "Mineral ions"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how carbon in a dead leaf can enter a growing plant.",
+          "m": 3,
+          "ms": [
+            "Decomposers break down the leaf and respire.",
+            "Respiration releases carbon dioxide to the air.",
+            "A plant absorbs and fixes that carbon in photosynthesis."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-biodiversity",
+      "unit": "ecology",
+      "title": "Biodiversity, pollution and land use",
+      "spec": "4.7.3.1–4.7.3.4",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Biodiversity is the variety of species.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Biodiversity is the variety of species. It supports stable food webs and resources such as food and potential medicines. Human population growth and consumption increase waste, including sewage, fertilisers, toxic chemicals, smoke and acidic gases.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Farming, building, quarrying and waste disposal can destroy habitats. Deforestation reduces habitats and releases carbon through burning or decay. Peat stores partly decomposed carbon; draining or extracting it damages habitats and releases carbon dioxide. Explain both ecological effects and the demands driving land use.</p>"
+        }
+      ],
+      "keypoints": [
+        "Biodiversity is the variety of species.",
+        "Farming, building, quarrying and waste disposal can destroy habitats."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Biodiversity means…",
+          "opts": [
+            "Amount of rainfall",
+            "Variety of species",
+            "Count of only one species"
+          ],
+          "a": 1,
+          "why": "Variety of species"
+        },
+        {
+          "q": "Why can peat extraction increase carbon dioxide?",
+          "opts": [
+            "It stops every organism respiring",
+            "Stored carbon is released during decay or burning",
+            "Peat contains no carbon"
+          ],
+          "a": 1,
+          "why": "Stored carbon is released during decay or burning"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain environmental effects of draining a peat bog.",
+          "m": 3,
+          "ms": [
+            "Habitat destruction can reduce biodiversity.",
+            "Exposed peat decomposes or burns, releasing carbon dioxide.",
+            "Added carbon dioxide contributes to the enhanced greenhouse effect."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-conservation",
+      "unit": "ecology",
+      "title": "Climate and maintaining biodiversity",
+      "spec": "4.7.3.5–4.7.3.6",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": false,
+      "summary": "Increasing greenhouse gases contribute to higher global temperature.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Increasing greenhouse gases contribute to higher global temperature. Changing climate can alter distribution, migration and food availability and increase extinction risk. Distinguish long-term trends from daily weather, and consider uncertainty and time span when interpreting evidence.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Breeding programmes, protected habitats, restoration, hedgerows and field margins can support biodiversity. Reducing deforestation, emissions and waste can reduce damage. Compare ecological benefits with cost, housing or food-production needs to make a reasoned judgement.</p>"
+        }
+      ],
+      "keypoints": [
+        "Increasing greenhouse gases contribute to higher global temperature.",
+        "Breeding programmes, protected habitats, restoration, hedgerows and field margins can support biodiversity."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which supports habitat connectivity?",
+          "opts": [
+            "Removing every field margin",
+            "Draining ponds",
+            "Restoring hedgerows"
+          ],
+          "a": 2,
+          "why": "Restoring hedgerows"
+        },
+        {
+          "q": "Why does one cold day not disprove warming?",
+          "opts": [
+            "Temperature cannot be measured",
+            "All thermometers fail",
+            "Weather varies while climate uses long-term data"
+          ],
+          "a": 2,
+          "why": "Weather varies while climate uses long-term data"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Evaluate restoring wetland on agricultural land.",
+          "m": 3,
+          "ms": [
+            "It can restore habitats and biodiversity / carbon storage.",
+            "It may reduce agricultural land or income.",
+            "A judgement should weigh local ecological benefit against food and cost implications."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-decay",
+      "unit": "ecology",
+      "title": "Decomposition, compost and biogas",
+      "spec": "4.7.2.3",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": true,
+      "summary": "Decomposer activity depends on moisture, oxygen and temperature.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Decomposer activity depends on moisture, oxygen and temperature. Warming increases enzyme activity up to an optimum; excessive heat denatures enzymes. Aerating compost supports aerobic decomposition, returning useful nutrients to soil.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Milk decay can be followed through falling pH as microorganisms produce acids. Compare time for a defined change at controlled temperatures. Anaerobic decay in biogas generators produces methane fuel. A pH-change rate is a proxy, not a direct bacterial count.</p>"
+        }
+      ],
+      "keypoints": [
+        "Decomposer activity depends on moisture, oxygen and temperature.",
+        "Milk decay can be followed through falling pH as microorganisms produce acids."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "A fixed pH change takes 40 min. Calculate 1/time.",
+          "a": 0.025,
+          "unit": "min⁻¹",
+          "tol": 0.005,
+          "why": "1/40 = 0.025."
+        },
+        {
+          "q": "Why turn compost?",
+          "opts": [
+            "To improve oxygen availability",
+            "To remove every decomposer",
+            "To prevent gas exchange"
+          ],
+          "a": 0,
+          "why": "To improve oxygen availability"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Why can decay be slow in both cold and very hot conditions?",
+          "m": 3,
+          "ms": [
+            "Cold reduces enzyme-controlled reaction rates.",
+            "Very high heat denatures enzymes / kills decomposers.",
+            "Both reduce microbial breakdown of biological material."
+          ]
+        }
+      ],
+      "practical": {
+        "title": "Required practical 10 · Temperature and milk decay",
+        "method": [
+          "Use the teacher-approved milk preparation with a suitable pH measurement method.",
+          "Hold samples at controlled temperatures and measure pH at regular intervals or time to a fixed pH change.",
+          "Repeat at each temperature with equal starting conditions."
+        ],
+        "variables": [
+          "Independent: temperature.",
+          "Dependent: pH-change rate or reciprocal endpoint time.",
+          "Control milk composition, volume, starting pH and microorganism source."
+        ],
+        "safety": [
+          "Never taste samples; avoid contact with cultures.",
+          "Follow school biological-waste disposal and hot-water-bath procedures."
+        ],
+        "analysis": "Compare means and uncertainty. Acid production causes the pH fall; this is a proxy for decay, not a direct count of all microorganisms."
+      }
+    },
+    {
+      "id": "b-biomass",
+      "unit": "ecology",
+      "title": "Trophic levels and biomass efficiency",
+      "spec": "4.7.4",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": true,
+      "summary": "Producers occupy trophic level 1 followed by primary, secondary and tertiary consumers.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Producers occupy trophic level 1 followed by primary, secondary and tertiary consumers. Biomass pyramids compare dry mass at a stated time. Less biomass reaches higher levels because not all is eaten, some is undigested and respiration releases carbon dioxide.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Efficiency = biomass transferred ÷ biomass available × 100. A transfer of 600 kg from 8000 kg is 7.5%. Energy transfers to surroundings rather than being destroyed. Do not assume every ecosystem has the same efficiency or confuse dry biomass with organism number.</p>"
+        }
+      ],
+      "keypoints": [
+        "Producers occupy trophic level 1 followed by primary, secondary and tertiary consumers.",
+        "Efficiency = biomass transferred ÷ biomass available × 100."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "50 kg transfers from a level with 500 kg. Calculate efficiency.",
+          "a": 10,
+          "unit": "%",
+          "tol": 0.005,
+          "why": "50/500 × 100 = 10%."
+        },
+        {
+          "q": "Which reduces biomass available to the next level?",
+          "opts": [
+            "Predators photosynthesising",
+            "Respiration releasing carbon dioxide",
+            "Every molecule being absorbed"
+          ],
+          "a": 1,
+          "why": "Respiration releasing carbon dioxide"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain decreasing biomass at higher trophic levels.",
+          "m": 3,
+          "ms": [
+            "Some material is not eaten.",
+            "Some eaten material is not digested and is egested.",
+            "Respiration releases carbon dioxide and transfers energy to surroundings."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-foodproduction",
+      "unit": "ecology",
+      "title": "Food security and sustainable production",
+      "spec": "4.7.5",
+      "paper": [
+        2
+      ],
+      "tier": "all",
+      "separate": true,
+      "summary": "Food security means access to sufficient safe nutritious food.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Food security means access to sufficient safe nutritious food. Population growth, climate, pests, disease, conflict and costs influence supply and access. Fishing quotas and suitable net sizes allow populations to reproduce. Increased production alone does not guarantee fair distribution.</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p>Controlled livestock conditions can reduce energy used in movement and warming but raise welfare concerns. Fermenters produce fungal mycoprotein; modified crops may improve nutrition or resistance. Evaluate output, resource use, emissions, welfare and cost rather than assuming a single solution works everywhere.</p>"
+        },
+        {
+          "title": "Mycoprotein and improved nutrition",
+          "html": "<p>Fusarium fungus can grow aerobically on a carbohydrate feed in a fermenter, supplying protein-rich food. Controlled oxygen, temperature and nutrient supply support growth; harvested biomass is processed for food. Genetically modified crops can also improve nutritional content, such as enhanced vitamin precursors, but suitability depends on the dietary problem and local evidence.</p>"
+        }
+      ],
+      "keypoints": [
+        "Food security means access to sufficient safe nutritious food.",
+        "Controlled livestock conditions can reduce energy used in movement and warming but raise welfare concerns."
+      ],
+      "mistakes": [
+        "Explain the biological mechanism as well as naming it.",
+        "Use the conditions and data given; avoid claiming that one observed trend applies in every situation."
+      ],
+      "checks": [
+        {
+          "q": "Which can support sustainable fishing?",
+          "opts": [
+            "Catching every breeding adult",
+            "Always using the smallest mesh",
+            "Suitable catch quotas"
+          ],
+          "a": 2,
+          "why": "Suitable catch quotas"
+        },
+        {
+          "q": "Why can restricted movement increase livestock growth?",
+          "opts": [
+            "Respiration stops",
+            "Food becomes a hormone",
+            "Less energy is used in movement"
+          ],
+          "a": 2,
+          "why": "Less energy is used in movement"
+        }
+      ],
+      "exam": [
+        {
+          "q": "Evaluate intensive indoor livestock production.",
+          "m": 3,
+          "ms": [
+            "Controlled temperature / movement can increase growth efficiency.",
+            "Welfare, disease or resource-use concerns must be considered.",
+            "A justified judgement weighs food yield against costs and alternatives."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "AQA GCSE Biology 8461 specification",
+      "url": "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification"
+    },
+    {
+      "title": "AQA Combined Science Trilogy biology content",
+      "url": "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content"
+    },
+    {
+      "title": "AQA Biology required practicals",
+      "url": "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment"
+    }
+  ]
+}

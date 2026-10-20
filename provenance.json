@@ -1,0 +1,21 @@
+{
+  "framework": {
+    "repository": "prodigyai-app/GCSEChemistry",
+    "source_sha256": "c3e146e562e2ec3e6c709ef23d4319b3139eb4b30b3f981588c61efe39ff5c9f"
+  },
+  "reused_lessons": [],
+  "sources": [
+    {
+      "title": "AQA GCSE Biology 8461 specification",
+      "url": "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification"
+    },
+    {
+      "title": "AQA Combined Science Trilogy biology content",
+      "url": "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content"
+    },
+    {
+      "title": "AQA Biology required practicals",
+      "url": "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment"
+    }
+  ]
+}
