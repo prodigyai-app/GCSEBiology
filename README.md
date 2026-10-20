@@ -2,7 +2,7 @@
 
 AQA 8461. 66 revision lessons, all ten required practicals, and four 100-mark / 105-minute practice papers.
 
-Live site: https://prodigyai-app.github.io/GCSEBiology/
+Live site: https://biologygcse.prodigyai.uk/
 
 ## Edit and check
 
