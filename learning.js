@@ -77,6 +77,7 @@
   if(l.sim)blocks.splice(1,0,simHTML('bio-model-'+l.id,l.sim));
   if(l.example)blocks.push(B.example(l.example.title,l.example.q,l.example.steps));
   if(l.practical)blocks.push(practical(l.practical));
+  const labLinks={"b-microscopy": "bmic", "b-osmosis": "bosm", "b-culture": "bzone", "b-enzymes": "benz", "b-foodtests": "bfood", "b-photo-rate": "bphot", "b-reaction": "breac", "b-tropisms": "bshoot", "b-sampling": "bfield", "b-decay": "bdecaylab"}; if(labLinks[l.id])blocks.push(B.text("Try the practical lab",`<p><a class="btn" href="#${labLinks[l.id]}">Open interactive practical</a></p>`));
   blocks.push(B.check(l.checks),B.keypoints(l.keypoints),B.mistakes(l.mistakes));
   lesson({id:l.id,group:'lessons',num:i+1,lvl:l.spec,name:l.title,icon:'bio',tag:[l.tier==='higher'?'Higher':null,l.separate?'Biology only':null].filter(Boolean).join(' · '),eyebrow:meta.sub+' · '+l.spec,title:l.title,intro:l.summary,outcomes:l.keypoints.slice(0,3).map(k=>[k,l.spec]),blocks});
   if(l.exam?.length)EXAM.attach(l.id,{title:'Apply your understanding',intro:'Write your response, then use each marking point to award your marks. Equivalent scientifically correct wording is acceptable.',qs:qsToExam(l.exam)});
@@ -118,6 +119,8 @@
  units.forEach(u=>LAB.ICONS[u.icon]=ICON);
  if(PAPERS.length)units.push({key:'papers',title:'Practice papers',kind:'Exam practice',sub:meta.id==='gcse-combined'?'Six papers per tier · 70 marks · 75 minutes':'Full papers, timers and printable mark schemes',desc:'Original Prodigy papers with saved answers, a timer and self-marking. These are independent practice resources.',intro:'Choose a paper. Answer the questions, then mark against the scheme. You can print a question paper or a separate mark scheme.',icon:'u-papers',noun:'papers',listLabel:'Practice papers',done,groups:[['papers:foundation','Foundation'],['papers:higher','Higher'],['papers:ocr','OCR A Level']].filter(([g])=>LAB.list.some(x=>x.group===g))});
  LAB.ICONS['u-papers']='<path d="M6 2h9l4 4v16H6zM9 10h7M9 14h7M9 18h5"/>';
+ LAB.ICONS['u-lab']=ICON;
+ if(LAB.list.some(p=>p.group==='rp-bio'))units.push({key:'lab',title:'Practical Lab',kind:'Biology practicals',sub:'Required practicals 1–10',desc:'Set up investigations, record readings, analyse evidence and save your practical review.',intro:'Choose a practical. Recorded evidence and reviews save on this device and use your existing account sync when signed in.',icon:'u-lab',noun:'practicals',listLabel:'Biology practicals',done:L=>L.filter(p=>LabNotebook.completed(p.id)).length,groups:[['rp-bio','Required practicals 1–10']]});
  LAB.list.forEach(p=>{if(!LAB.ICONS[p.icon])LAB.ICONS[p.icon]=p.unit?.startsWith('phys-')?'<path d="M2 12c3-10 7-10 10 0s7 10 10 0"/>':p.unit?.startsWith('chem-')?'<path d="M9 3h6M10 3v6l-6 11h16L14 9V3"/>':ICON;});
  window.HUB_UNITS=units;
  LAB.boot({list:true,units,groups:units.flatMap(u=>u.groups),hubIntro:meta.intro,onRoute:()=>queueMicrotask(filterTier)});LEARN.mark();

@@ -19,3 +19,17 @@ Answers save on input. Final numerical checks do not automatically award all met
 Progress keys are isolated by course, including on GitHub Pages project URLs. The existing Supabase project/config is reused for accounts. Authenticated teacher/class creation requires the existing database to accept the new site IDs (`gcse-biology`, `alevel-biology`, `gcse-combined`); no database schema was changed by this repository. Guest revision and device-local progress work independently of that backend.
 
 Curriculum sources are listed in `course.json` and on the site. `provenance.json` records the reused framework and content sources.
+
+## Practical labs and saved evidence
+
+`lab-notebook.js` preserves recorded practical evidence and reviews under course-scoped
+`learn-<site>-lab-*` keys, which use the existing progress account sync. Apparatus animations
+restart after a reload; completed readings, reconstructed graphs, student conclusions and
+practical review scores remain. Results can be downloaded as CSV. Teacher student details
+show completion, the 2-mark skills check and student-written evaluation. No database schema
+or account permissions are changed. Authenticated sync depends on the existing account/backend
+configuration; local saving works without signing in.
+
+Biology investigations use simplified teaching models with units, controls, safety guidance,
+repeats and uncertainty analysis. They do not replace real practical assessment or certify
+the OCR Practical Endorsement. PAG 12 research activities are outside this update.
