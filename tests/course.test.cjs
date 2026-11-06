@@ -40,6 +40,6 @@ test('Assessment coverage and timing match the course specification',()=>{
  if(id==='gcse-combined'){
   assert.equal(papers.length,12);for(const subject of ['Biology','Chemistry','Physics'])for(const tier of ['Foundation','Higher'])for(const paper of [1,2]){const p=papers.find(p=>p.subject===subject&&p.tier===tier&&p.paper===paper);assert.ok(p);assert.equal(p.marks,70);assert.equal(p.minutes,75);}
   assert.ok(course.lessons.every(l=>!l.separate));const imports=read('imports.json');assert.ok(!imports.phys.includes('fo12'));assert.ok(!imports.phys.includes('pm5'));assert.ok(!imports.chem.includes('at9'));assert.ok(!imports.chem.includes('qc6'));
- }else if(id==='gcse-biology'){assert.equal(course.units.length,7);assert.equal(papers.length,4);for(const p of papers){assert.equal(p.marks,100);assert.equal(p.minutes,105);}}
+ }else if(id==='gcse-biology'){assert.equal(course.units.length,7);assert.equal(papers.length,8);for(const p of papers){assert.equal(p.marks,100);assert.equal(p.minutes,105);}}
  else{assert.equal(course.units.length,6);assert.deepEqual(papers.map(p=>[p.marks,p.minutes]),[[100,135],[100,135],[70,90]]);assert.ok(course.lessons.some(l=>l.title.toLowerCase().includes('endorsement'))||JSON.stringify(course).includes('Practical Endorsement'));}
 });

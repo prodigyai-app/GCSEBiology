@@ -1,6 +1,6 @@
 # Prodigy GCSE Biology
 
-AQA 8461. 66 revision lessons, all ten required practicals, and four 100-mark / 105-minute practice papers.
+AQA 8461. 66 revision lessons (each with a worked example, six quick checks and three exam-style questions), seven unit review and exam-practice lessons, all ten required practicals, and eight 100-mark / 105-minute practice papers (two sets).
 
 Live site: https://biologygcse.prodigyai.uk/
 

@@ -1750,5 +1750,1904 @@
         ]
       }
     ]
+  },
+  {
+    "id": "separate-biology-1-foundation-set2",
+    "title": "Biology Paper 1 — Foundation · Practice set 2",
+    "subject": "Biology",
+    "paper": 1,
+    "tier": "Foundation",
+    "minutes": 105,
+    "marks": 100,
+    "coverage": [
+      "Cell biology",
+      "Organisation",
+      "Infection and response",
+      "Bioenergetics",
+      "Separate Biology content"
+    ],
+    "questions": [
+      {
+        "title": "Cells under the microscope",
+        "topic": "Cell biology",
+        "stem": "<p>A student looks at cheek cells and a bacterium using images from a microscope.</p>",
+        "parts": [
+          {
+            "q": "Name the part of a cheek cell where most aerobic respiration happens.",
+            "m": 1,
+            "ms": [
+              "Mitochondria/mitochondrion (1)."
+            ]
+          },
+          {
+            "q": "Give two structures found in a bacterial cell that are not found in a cheek cell.",
+            "m": 2,
+            "ms": [
+              "Cell wall (1).",
+              "Plasmid / loop of DNA / flagellum (1)."
+            ]
+          },
+          {
+            "q": "The image of a cheek cell is 30 mm wide. The real cell is 0.06 mm wide. Calculate the magnification.",
+            "m": 2,
+            "ms": [
+              "30 ÷ 0.06 (1).",
+              "× 500 (1)."
+            ],
+            "answer": 500,
+            "unit": "times"
+          },
+          {
+            "q": "Explain why an electron microscope shows more detail than a light microscope.",
+            "m": 2,
+            "ms": [
+              "Electron microscope has a higher resolution (1).",
+              "So can distinguish between two points closer together / see smaller structures such as ribosomes (1)."
+            ]
+          },
+          {
+            "q": "A student says \"Bacteria are bigger than animal cells.\" Use data to explain whether the student is correct. Typical bacterium: 2 μm. Typical cheek cell: 60 μm.",
+            "m": 3,
+            "ms": [
+              "Student is incorrect (1).",
+              "Cheek cell is 60 ÷ 2 = 30 times bigger (1).",
+              "About one order of magnitude larger (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cell division in a root tip",
+        "topic": "Cell biology",
+        "stem": "<p>Cells in a root tip divide by mitosis.</p>",
+        "parts": [
+          {
+            "q": "Give one reason why cells divide by mitosis.",
+            "m": 1,
+            "ms": [
+              "Growth / repair / replacement of cells (1)."
+            ]
+          },
+          {
+            "q": "Describe what happens to the DNA before mitosis.",
+            "m": 1,
+            "ms": [
+              "It is copied / replicated (1)."
+            ]
+          },
+          {
+            "q": "A root tip cell has 16 chromosomes. How many chromosomes does each daughter cell have after mitosis?",
+            "m": 1,
+            "ms": [
+              "16 (1)."
+            ],
+            "answer": 16,
+            "unit": "chromosomes"
+          },
+          {
+            "q": "One cell divides by mitosis 4 times. Calculate how many cells are produced.",
+            "m": 2,
+            "ms": [
+              "2⁴ (1).",
+              "16 cells (1)."
+            ],
+            "answer": 16,
+            "unit": "cells"
+          },
+          {
+            "q": "Plant meristem cells are stem cells. Give two ways meristem cells can be used.",
+            "m": 2,
+            "ms": [
+              "Produce clones of plants quickly and cheaply (1).",
+              "Save rare species from extinction / produce crops with special features such as disease resistance (1)."
+            ]
+          },
+          {
+            "q": "Explain why using embryonic stem cells in medicine is controversial.",
+            "m": 3,
+            "ms": [
+              "Embryos are destroyed (1).",
+              "Some people believe embryos have a right to life / religious objections (1).",
+              "Risk of viral infection/tumours from stem cells (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Digesting a meal",
+        "topic": "Organisation",
+        "stem": "<p>A meal contains bread (starch), cheese (protein and fat) and an apple (sugar).</p>",
+        "parts": [
+          {
+            "q": "Name the enzyme that digests starch.",
+            "m": 1,
+            "ms": [
+              "Amylase / carbohydrase (1)."
+            ]
+          },
+          {
+            "q": "Name the products of fat digestion.",
+            "m": 2,
+            "ms": [
+              "Fatty acids (1).",
+              "Glycerol (1)."
+            ]
+          },
+          {
+            "q": "Name the organ that produces bile.",
+            "m": 1,
+            "ms": [
+              "Liver (1)."
+            ]
+          },
+          {
+            "q": "Describe how to test the bread for starch and give the positive result.",
+            "m": 2,
+            "ms": [
+              "Add iodine solution (1).",
+              "Turns blue-black (1)."
+            ]
+          },
+          {
+            "q": "Explain why enzymes in the small intestine work best at a slightly alkaline pH, and how this pH is produced.",
+            "m": 4,
+            "ms": [
+              "Each enzyme has an optimum pH (1).",
+              "At other pH the active site changes shape / enzyme denatures (1).",
+              "Bile is alkaline (1).",
+              "Bile neutralises hydrochloric acid from the stomach (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "The heart and exercise",
+        "topic": "Organisation",
+        "stem": "<p>An athlete has a resting heart rate of 60 beats per minute and a stroke volume of 90 cm³.</p>",
+        "parts": [
+          {
+            "q": "Calculate the athlete’s resting cardiac output in cm³ per minute.",
+            "m": 2,
+            "ms": [
+              "60 × 90 (1).",
+              "5400 cm³/min (1)."
+            ],
+            "answer": 5400,
+            "unit": "cm³/min"
+          },
+          {
+            "q": "Name the blood vessel that carries blood from the left ventricle.",
+            "m": 1,
+            "ms": [
+              "Aorta (1)."
+            ]
+          },
+          {
+            "q": "Name the part of the heart that controls the natural resting heart rate.",
+            "m": 1,
+            "ms": [
+              "Pacemaker (cells in the right atrium) (1)."
+            ]
+          },
+          {
+            "q": "Give two ways the structure of a vein is different from an artery.",
+            "m": 2,
+            "ms": [
+              "Veins have thinner walls / less muscle (1).",
+              "Veins have valves / wider lumen (1)."
+            ]
+          },
+          {
+            "q": "Explain how the alveoli are adapted for gas exchange.",
+            "m": 4,
+            "ms": [
+              "Large surface area (1).",
+              "Thin walls / one cell thick, short diffusion distance (1).",
+              "Good blood supply / many capillaries (1).",
+              "Maintain a steep concentration gradient / ventilation (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Measles and vaccination",
+        "topic": "Infection and response",
+        "stem": "<p>Measles is a disease caused by a virus.</p>",
+        "parts": [
+          {
+            "q": "Give two symptoms of measles.",
+            "m": 2,
+            "ms": [
+              "Fever (1).",
+              "Red skin rash (1)."
+            ]
+          },
+          {
+            "q": "Explain why measles cannot be treated with antibiotics.",
+            "m": 1,
+            "ms": [
+              "Antibiotics do not kill viruses (1)."
+            ]
+          },
+          {
+            "q": "Describe how measles is spread.",
+            "m": 1,
+            "ms": [
+              "By inhalation of droplets from sneezes and coughs (1)."
+            ]
+          },
+          {
+            "q": "Explain how vaccination prevents a child from becoming ill with measles.",
+            "m": 6,
+            "ms": [
+              "Vaccine contains dead/inactive measles virus or antigens (1).",
+              "White blood cells/lymphocytes are stimulated (1).",
+              "Specific antibodies are produced (1).",
+              "Memory cells remain in the blood (1).",
+              "On later infection, antibodies made quickly and in large amounts (1).",
+              "Virus destroyed before the child becomes ill (1)."
+            ],
+            "note": "Award one mark for each distinct valid linked point, maximum 6."
+          }
+        ]
+      },
+      {
+        "title": "Photosynthesis in a leaf",
+        "topic": "Bioenergetics",
+        "stem": "<p>Photosynthesis takes place in the leaves of plants.</p>",
+        "parts": [
+          {
+            "q": "Complete the word equation: carbon dioxide + water → ______ + ______.",
+            "m": 2,
+            "ms": [
+              "Glucose (1).",
+              "Oxygen (1)."
+            ]
+          },
+          {
+            "q": "Name the green substance that absorbs light.",
+            "m": 1,
+            "ms": [
+              "Chlorophyll (1)."
+            ]
+          },
+          {
+            "q": "Give two ways a plant uses the glucose it makes.",
+            "m": 2,
+            "ms": [
+              "Respiration (1).",
+              "Making starch / cellulose / fats or oils / amino acids and proteins (1)."
+            ]
+          },
+          {
+            "q": "A student finds the rate of photosynthesis increases as light intensity increases, up to a point, then stays the same. Explain why the rate stops increasing.",
+            "m": 2,
+            "ms": [
+              "Another factor becomes limiting (1).",
+              "Such as carbon dioxide concentration or temperature (1)."
+            ]
+          },
+          {
+            "q": "Explain why a farmer might heat a greenhouse in winter.",
+            "m": 3,
+            "ms": [
+              "Photosynthesis is controlled by enzymes (1).",
+              "Low temperature slows enzyme activity / temperature is limiting (1).",
+              "Heating increases rate of photosynthesis, so faster growth/bigger yield (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Yeast and bread",
+        "topic": "Bioenergetics",
+        "stem": "<p>Bakers use yeast to make bread rise.</p>",
+        "parts": [
+          {
+            "q": "Name the type of respiration yeast carries out without oxygen.",
+            "m": 1,
+            "ms": [
+              "Anaerobic respiration / fermentation (1)."
+            ]
+          },
+          {
+            "q": "Complete the word equation: glucose → ______ + carbon dioxide.",
+            "m": 1,
+            "ms": [
+              "Ethanol (1)."
+            ]
+          },
+          {
+            "q": "Explain why the bread rises.",
+            "m": 2,
+            "ms": [
+              "Carbon dioxide gas is produced (1).",
+              "Gas bubbles get trapped in the dough (1)."
+            ]
+          },
+          {
+            "q": "A student measured the gas produced by yeast at different temperatures: 20 °C: 8 cm³; 30 °C: 22 cm³; 40 °C: 35 cm³; 60 °C: 2 cm³. All in 10 minutes. Calculate the mean rate at 40 °C in cm³ per minute.",
+            "m": 2,
+            "ms": [
+              "35 ÷ 10 (1).",
+              "3.5 cm³/min (1)."
+            ],
+            "answer": 3.5,
+            "unit": "cm³/min"
+          },
+          {
+            "q": "Explain the result at 60 °C.",
+            "m": 2,
+            "ms": [
+              "Enzymes in the yeast are denatured (1).",
+              "Active site changes shape so respiration almost stops (1)."
+            ]
+          },
+          {
+            "q": "Give two variables the student should control.",
+            "m": 2,
+            "ms": [
+              "Mass/concentration of yeast (1).",
+              "Concentration/volume of sugar solution / pH (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bacteria on agar",
+        "topic": "Culturing microorganisms",
+        "stem": "<p>A student grows bacteria on an agar plate in a school laboratory.</p>",
+        "parts": [
+          {
+            "q": "Give two steps the student should take to prevent contamination of the culture.",
+            "m": 2,
+            "ms": [
+              "Sterilise inoculating loop in a flame (1).",
+              "Lift the lid only slightly / sterilised Petri dishes and agar (1)."
+            ]
+          },
+          {
+            "q": "Explain why the plate should be incubated at 25 °C.",
+            "m": 2,
+            "ms": [
+              "Lower temperature reduces the chance of growing pathogens (1).",
+              "Which grow best at body temperature, 37 °C (1)."
+            ]
+          },
+          {
+            "q": "A clear zone around an antibiotic disc has a diameter of 12 mm. Calculate its area. Use π = 3.14.",
+            "m": 3,
+            "ms": [
+              "Radius = 6 mm (1).",
+              "3.14 × 6² (1).",
+              "113 mm² (1)."
+            ],
+            "answer": 113.04,
+            "unit": "mm²"
+          },
+          {
+            "q": "A bacterium divides every 30 minutes. Calculate how many bacteria are produced from one bacterium after 3 hours.",
+            "m": 3,
+            "ms": [
+              "3 h = 6 divisions (1).",
+              "2⁶ (1).",
+              "64 bacteria (1)."
+            ],
+            "answer": 64,
+            "unit": "bacteria"
+          }
+        ]
+      },
+      {
+        "title": "Plants and water",
+        "topic": "Organisation",
+        "stem": "<p>A student uses a potometer to investigate water uptake by a leafy shoot.</p>",
+        "parts": [
+          {
+            "q": "Name the tissue that carries water up the stem.",
+            "m": 1,
+            "ms": [
+              "Xylem (1)."
+            ]
+          },
+          {
+            "q": "Name the pores in a leaf through which water vapour leaves.",
+            "m": 1,
+            "ms": [
+              "Stomata (1)."
+            ]
+          },
+          {
+            "q": "The bubble moved 36 mm in 6 minutes. Calculate the rate in mm per minute.",
+            "m": 2,
+            "ms": [
+              "36 ÷ 6 (1).",
+              "6 mm/min (1)."
+            ],
+            "answer": 6,
+            "unit": "mm/min"
+          },
+          {
+            "q": "Predict and explain what would happen to the rate if a fan were turned on.",
+            "m": 3,
+            "ms": [
+              "Rate increases (1).",
+              "Water vapour is blown away from the leaf (1).",
+              "Steeper concentration gradient, so more diffusion/evaporation from stomata (1)."
+            ]
+          },
+          {
+            "q": "Describe the role of guard cells.",
+            "m": 3,
+            "ms": [
+              "Guard cells open and close stomata (1).",
+              "When turgid, the stoma opens; when flaccid, it closes (1).",
+              "Controls gas exchange and water loss (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "A sick rose bush",
+        "topic": "Plant disease and defence",
+        "stem": "<p>A gardener notices that the leaves of a rose bush have purple-black spots and many leaves have fallen off.</p>",
+        "parts": [
+          {
+            "q": "Name the disease and the type of pathogen that causes it.",
+            "m": 2,
+            "ms": [
+              "Rose black spot (1).",
+              "Fungus (1)."
+            ]
+          },
+          {
+            "q": "Explain why the plant grows less well.",
+            "m": 2,
+            "ms": [
+              "Less photosynthesis due to fewer/damaged leaves (1).",
+              "So less glucose for growth (1)."
+            ]
+          },
+          {
+            "q": "Suggest two ways the gardener could control the disease.",
+            "m": 2,
+            "ms": [
+              "Use fungicides (1).",
+              "Remove and burn affected leaves (1)."
+            ]
+          },
+          {
+            "q": "Give one physical and one chemical defence that plants use against pathogens.",
+            "m": 2,
+            "ms": [
+              "Physical: cellulose cell walls / waxy cuticle / bark (1).",
+              "Chemical: antibacterial chemicals (1)."
+            ]
+          },
+          {
+            "q": "A different plant has yellow leaves. Suggest a mineral deficiency that could cause this and explain why.",
+            "m": 2,
+            "ms": [
+              "Magnesium deficiency (1).",
+              "Magnesium is needed to make chlorophyll (1)."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "separate-biology-1-higher-set2",
+    "title": "Biology Paper 1 — Higher · Practice set 2",
+    "subject": "Biology",
+    "paper": 1,
+    "tier": "Higher",
+    "minutes": 105,
+    "marks": 100,
+    "coverage": [
+      "Cell biology",
+      "Organisation",
+      "Infection and response",
+      "Bioenergetics",
+      "Separate Biology content"
+    ],
+    "questions": [
+      {
+        "title": "Surface area and diffusion",
+        "topic": "Cell biology",
+        "stem": "<p>Agar cubes containing a pink indicator are placed in acid. The pink colour disappears as acid diffuses in.</p>",
+        "parts": [
+          {
+            "q": "Calculate the surface area to volume ratio of a 2 cm cube. Give your answer as x : 1.",
+            "m": 2,
+            "ms": [
+              "24 : 8 (1).",
+              "3 : 1 (1)."
+            ],
+            "answer": 3,
+            "unit": ": 1"
+          },
+          {
+            "q": "Predict and explain which cube, 1 cm or 3 cm, will lose its colour completely first.",
+            "m": 3,
+            "ms": [
+              "1 cm cube (1).",
+              "Larger SA:V (1).",
+              "Shorter distance for acid to diffuse to the centre (1)."
+            ]
+          },
+          {
+            "q": "Explain why an elephant needs a transport system but an amoeba does not.",
+            "m": 3,
+            "ms": [
+              "Elephant has a small SA:V (1).",
+              "Diffusion distance to cells is too long/slow (1).",
+              "Amoeba has a large SA:V so diffusion through the membrane is enough (1)."
+            ]
+          },
+          {
+            "q": "Give two features of the fish gill that make gas exchange efficient.",
+            "m": 2,
+            "ms": [
+              "Large surface area of filaments/lamellae (1).",
+              "Thin lamellae / good blood supply / counter-current flow (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Transport across membranes",
+        "topic": "Cell biology",
+        "stem": "<p>Root hair cells absorb water and mineral ions from the soil.</p>",
+        "parts": [
+          {
+            "q": "Explain how water enters root hair cells.",
+            "m": 2,
+            "ms": [
+              "By osmosis (1).",
+              "From dilute soil water to more concentrated cell contents, through a partially permeable membrane (1)."
+            ]
+          },
+          {
+            "q": "Explain why root hair cells need many mitochondria.",
+            "m": 3,
+            "ms": [
+              "Mineral ions absorbed by active transport (1).",
+              "Against a concentration gradient (1).",
+              "Needs energy released by respiration in mitochondria (1)."
+            ]
+          },
+          {
+            "q": "A potato cylinder changed from 3.20 g to 2.88 g in sugar solution. Calculate the percentage change in mass.",
+            "m": 2,
+            "ms": [
+              "(2.88 − 3.20) ÷ 3.20 × 100 (1).",
+              "−10% (1)."
+            ],
+            "answer": -10,
+            "unit": "%"
+          },
+          {
+            "q": "Explain the result in terms of osmosis.",
+            "m": 3,
+            "ms": [
+              "Sugar solution more concentrated than cell contents (1).",
+              "Water moved out of the cells by osmosis (1).",
+              "Through a partially permeable membrane, so mass decreased (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Enzyme investigation",
+        "topic": "Organisation",
+        "stem": "<p>A student investigated the effect of pH on the time taken for amylase to digest starch. pH 5: 180 s; pH 6: 60 s; pH 7: 40 s; pH 8: 90 s.</p>",
+        "parts": [
+          {
+            "q": "Calculate the rate at pH 7 using rate = 1000 ÷ time.",
+            "m": 1,
+            "ms": [
+              "25 (s⁻¹) (1)."
+            ],
+            "answer": 25,
+            "unit": "s⁻¹"
+          },
+          {
+            "q": "Suggest the optimum pH and explain how the student could find it more precisely.",
+            "m": 3,
+            "ms": [
+              "Optimum around pH 7 (1).",
+              "Test pH values in smaller intervals between 6 and 8 (1).",
+              "e.g. 6.5, 7.0, 7.5 and repeat (1)."
+            ]
+          },
+          {
+            "q": "Explain why the rate is lower at pH 5.",
+            "m": 3,
+            "ms": [
+              "pH changes the shape of the active site (1).",
+              "Starch fits less well / fewer enzyme–substrate complexes (1).",
+              "So digestion slower (1)."
+            ]
+          },
+          {
+            "q": "Give two variables the student should control and explain why a water bath is used.",
+            "m": 3,
+            "ms": [
+              "Temperature (1).",
+              "Volume/concentration of starch or amylase (1).",
+              "Water bath keeps temperature constant so only pH affects the rate (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cardiovascular disease",
+        "topic": "Organisation",
+        "stem": "<p>Coronary heart disease is a leading cause of death in the UK.</p>",
+        "parts": [
+          {
+            "q": "Explain how a build-up of fatty material in coronary arteries can lead to a heart attack.",
+            "m": 3,
+            "ms": [
+              "Arteries narrow, reducing blood flow (1).",
+              "Less oxygen reaches heart muscle (1).",
+              "Heart muscle cannot respire / cells die (1)."
+            ]
+          },
+          {
+            "q": "Describe how a stent works.",
+            "m": 1,
+            "ms": [
+              "Mesh tube inserted to hold the artery open (1)."
+            ]
+          },
+          {
+            "q": "Evaluate the use of statins and stents to treat coronary heart disease.",
+            "m": 6,
+            "ms": [
+              "Statins reduce blood cholesterol and slow fatty deposits (1).",
+              "Statins are non-surgical / reduce risk long-term (1).",
+              "Statins must be taken for life / take time / possible side effects (1).",
+              "Stents work immediately to restore blood flow (1).",
+              "Stent insertion has risks of surgery, infection, clots / artery may narrow again (1).",
+              "Justified conclusion, e.g. both used together (1)."
+            ],
+            "note": "Award one mark for each distinct valid linked point, maximum 6."
+          }
+        ]
+      },
+      {
+        "title": "Monoclonal antibodies",
+        "topic": "Infection and response",
+        "stem": "<p>Monoclonal antibodies can be used to diagnose and treat disease.</p>",
+        "parts": [
+          {
+            "q": "Describe how monoclonal antibodies are produced.",
+            "m": 4,
+            "ms": [
+              "Mouse injected with antigen so lymphocytes make the antibody (1).",
+              "Lymphocytes collected and fused with tumour cells (1).",
+              "Forming hybridoma cells (1).",
+              "Hybridoma cloned; antibodies collected and purified (1)."
+            ]
+          },
+          {
+            "q": "Explain how a monoclonal antibody can deliver a drug to cancer cells only.",
+            "m": 3,
+            "ms": [
+              "Antibody is specific to an antigen on cancer cells (1).",
+              "Drug attached to the antibody (1).",
+              "Antibody binds only to cancer cells, so healthy cells are not harmed (1)."
+            ]
+          },
+          {
+            "q": "Give one disadvantage of using monoclonal antibodies.",
+            "m": 1,
+            "ms": [
+              "More side effects than expected / expensive (1)."
+            ]
+          },
+          {
+            "q": "Explain why monoclonal antibodies can be used in pregnancy tests.",
+            "m": 2,
+            "ms": [
+              "They bind specifically to the hormone hCG (1).",
+              "hCG is only present in urine during pregnancy (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Limiting factors",
+        "topic": "Bioenergetics",
+        "stem": "<p>A grower investigated how light intensity and carbon dioxide concentration affect the rate of photosynthesis in tomato plants.</p>",
+        "parts": [
+          {
+            "q": "A lamp gives a light intensity of 120 units at 10 cm. Calculate the intensity at 30 cm.",
+            "m": 2,
+            "ms": [
+              "(10/30)² = 1/9 (1).",
+              "120 ÷ 9 = 13.3 units (1)."
+            ],
+            "answer": 13.33,
+            "unit": "units"
+          },
+          {
+            "q": "At high light, rate was 18 units at 0.04% CO₂ and 28 units at 0.1% CO₂. Explain what this shows.",
+            "m": 2,
+            "ms": [
+              "Carbon dioxide was limiting at 0.04% (1).",
+              "Increasing CO₂ increased the rate (1)."
+            ]
+          },
+          {
+            "q": "Explain why increasing temperature above 40 °C reduces the rate of photosynthesis.",
+            "m": 3,
+            "ms": [
+              "Photosynthesis is catalysed by enzymes (1).",
+              "Above the optimum, enzymes denature (1).",
+              "Active site changes shape, so fewer reactions (1)."
+            ]
+          },
+          {
+            "q": "The grower spends £400 a week on extra CO₂ and earns £550 more from the increased crop. Calculate the change in profit and comment.",
+            "m": 3,
+            "ms": [
+              "£550 − £400 (1).",
+              "+£150 a week (1).",
+              "Worthwhile while CO₂ is limiting; no benefit if another factor limits (1)."
+            ],
+            "answer": 150,
+            "unit": "£"
+          }
+        ]
+      },
+      {
+        "title": "Oxygen debt",
+        "topic": "Bioenergetics",
+        "stem": "<p>An athlete runs a 400 m race. Her oxygen uptake was 0.3 dm³/min at rest and averaged 1.5 dm³/min for 6 minutes after the race.</p>",
+        "parts": [
+          {
+            "q": "Calculate the oxygen debt.",
+            "m": 2,
+            "ms": [
+              "(1.5 − 0.3) × 6 (1).",
+              "7.2 dm³ (1)."
+            ],
+            "answer": 7.2,
+            "unit": "dm³"
+          },
+          {
+            "q": "Explain why the athlete has an oxygen debt.",
+            "m": 4,
+            "ms": [
+              "During the race, oxygen supply was not enough for aerobic respiration (1).",
+              "Muscles respired anaerobically (1).",
+              "Lactic acid built up (1).",
+              "Extra oxygen needed afterwards to convert lactic acid to glucose in the liver (1)."
+            ]
+          },
+          {
+            "q": "Explain why heart rate remains high after exercise.",
+            "m": 2,
+            "ms": [
+              "To transport lactic acid to the liver (1).",
+              "To deliver oxygen to repay the oxygen debt (1)."
+            ]
+          },
+          {
+            "q": "Give two ways glucose is used in metabolism other than respiration.",
+            "m": 2,
+            "ms": [
+              "Converted to glycogen / starch / cellulose (1).",
+              "Used to make lipids or (with nitrate) amino acids/proteins (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Testing a new drug",
+        "topic": "Infection and response",
+        "stem": "<p>A new drug for high blood pressure is being developed.</p>",
+        "parts": [
+          {
+            "q": "Explain why the drug is first tested on cells and animals.",
+            "m": 2,
+            "ms": [
+              "To check for toxicity/safety (1).",
+              "And efficacy before testing on humans (1)."
+            ]
+          },
+          {
+            "q": "In a trial, 150 of 500 patients given the drug and 60 of 500 given a placebo showed reduced blood pressure. Calculate the percentage in each group.",
+            "m": 2,
+            "ms": [
+              "Drug: 30% (1).",
+              "Placebo: 12% (1)."
+            ]
+          },
+          {
+            "q": "Explain why the trial was double-blind.",
+            "m": 2,
+            "ms": [
+              "Neither doctors nor patients know who has the drug (1).",
+              "Removes bias in reporting or assessment (1)."
+            ]
+          },
+          {
+            "q": "Explain why the results should be peer reviewed before the drug is used.",
+            "m": 2,
+            "ms": [
+              "Other scientists check the method and results (1).",
+              "To check results are valid / not biased / can be reproduced (1)."
+            ]
+          },
+          {
+            "q": "Suggest why the trial used 1000 patients rather than 20.",
+            "m": 2,
+            "ms": [
+              "Larger sample reduces the effect of random variation (1).",
+              "Results more representative / rare side effects more likely to be detected (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Comparing disinfectants",
+        "topic": "Culturing microorganisms",
+        "stem": "<p>Three disinfectants were tested on a lawn of bacteria. Clear zone diameters: A 8 mm, B 16 mm, C 0 mm.</p>",
+        "parts": [
+          {
+            "q": "Calculate the area of the clear zone for B. Use π = 3.14.",
+            "m": 2,
+            "ms": [
+              "3.14 × 8² (1).",
+              "201 mm² (1)."
+            ],
+            "answer": 200.96,
+            "unit": "mm²"
+          },
+          {
+            "q": "Calculate how many times larger the area for B is than for A.",
+            "m": 2,
+            "ms": [
+              "Area A = 3.14 × 4² = 50.2 mm² (1).",
+              "201 ÷ 50.2 = 4 times (1)."
+            ],
+            "answer": 4,
+            "unit": "times"
+          },
+          {
+            "q": "Explain why a disc soaked in sterile water was included.",
+            "m": 2,
+            "ms": [
+              "It is a control (1).",
+              "To show any clear zone is caused by the disinfectant, not the disc (1)."
+            ]
+          },
+          {
+            "q": "Explain why the lid should be taped at only two points and the plate not opened after incubation.",
+            "m": 2,
+            "ms": [
+              "Allows oxygen in so harmful anaerobic bacteria do not grow (1).",
+              "Prevents release of possible pathogens (1)."
+            ]
+          },
+          {
+            "q": "Suggest one reason why disinfectant C produced no clear zone.",
+            "m": 2,
+            "ms": [
+              "Bacteria are resistant to C / C is ineffective (1).",
+              "Or C did not diffuse into the agar / concentration too low (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Diagnosing crop disease",
+        "topic": "Plant disease and defence",
+        "stem": "<p>A farmer’s wheat crop has stunted plants and discoloured leaves.</p>",
+        "parts": [
+          {
+            "q": "Suggest two ways the farmer could identify whether the cause is a pathogen.",
+            "m": 2,
+            "ms": [
+              "Send samples to a laboratory to identify the pathogen (1).",
+              "Use a testing kit containing monoclonal antibodies (1)."
+            ]
+          },
+          {
+            "q": "Stunted growth can be caused by nitrate deficiency. Explain why.",
+            "m": 2,
+            "ms": [
+              "Nitrate is needed to make amino acids/protein (1).",
+              "Protein is needed for growth (1)."
+            ]
+          },
+          {
+            "q": "Aphids are found on the crop. Explain how aphids can damage the plants.",
+            "m": 2,
+            "ms": [
+              "Aphids feed on phloem sap / sugars (1).",
+              "Can transmit viruses (1)."
+            ]
+          },
+          {
+            "q": "Describe two mechanical adaptations plants use to deter animals.",
+            "m": 2,
+            "ms": [
+              "Thorns/hairs (1).",
+              "Leaves that droop/curl when touched / mimicry (1)."
+            ]
+          },
+          {
+            "q": "Explain how a plant can reduce the spread of a pathogen after a leaf has been infected.",
+            "m": 2,
+            "ms": [
+              "Leaf is dropped / dead cells fall off (1).",
+              "So the pathogen is removed before it spreads / antibacterial chemicals produced (1)."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "separate-biology-2-foundation-set2",
+    "title": "Biology Paper 2 — Foundation · Practice set 2",
+    "subject": "Biology",
+    "paper": 2,
+    "tier": "Foundation",
+    "minutes": 105,
+    "marks": 100,
+    "coverage": [
+      "Homeostasis and response",
+      "Inheritance, variation and evolution",
+      "Ecology",
+      "Separate Biology content"
+    ],
+    "questions": [
+      {
+        "title": "The nervous system",
+        "topic": "Homeostasis and response",
+        "stem": "<p>A person steps on a pin and quickly lifts their foot.</p>",
+        "parts": [
+          {
+            "q": "What type of response is this?",
+            "m": 1,
+            "ms": [
+              "Reflex (1)."
+            ]
+          },
+          {
+            "q": "Name the receptor and the effector in this response.",
+            "m": 2,
+            "ms": [
+              "Receptor: pain receptor in skin (1).",
+              "Effector: muscle (in leg) (1)."
+            ]
+          },
+          {
+            "q": "Put these in the correct order: motor neurone, receptor, relay neurone, effector, sensory neurone.",
+            "m": 2,
+            "ms": [
+              "Receptor → sensory neurone → relay neurone (1).",
+              "→ motor neurone → effector (1)."
+            ]
+          },
+          {
+            "q": "Explain why this type of response is important.",
+            "m": 2,
+            "ms": [
+              "It is fast/automatic (1).",
+              "Protects the body from damage (1)."
+            ]
+          },
+          {
+            "q": "Describe how a nerve impulse passes across a synapse.",
+            "m": 3,
+            "ms": [
+              "Impulse arrives and a chemical is released (1).",
+              "Chemical diffuses across the gap (1).",
+              "Triggers a new impulse in the next neurone (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Diabetes",
+        "topic": "Homeostasis and response",
+        "stem": "<p>Blood glucose concentration must be kept within narrow limits.</p>",
+        "parts": [
+          {
+            "q": "Name the organ that monitors blood glucose concentration.",
+            "m": 1,
+            "ms": [
+              "Pancreas (1)."
+            ]
+          },
+          {
+            "q": "Name the hormone released when blood glucose concentration is too high.",
+            "m": 1,
+            "ms": [
+              "Insulin (1)."
+            ]
+          },
+          {
+            "q": "Describe the effect of this hormone.",
+            "m": 2,
+            "ms": [
+              "Glucose moves from the blood into cells (1).",
+              "Liver and muscles convert glucose to glycogen for storage (1)."
+            ]
+          },
+          {
+            "q": "Give two differences between type 1 and type 2 diabetes.",
+            "m": 2,
+            "ms": [
+              "Type 1: no/little insulin made; type 2: cells do not respond to insulin (1).",
+              "Type 1 treated with insulin injections; type 2 with diet/exercise (1)."
+            ]
+          },
+          {
+            "q": "Data: 4% of adults with a normal weight and 14% of adults who are obese have type 2 diabetes. Calculate how many times more likely obese adults are to have type 2 diabetes.",
+            "m": 2,
+            "ms": [
+              "14 ÷ 4 (1).",
+              "3.5 times (1)."
+            ],
+            "answer": 3.5,
+            "unit": "times"
+          },
+          {
+            "q": "Explain why this data does not prove that obesity causes type 2 diabetes.",
+            "m": 2,
+            "ms": [
+              "Correlation does not prove causation (1).",
+              "Other factors such as age, diet, exercise or genes may be involved (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Body temperature",
+        "topic": "Homeostasis and response",
+        "stem": "<p>A student runs on a hot day.</p>",
+        "parts": [
+          {
+            "q": "Name the part of the brain that monitors body temperature.",
+            "m": 1,
+            "ms": [
+              "Thermoregulatory centre / hypothalamus (1)."
+            ]
+          },
+          {
+            "q": "Give two ways the body responds to an increase in core temperature.",
+            "m": 2,
+            "ms": [
+              "More sweat released (1).",
+              "Blood vessels supplying skin capillaries dilate (1)."
+            ]
+          },
+          {
+            "q": "Explain how one of these responses cools the body.",
+            "m": 2,
+            "ms": [
+              "Sweat evaporates (1).",
+              "Using energy from the skin (1)."
+            ]
+          },
+          {
+            "q": "Explain why it is important that core body temperature stays at about 37 °C.",
+            "m": 2,
+            "ms": [
+              "This is the optimum temperature for enzymes (1).",
+              "Enzymes denature if too hot / reactions slow if too cold (1)."
+            ]
+          },
+          {
+            "q": "Describe how the body responds if core temperature falls too low.",
+            "m": 3,
+            "ms": [
+              "Shivering: muscles contract, respiration releases energy (1).",
+              "Vasoconstriction: less blood flows near the skin (1).",
+              "Less sweat produced (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Inheriting eye colour",
+        "topic": "Inheritance, variation and evolution",
+        "stem": "<p>In a simplified model, brown eyes (B) are dominant to blue eyes (b).</p>",
+        "parts": [
+          {
+            "q": "What is the genotype of a person with blue eyes?",
+            "m": 1,
+            "ms": [
+              "bb (1)."
+            ]
+          },
+          {
+            "q": "Give two possible genotypes of a person with brown eyes.",
+            "m": 1,
+            "ms": [
+              "BB and Bb (1)."
+            ]
+          },
+          {
+            "q": "Two parents are both Bb. Draw a Punnett square to show the possible offspring.",
+            "m": 3,
+            "ms": [
+              "Gametes B and b from each parent (1).",
+              "Offspring BB, Bb, Bb, bb (1).",
+              "Correctly laid out grid (1)."
+            ]
+          },
+          {
+            "q": "Give the probability that their child has blue eyes.",
+            "m": 1,
+            "ms": [
+              "1/4 / 25% / 0.25 (1)."
+            ],
+            "answer": 25,
+            "unit": "%"
+          },
+          {
+            "q": "What is the term for a person with two different alleles?",
+            "m": 1,
+            "ms": [
+              "Heterozygous (1)."
+            ]
+          },
+          {
+            "q": "Explain why a child has a 50% chance of being male.",
+            "m": 3,
+            "ms": [
+              "Mother gives X in every egg (1).",
+              "Father gives X or Y in equal numbers of sperm (1).",
+              "So XX and XY are equally likely (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Variation and evolution",
+        "topic": "Inheritance, variation and evolution",
+        "stem": "<p>Peppered moths can be pale or dark.</p>",
+        "parts": [
+          {
+            "q": "Name the process that produced the first dark moth.",
+            "m": 1,
+            "ms": [
+              "Mutation (1)."
+            ]
+          },
+          {
+            "q": "In polluted areas, dark moths became more common. Explain why, using natural selection.",
+            "m": 6,
+            "ms": [
+              "Variation exists: some moths are dark (1).",
+              "Dark moths camouflaged on soot-covered trees (1).",
+              "Fewer dark moths eaten by birds (1).",
+              "Dark moths survive and reproduce (1).",
+              "Pass on the allele for dark colour (1).",
+              "Over generations the proportion of dark moths increases (1)."
+            ],
+            "note": "Award one mark for each distinct valid linked point, maximum 6."
+          },
+          {
+            "q": "Give two causes of variation between individuals of the same species.",
+            "m": 2,
+            "ms": [
+              "Genetic / genes inherited (1).",
+              "Environment (1)."
+            ]
+          },
+          {
+            "q": "What is meant by a species?",
+            "m": 1,
+            "ms": [
+              "A group of organisms that can interbreed to produce fertile offspring (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Selective breeding and cloning",
+        "topic": "Inheritance, variation and evolution",
+        "stem": "<p>A farmer wants to produce cows that give more milk.</p>",
+        "parts": [
+          {
+            "q": "Describe how the farmer could use selective breeding.",
+            "m": 3,
+            "ms": [
+              "Choose cows that produce most milk and a bull from a high-yield line (1).",
+              "Breed them together (1).",
+              "Select best offspring and repeat over many generations (1)."
+            ]
+          },
+          {
+            "q": "Give one problem caused by selective breeding.",
+            "m": 1,
+            "ms": [
+              "Inbreeding / reduced variation / inherited defects (1)."
+            ]
+          },
+          {
+            "q": "Embryo transplants can be used to produce many identical calves. Describe how.",
+            "m": 3,
+            "ms": [
+              "Cells removed from an early embryo before they specialise (1).",
+              "Split into several embryos (1).",
+              "Implanted into host mothers (1)."
+            ]
+          },
+          {
+            "q": "Give two advantages of using cuttings to produce new plants.",
+            "m": 2,
+            "ms": [
+              "Quick/cheap (1).",
+              "Plants are identical so keep desirable features (1)."
+            ]
+          },
+          {
+            "q": "Give one disadvantage of cloning crops.",
+            "m": 1,
+            "ms": [
+              "Little variation, so disease could affect all plants (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Investigating a habitat",
+        "topic": "Ecology",
+        "stem": "<p>A class estimates the number of daisies on the school field. The field is 80 m by 50 m.</p>",
+        "parts": [
+          {
+            "q": "Describe how the class should place their quadrats.",
+            "m": 2,
+            "ms": [
+              "Randomly (1).",
+              "Using random coordinates on a grid of tape measures (1)."
+            ]
+          },
+          {
+            "q": "The mean number of daisies in a 1 m² quadrat is 3.5. Estimate the number of daisies in the field.",
+            "m": 3,
+            "ms": [
+              "Area = 4000 m² (1).",
+              "3.5 × 4000 (1).",
+              "14 000 (1)."
+            ],
+            "answer": 14000,
+            "unit": "daisies"
+          },
+          {
+            "q": "Explain why the class should use many quadrats.",
+            "m": 2,
+            "ms": [
+              "Gives a more representative sample (1).",
+              "Reduces effect of anomalies / more reliable mean (1)."
+            ]
+          },
+          {
+            "q": "Name one abiotic factor that could affect the distribution of daisies.",
+            "m": 1,
+            "ms": [
+              "Light intensity / soil moisture / soil pH / temperature (1)."
+            ]
+          },
+          {
+            "q": "Describe how the class could find out how daisy numbers change from under a tree to the open field.",
+            "m": 2,
+            "ms": [
+              "Use a transect line from tree to field (1).",
+              "Place quadrats at regular intervals and count daisies (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Food chains and pollution",
+        "topic": "Ecology",
+        "stem": "<p>A pond contains algae, water fleas, small fish and herons.</p>",
+        "parts": [
+          {
+            "q": "Write a food chain for this pond.",
+            "m": 2,
+            "ms": [
+              "algae → water fleas → small fish → herons (1).",
+              "Arrows point from food to consumer (1)."
+            ]
+          },
+          {
+            "q": "Name the producer.",
+            "m": 1,
+            "ms": [
+              "Algae (1)."
+            ]
+          },
+          {
+            "q": "Fertiliser washes into the pond. Explain why fish may die.",
+            "m": 4,
+            "ms": [
+              "Algae grow rapidly and block light (1).",
+              "Plants below cannot photosynthesise and die (1).",
+              "Bacteria decompose dead plants and use up oxygen (1).",
+              "Fish cannot get enough oxygen (1)."
+            ]
+          },
+          {
+            "q": "Give two ways people reduce biodiversity.",
+            "m": 2,
+            "ms": [
+              "Deforestation / habitat destruction (1).",
+              "Pollution / climate change from burning fossil fuels (1)."
+            ]
+          },
+          {
+            "q": "Give one benefit of maintaining high biodiversity.",
+            "m": 1,
+            "ms": [
+              "More stable ecosystem / resources such as medicines and food (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Focusing on near and far objects",
+        "topic": "The eye",
+        "stem": "<p>A student reads a book, then looks out of the window at a distant tree.</p>",
+        "parts": [
+          {
+            "q": "Name the part of the eye that contains light receptors.",
+            "m": 1,
+            "ms": [
+              "Retina (1)."
+            ]
+          },
+          {
+            "q": "Name the part of the eye that controls the size of the pupil.",
+            "m": 1,
+            "ms": [
+              "Iris (1)."
+            ]
+          },
+          {
+            "q": "Describe how the eye focuses on the distant tree.",
+            "m": 3,
+            "ms": [
+              "Ciliary muscles relax (1).",
+              "Suspensory ligaments tighten (1).",
+              "Lens becomes thinner, refracting light less (1)."
+            ]
+          },
+          {
+            "q": "Some people are short-sighted. Explain what this means and how it is corrected.",
+            "m": 3,
+            "ms": [
+              "Cannot see distant objects clearly (1).",
+              "Light focuses in front of the retina (1).",
+              "Corrected with a concave lens (1)."
+            ]
+          },
+          {
+            "q": "Give one risk of laser eye surgery.",
+            "m": 2,
+            "ms": [
+              "Infection / damage to the cornea (1).",
+              "Vision may be worse / may need further treatment (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Waste and recycling",
+        "topic": "Kidney function and decomposition",
+        "stem": "<p>The body and ecosystems both need to remove or recycle waste.</p>",
+        "parts": [
+          {
+            "q": "Name the waste product made in the liver from excess amino acids.",
+            "m": 1,
+            "ms": [
+              "Urea (1)."
+            ]
+          },
+          {
+            "q": "Name the organ that removes this waste from the blood.",
+            "m": 1,
+            "ms": [
+              "Kidney (1)."
+            ]
+          },
+          {
+            "q": "Explain why the dialysis fluid contains the same concentration of glucose as normal blood.",
+            "m": 2,
+            "ms": [
+              "No concentration gradient for glucose (1).",
+              "So glucose does not diffuse out of the blood (1)."
+            ]
+          },
+          {
+            "q": "Give two disadvantages of dialysis compared with a kidney transplant.",
+            "m": 2,
+            "ms": [
+              "Several sessions a week / time-consuming (1).",
+              "Restricted diet / expensive long-term / risk of infection (1)."
+            ]
+          },
+          {
+            "q": "Give three conditions that speed up decay in a compost heap.",
+            "m": 3,
+            "ms": [
+              "Warmth (1).",
+              "Moisture (1).",
+              "Oxygen / turning the heap (1)."
+            ]
+          },
+          {
+            "q": "Name the gas made by anaerobic decay in a biogas generator.",
+            "m": 1,
+            "ms": [
+              "Methane (1)."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "separate-biology-2-higher-set2",
+    "title": "Biology Paper 2 — Higher · Practice set 2",
+    "subject": "Biology",
+    "paper": 2,
+    "tier": "Higher",
+    "minutes": 105,
+    "marks": 100,
+    "coverage": [
+      "Homeostasis and response",
+      "Inheritance, variation and evolution",
+      "Ecology",
+      "Separate Biology content"
+    ],
+    "questions": [
+      {
+        "title": "Investigating reaction time",
+        "topic": "Homeostasis and response",
+        "stem": "<p>Students used a ruler-drop test to investigate whether caffeine-free and caffeinated drinks affect reaction time. Mean catch distance before: 18.0 cm; after caffeine: 12.6 cm.</p>",
+        "parts": [
+          {
+            "q": "Calculate the percentage decrease in mean catch distance.",
+            "m": 2,
+            "ms": [
+              "(18.0 − 12.6) ÷ 18.0 × 100 (1).",
+              "30% (1)."
+            ],
+            "answer": 30,
+            "unit": "%"
+          },
+          {
+            "q": "Give two variables the students should control.",
+            "m": 2,
+            "ms": [
+              "Same hand / same person dropping / same ruler (1).",
+              "Same starting position / same volume of drink / same time after drinking (1)."
+            ]
+          },
+          {
+            "q": "Explain why a placebo drink was given to a second group.",
+            "m": 2,
+            "ms": [
+              "To check the effect is caused by caffeine (1).",
+              "Not by expectation or practice (1)."
+            ]
+          },
+          {
+            "q": "Explain why reaction time is limited by synapses.",
+            "m": 2,
+            "ms": [
+              "Transmission at synapses involves chemical diffusion (1).",
+              "This is slower than electrical impulses along neurones (1)."
+            ]
+          },
+          {
+            "q": "Suggest one ethical issue with this investigation.",
+            "m": 2,
+            "ms": [
+              "Caffeine may harm some participants (1).",
+              "Need informed consent / right to withdraw (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Negative feedback",
+        "topic": "Homeostasis and response",
+        "stem": "<p>The thyroid gland releases thyroxine.</p>",
+        "parts": [
+          {
+            "q": "Describe the role of thyroxine.",
+            "m": 2,
+            "ms": [
+              "Controls/stimulates basal metabolic rate (1).",
+              "Important in growth and development (1)."
+            ]
+          },
+          {
+            "q": "Explain how thyroxine levels are controlled by negative feedback.",
+            "m": 4,
+            "ms": [
+              "When thyroxine is low, the pituitary releases TSH (1).",
+              "TSH stimulates the thyroid to release thyroxine (1).",
+              "When thyroxine is high, TSH release is inhibited (1).",
+              "So thyroxine is kept within a narrow range (1)."
+            ]
+          },
+          {
+            "q": "Explain why glucagon is needed when a person has not eaten for several hours.",
+            "m": 4,
+            "ms": [
+              "Blood glucose falls, detected by the pancreas (1).",
+              "Pancreas secretes glucagon (1).",
+              "Glucagon causes the liver to convert glycogen into glucose (1).",
+              "Glucose released into the blood, raising its level (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Water balance",
+        "topic": "Homeostasis and response",
+        "stem": "<p>A hiker loses a lot of water by sweating.</p>",
+        "parts": [
+          {
+            "q": "Name the hormone that controls the water content of the blood and the gland that releases it.",
+            "m": 2,
+            "ms": [
+              "ADH (1).",
+              "Pituitary gland (1)."
+            ]
+          },
+          {
+            "q": "Explain how this hormone helps the hiker conserve water.",
+            "m": 4,
+            "ms": [
+              "Blood becomes more concentrated, detected in the brain (1).",
+              "More ADH released (1).",
+              "Kidney tubules more permeable to water (1).",
+              "More water reabsorbed into blood; small volume of concentrated urine (1)."
+            ]
+          },
+          {
+            "q": "Explain why urine normally contains no glucose.",
+            "m": 2,
+            "ms": [
+              "Glucose is filtered out of the blood (1).",
+              "All glucose is reabsorbed (1)."
+            ]
+          },
+          {
+            "q": "Explain why ammonia is converted into urea.",
+            "m": 2,
+            "ms": [
+              "Ammonia is toxic (1).",
+              "Urea is less toxic / safer to transport and excrete (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "IVF treatment",
+        "topic": "Homeostasis and response",
+        "stem": "<p>A couple are having IVF treatment.</p>",
+        "parts": [
+          {
+            "q": "Explain why the woman is given FSH and LH.",
+            "m": 2,
+            "ms": [
+              "FSH causes eggs to mature (1).",
+              "LH causes egg release, so several eggs can be collected (1)."
+            ]
+          },
+          {
+            "q": "Describe the stages of IVF after the eggs are collected.",
+            "m": 3,
+            "ms": [
+              "Eggs fertilised by sperm in the laboratory (1).",
+              "Fertilised eggs develop into embryos (1).",
+              "One or two embryos are inserted into the uterus (1)."
+            ]
+          },
+          {
+            "q": "A clinic had 210 successful births from 750 treatment cycles. Calculate the success rate.",
+            "m": 2,
+            "ms": [
+              "210 ÷ 750 × 100 (1).",
+              "28% (1)."
+            ],
+            "answer": 28,
+            "unit": "%"
+          },
+          {
+            "q": "Give three concerns about IVF.",
+            "m": 3,
+            "ms": [
+              "Low success rate / expensive (1).",
+              "Emotionally and physically stressful (1).",
+              "Multiple births are risky / unused embryos destroyed (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "DNA and protein synthesis",
+        "topic": "Inheritance, variation and evolution",
+        "stem": "<p>A gene codes for an enzyme.</p>",
+        "parts": [
+          {
+            "q": "A section of the coding strand has 450 bases. Calculate the number of amino acids it codes for.",
+            "m": 1,
+            "ms": [
+              "150 (1)."
+            ],
+            "answer": 150,
+            "unit": "amino acids"
+          },
+          {
+            "q": "In a DNA molecule, 22% of the bases are thymine. Calculate the percentage of cytosine.",
+            "m": 2,
+            "ms": [
+              "A = 22%, so C + G = 56% (1).",
+              "C = 28% (1)."
+            ],
+            "answer": 28,
+            "unit": "%"
+          },
+          {
+            "q": "Describe how the enzyme is made from the gene.",
+            "m": 4,
+            "ms": [
+              "Template copy of gene made in nucleus and moves to a ribosome (1).",
+              "Carrier molecules bring amino acids (1).",
+              "Amino acids joined in the order set by base triplets (1).",
+              "Chain folds into a specific shape (1)."
+            ]
+          },
+          {
+            "q": "Explain how a mutation could stop the enzyme working.",
+            "m": 3,
+            "ms": [
+              "Mutation changes the base sequence / a triplet (1).",
+              "Different amino acid in the chain, so protein folds differently (1).",
+              "Active site changes shape, substrate no longer fits (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Inherited disorders",
+        "topic": "Inheritance, variation and evolution",
+        "stem": "<p>Cystic fibrosis (CF) is caused by a recessive allele, f.</p>",
+        "parts": [
+          {
+            "q": "A man who is a carrier and a woman with cystic fibrosis have children. Use a Punnett square to find the probability that a child has CF.",
+            "m": 2,
+            "ms": [
+              "Parents Ff and ff give offspring Ff, Ff, ff, ff (1).",
+              "50% / 0.5 (1)."
+            ],
+            "answer": 50,
+            "unit": "%"
+          },
+          {
+            "q": "Explain why two parents without CF can have a child with CF.",
+            "m": 2,
+            "ms": [
+              "Both parents are carriers / heterozygous Ff (1).",
+              "Each passes on f, so the child is ff (1)."
+            ]
+          },
+          {
+            "q": "Evaluate screening embryos for cystic fibrosis.",
+            "m": 6,
+            "ms": [
+              "Embryos produced by IVF are tested for the CF allele (1).",
+              "Only embryos without CF are implanted (1).",
+              "Reduces suffering / cost of lifelong treatment (1).",
+              "Expensive / possible errors (1).",
+              "Embryos destroyed — ethical objections (1).",
+              "Concern about designer babies / implies less value of people with CF; conclusion (1)."
+            ],
+            "note": "Award one mark for each distinct valid linked point, maximum 6."
+          }
+        ]
+      },
+      {
+        "title": "Evolution and classification",
+        "topic": "Inheritance, variation and evolution",
+        "stem": "<p>Scientists compare the DNA of several primate species.</p>",
+        "parts": [
+          {
+            "q": "Explain how DNA evidence can show how closely related two species are.",
+            "m": 2,
+            "ms": [
+              "Similar DNA base sequences (1).",
+              "More similar sequence means a more recent common ancestor (1)."
+            ]
+          },
+          {
+            "q": "Give two reasons why Darwin’s theory was not widely accepted at first.",
+            "m": 2,
+            "ms": [
+              "Challenged belief that God created all life (1).",
+              "Insufficient evidence / mechanism of inheritance unknown (1)."
+            ]
+          },
+          {
+            "q": "Explain how geographical isolation can lead to the formation of a new species.",
+            "m": 6,
+            "ms": [
+              "Populations separated by a barrier, e.g. river or mountain (1).",
+              "No interbreeding between populations (1).",
+              "Mutations give different alleles in each population (1).",
+              "Different conditions select different characteristics (1).",
+              "Natural selection over many generations changes allele frequencies (1).",
+              "Eventually cannot interbreed to produce fertile offspring — new species (1)."
+            ],
+            "note": "Award one mark for each distinct valid linked point, maximum 6."
+          }
+        ]
+      },
+      {
+        "title": "Biomass and food chains",
+        "topic": "Ecology",
+        "stem": "<p>A field of grass contains 30 000 kg of biomass. Cattle feeding on the grass contain 2400 kg of biomass.</p>",
+        "parts": [
+          {
+            "q": "Calculate the efficiency of biomass transfer from grass to cattle.",
+            "m": 2,
+            "ms": [
+              "2400 ÷ 30 000 × 100 (1).",
+              "8% (1)."
+            ],
+            "answer": 8,
+            "unit": "%"
+          },
+          {
+            "q": "Give three reasons why not all the biomass of the grass is transferred to the cattle.",
+            "m": 3,
+            "ms": [
+              "Not all grass is eaten, e.g. roots (1).",
+              "Some is not digested and is egested in faeces (1).",
+              "Glucose used in respiration / lost as CO₂ and water / urea (1)."
+            ]
+          },
+          {
+            "q": "Explain why it is more efficient for humans to eat plants rather than meat.",
+            "m": 2,
+            "ms": [
+              "Biomass is lost at each trophic level (1).",
+              "Fewer levels so more biomass available to humans (1)."
+            ]
+          },
+          {
+            "q": "Evaluate keeping cattle indoors in small pens to increase meat production.",
+            "m": 3,
+            "ms": [
+              "Less movement and warmth means less energy lost, so more growth (1).",
+              "Ethical concerns about animal welfare (1).",
+              "Disease spreads easily, so more antibiotic use / cost of heating (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Decay investigation",
+        "topic": "Ecology",
+        "stem": "<p>A student investigated decay of milk at different temperatures using lipase and phenolphthalein indicator. Time for colour change: 20 °C 500 s; 30 °C 250 s; 40 °C 125 s; 60 °C no change.</p>",
+        "parts": [
+          {
+            "q": "Explain why the indicator changes colour.",
+            "m": 2,
+            "ms": [
+              "Lipase breaks down fat into fatty acids (1).",
+              "pH falls so phenolphthalein turns from pink to colourless (1)."
+            ]
+          },
+          {
+            "q": "Calculate the rate at 30 °C using rate = 1000 ÷ time.",
+            "m": 1,
+            "ms": [
+              "4 s⁻¹ (1)."
+            ],
+            "answer": 4,
+            "unit": "s⁻¹"
+          },
+          {
+            "q": "Describe the pattern between 20 °C and 40 °C.",
+            "m": 2,
+            "ms": [
+              "Rate doubles for every 10 °C rise (1).",
+              "Time halves from 500 to 250 to 125 s (1)."
+            ]
+          },
+          {
+            "q": "Explain why there was no colour change at 60 °C.",
+            "m": 2,
+            "ms": [
+              "Lipase denatured (1).",
+              "Active site changes shape so fat is not broken down (1)."
+            ]
+          },
+          {
+            "q": "Explain why gardeners turn compost heaps.",
+            "m": 3,
+            "ms": [
+              "Adds oxygen (1).",
+              "Decomposers respire aerobically (1).",
+              "So decay is faster (1)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Food security",
+        "topic": "Ecology",
+        "stem": "<p>The world population is increasing, so food security is a global concern.</p>",
+        "parts": [
+          {
+            "q": "Give two factors that threaten food security.",
+            "m": 2,
+            "ms": [
+              "Increasing population / changing diets (1).",
+              "New pests and pathogens / drought / cost of inputs / conflict (1)."
+            ]
+          },
+          {
+            "q": "Explain how fishing quotas and larger net mesh sizes help to maintain fish stocks.",
+            "m": 4,
+            "ms": [
+              "Quotas limit the number of fish caught (1).",
+              "So enough fish remain to breed (1).",
+              "Larger mesh lets young fish escape (1).",
+              "They reach breeding age and reproduce (1)."
+            ]
+          },
+          {
+            "q": "Describe how mycoprotein is produced.",
+            "m": 4,
+            "ms": [
+              "Fusarium fungus grown in a fermenter (1).",
+              "On glucose syrup as food (1).",
+              "Aerobic conditions with controlled temperature and pH (1).",
+              "Fungal biomass harvested and purified (1)."
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
