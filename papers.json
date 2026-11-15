@@ -37,7 +37,7 @@
             ],
             "answer": 400,
             "unit": "times",
-            "tolerance": 1e-06
+            "tolerance": 0.000001
           },
           {
             "q": "Describe how to prepare a thin leaf sample on a microscope slide.",
@@ -46,15 +46,6 @@
               "Place a thin sample in a drop of water on a slide (1).",
               "Lower a coverslip gently at an angle to reduce trapped air (1).",
               "Remove excess water and begin observing with low-power objective (1)."
-            ]
-          },
-          {
-            "q": "Give three differences between a bacterial cell and a leaf cell.",
-            "m": 3,
-            "ms": [
-              "Bacteria lack a nucleus; leaf cells have one (1).",
-              "Bacteria have no chloroplasts; photosynthetic leaf cells have chloroplasts (1).",
-              "Bacteria have no mitochondria; leaf cells have mitochondria (1). Accept bacterial circular DNA/plasmids versus chromosomes in a nucleus as an alternative distinct difference."
             ]
           }
         ]
@@ -73,7 +64,7 @@
             ],
             "answer": 0.8,
             "unit": "g",
-            "tolerance": 1e-06
+            "tolerance": 0.000001
           },
           {
             "q": "Calculate the percentage increase in mass of this cylinder.",
@@ -84,7 +75,7 @@
             ],
             "answer": 20,
             "unit": "%",
-            "tolerance": 1e-06
+            "tolerance": 0.000001
           },
           {
             "q": "Explain why the cylinder in concentrated sugar solution loses mass.",
@@ -93,15 +84,6 @@
               "Water moves out of potato cells (1).",
               "Through partially permeable membranes (1).",
               "By osmosis, from a more dilute solution inside to a more concentrated solution outside (1)."
-            ]
-          },
-          {
-            "q": "Describe three controls or improvements that make this comparison more reliable.",
-            "m": 3,
-            "ms": [
-              "Use cylinders of equal dimensions/from the same potato (1).",
-              "Use the same immersion time and temperature (1).",
-              "Repeat with several cylinders and calculate means; or blot each cylinder consistently before weighing (1)."
             ]
           }
         ]
@@ -202,7 +184,7 @@
             ],
             "answer": 85,
             "unit": "%",
-            "tolerance": 1e-06
+            "tolerance": 0.000001
           },
           {
             "q": "State one bacterial disease and one viral disease from the course.",
@@ -249,7 +231,7 @@
             ],
             "answer": 32,
             "unit": "bubbles/min",
-            "tolerance": 1e-06
+            "tolerance": 0.000001
           },
           {
             "q": "Explain the pattern in the table.",
@@ -436,6 +418,26 @@
             ]
           }
         ]
+      },
+      {
+        "title": "Enzymes",
+        "topic": "Organisation",
+        "stem": "Amylase breaks down starch into sugars. A student wants to find the optimum pH of amylase.",
+        "parts": [
+          {
+            "q": "Describe a method the student could use to investigate the effect of pH on the rate of reaction of amylase. Include how to make the investigation a fair test.",
+            "m": 6,
+            "ms": [
+              "Place drops of iodine in a spotting tile.",
+              "Mix starch solution, amylase and a buffer solution of known pH in a test tube in a water bath at a fixed temperature (e.g. 35 °C).",
+              "Start a stopwatch when the amylase is added.",
+              "Every 30 s, transfer a drop of the mixture to the iodine and record the time when it no longer turns blue-black.",
+              "Repeat with buffers of different pH (e.g. pH 4, 5, 6, 7, 8).",
+              "Keep the volumes and concentrations of starch and amylase and the temperature the same; repeat and calculate a mean / rate = 1000 ÷ time."
+            ],
+            "note": "Award one mark for each distinct valid point, maximum 6. Responses should be logically linked; equivalent scientifically correct wording is acceptable."
+          }
+        ]
       }
     ]
   },
@@ -487,7 +489,7 @@
             ],
             "answer": 120,
             "unit": "µm",
-            "tolerance": 1e-06
+            "tolerance": 0.000001
           },
           {
             "q": "Explain how active transport differs from diffusion.",
@@ -513,7 +515,7 @@
             ],
             "answer": 0.35,
             "unit": "mol dm⁻³",
-            "tolerance": 1e-06
+            "tolerance": 0.000001
           },
           {
             "q": "A cylinder initially has mass 5.50 g and loses 7% of its mass. Calculate its final mass.",
@@ -533,15 +535,6 @@
             "ms": [
               "Water still moves in both directions through the membrane (1).",
               "Equal average rates produce no net transfer (1)."
-            ]
-          },
-          {
-            "q": "Identify a possible systematic error and explain a practical improvement and its benefit.",
-            "m": 3,
-            "ms": [
-              "Valid systematic error such as consistently leaving surface solution on cylinders before weighing (1).",
-              "Blot each cylinder using a standard procedure (1).",
-              "Reduces bias caused by measuring surface solution rather than tissue mass (1). Accept another coherent error-improvement-benefit sequence."
             ]
           }
         ]
@@ -571,7 +564,7 @@
             ],
             "answer": 6,
             "unit": "times",
-            "tolerance": 1e-06
+            "tolerance": 0.000001
           },
           {
             "q": "Explain the effect of pH on enzyme activity.",
@@ -580,15 +573,6 @@
               "Changes in pH can alter the active-site shape (1).",
               "Substrate becomes less complementary (1).",
               "Fewer enzyme-substrate complexes form; sufficiently extreme pH can denature the enzyme (1)."
-            ]
-          },
-          {
-            "q": "Explain why temperature, enzyme concentration and starch concentration must each be controlled.",
-            "m": 3,
-            "ms": [
-              "Temperature affects collision rate/denaturation (1).",
-              "Enzyme concentration affects the number of available active sites (1).",
-              "Starch concentration affects collision frequency/substrate availability, so changes could confound the pH comparison (1)."
             ]
           }
         ]
@@ -607,7 +591,7 @@
             ],
             "answer": 6,
             "unit": "%",
-            "tolerance": 1e-06
+            "tolerance": 0.000001
           },
           {
             "q": "Explain why the study does not prove that exercise alone caused the difference.",
@@ -687,7 +671,7 @@
             ],
             "answer": 1.2,
             "unit": "mg/min",
-            "tolerance": 1e-06
+            "tolerance": 0.000001
           },
           {
             "q": "Calculate the percentage increase in uptake from A to B.",
@@ -698,7 +682,7 @@
             ],
             "answer": 100,
             "unit": "%",
-            "tolerance": 1e-06
+            "tolerance": 0.000001
           },
           {
             "q": "Explain why doubling light beyond B may give no further increase.",
@@ -887,6 +871,26 @@
             ]
           }
         ]
+      },
+      {
+        "title": "The leaf",
+        "topic": "Organisation",
+        "stem": "The leaf is a plant organ in which photosynthesis and gas exchange take place.",
+        "parts": [
+          {
+            "q": "Explain how the structure of a leaf is adapted for photosynthesis and gas exchange.",
+            "m": 6,
+            "ms": [
+              "Thin and flat with a large surface area to absorb light and for diffusion.",
+              "Transparent upper epidermis / waxy cuticle lets light through and reduces water loss.",
+              "Palisade mesophyll cells near the upper surface packed with chloroplasts to absorb light.",
+              "Spongy mesophyll has air spaces so gases diffuse quickly to and from cells.",
+              "Stomata (controlled by guard cells) let carbon dioxide in and oxygen and water vapour out.",
+              "Xylem brings water and phloem removes sugars (veins / vascular bundles)."
+            ],
+            "note": "Award one mark for each distinct valid point, maximum 6. Responses should be logically linked; equivalent scientifically correct wording is acceptable."
+          }
+        ]
       }
     ]
   },
@@ -919,7 +923,7 @@
             ],
             "answer": 17,
             "unit": "cm",
-            "tolerance": 1e-06
+            "tolerance": 0.000001
           },
           {
             "q": "Name the type of cell that detects a stimulus and the type of cell that carries an impulse to a muscle.",
@@ -936,15 +940,6 @@
               "Sensory neurone carries impulse to central nervous system (1).",
               "Relay neurone passes impulse within CNS (1).",
               "Motor neurone carries impulse to the muscle/effector (1)."
-            ]
-          },
-          {
-            "q": "Explain three controls or improvements in a ruler-drop investigation.",
-            "m": 3,
-            "ms": [
-              "Same starting position/zero aligned with fingers (1).",
-              "Same hand/person and posture when comparing conditions (1).",
-              "Repeat and calculate mean; avoid cues by varying delay before release (one valid improvement for 1)."
             ]
           }
         ]
@@ -977,15 +972,6 @@
               "Type 1 pancreas produces little/no insulin (1).",
               "Type 2 body cells respond less effectively to insulin (1).",
               "Type 1 often treated with insulin injections; Type 2 often managed with controlled carbohydrate diet and exercise (1)."
-            ]
-          },
-          {
-            "q": "Explain why a person with diabetes should use several blood glucose readings rather than one reading to judge control.",
-            "m": 3,
-            "ms": [
-              "Glucose changes during the day (1).",
-              "Meals/exercise affect readings (1).",
-              "Several readings reveal patterns and reduce the influence of an unusual reading (1)."
             ]
           }
         ]
@@ -1056,7 +1042,7 @@
             ],
             "answer": 25,
             "unit": "%",
-            "tolerance": 1e-06
+            "tolerance": 0.000001
           },
           {
             "q": "Explain why a dominant allele can be expressed in a heterozygous person, and why this does not mean it is always common in a population.",
@@ -1125,7 +1111,7 @@
             ],
             "answer": 2.5,
             "unit": "m²",
-            "tolerance": 1e-06
+            "tolerance": 0.000001
           },
           {
             "q": "Estimate the number of daisies in the field.",
@@ -1137,7 +1123,7 @@
             ],
             "answer": 4800,
             "unit": "daisies",
-            "tolerance": 1e-06
+            "tolerance": 0.000001
           },
           {
             "q": "Describe how to place quadrats randomly.",
@@ -1333,6 +1319,26 @@
             ]
           }
         ]
+      },
+      {
+        "title": "Sampling a field",
+        "topic": "Ecology",
+        "stem": "A school field measures 60 m by 40 m. A student wants to estimate the number of daisy plants on the field.",
+        "parts": [
+          {
+            "q": "Describe how the student could use quadrats to estimate the number of daisy plants on the field. Include how the estimate is calculated.",
+            "m": 6,
+            "ms": [
+              "Lay out two tape measures at right angles along the edges of the field to make a grid.",
+              "Use random numbers to choose coordinates for each quadrat (to avoid bias).",
+              "Place a 1 m² quadrat at each coordinate and count the daisies inside it.",
+              "Use a large number of quadrats, e.g. at least 10.",
+              "Calculate the mean number of daisies per quadrat (per m²).",
+              "Multiply the mean per m² by the area of the field (2400 m²) to estimate the population."
+            ],
+            "note": "Award one mark for each distinct valid point, maximum 6. Responses should be logically linked; equivalent scientifically correct wording is acceptable."
+          }
+        ]
       }
     ]
   },
@@ -1383,14 +1389,6 @@
             "ms": [
               "Nervous signals travel along neurones; hormones are carried in blood (1).",
               "Nervous responses generally faster/shorter lasting and more localised; hormonal responses generally slower/longer lasting (1)."
-            ]
-          },
-          {
-            "q": "Suggest two ways to improve the validity of this comparison.",
-            "m": 2,
-            "ms": [
-              "Test same people in both conditions with order randomised (1).",
-              "Control sleep/caffeine/practice and other distractions, or use more participants (1)."
             ]
           }
         ]
@@ -1468,7 +1466,7 @@
             ],
             "answer": 30,
             "unit": "%",
-            "tolerance": 1e-06
+            "tolerance": 0.000001
           },
           {
             "q": "Give one benefit and one risk or disadvantage of IVF.",
@@ -1495,7 +1493,7 @@
             ],
             "answer": 0.5,
             "unit": "probability",
-            "tolerance": 1e-06
+            "tolerance": 0.000001
           },
           {
             "q": "Explain how meiosis and fertilisation maintain chromosome number across generations.",
@@ -1541,16 +1539,6 @@
               "Prescribing antibiotics only when needed reduces selection pressure. Accept completion of the prescribed course as an alternative control, with a correct explanation."
             ],
             "note": "Award one mark per distinct valid linked point, maximum 6."
-          },
-          {
-            "q": "Describe how bacteria can be genetically engineered to produce human insulin.",
-            "m": 4,
-            "ms": [
-              "Human insulin gene is isolated using enzymes (1).",
-              "Gene inserted into a vector/plasmid using enzymes (1).",
-              "Vector introduces gene into bacteria (1).",
-              "Modified bacteria are grown and express the gene to produce insulin, which is collected/purified (1)."
-            ]
           }
         ]
       },
@@ -1569,7 +1557,7 @@
             ],
             "answer": 12000,
             "unit": "plants",
-            "tolerance": 1e-06
+            "tolerance": 0.000001
           },
           {
             "q": "Design an investigation of the effect of distance from the hedge on clover abundance.",
@@ -1606,7 +1594,7 @@
             ],
             "answer": 4800,
             "unit": "kg/year",
-            "tolerance": 1e-06
+            "tolerance": 0.000001
           },
           {
             "q": "Explain how carbon from dead leaves can return to the atmosphere.",
@@ -1748,6 +1736,26 @@
             ]
           }
         ]
+      },
+      {
+        "title": "Blood glucose",
+        "topic": "Homeostasis and response",
+        "stem": "The concentration of glucose in the blood must be kept within narrow limits.",
+        "parts": [
+          {
+            "q": "Explain how the body controls the concentration of glucose in the blood after a meal and when it falls too low.",
+            "m": 6,
+            "ms": [
+              "After a meal blood glucose rises; this is detected by the pancreas.",
+              "The pancreas releases insulin into the blood.",
+              "Insulin causes glucose to move from the blood into cells.",
+              "In the liver and muscles excess glucose is converted to glycogen for storage.",
+              "If blood glucose falls too low, the pancreas releases glucagon.",
+              "Glucagon causes glycogen to be converted into glucose, which is released into the blood (negative feedback)."
+            ],
+            "note": "Award one mark for each distinct valid point, maximum 6. Responses should be logically linked; equivalent scientifically correct wording is acceptable."
+          }
+        ]
       }
     ]
   },
@@ -1804,15 +1812,6 @@
               "Electron microscope has a higher resolution (1).",
               "So can distinguish between two points closer together / see smaller structures such as ribosomes (1)."
             ]
-          },
-          {
-            "q": "A student says \"Bacteria are bigger than animal cells.\" Use data to explain whether the student is correct. Typical bacterium: 2 μm. Typical cheek cell: 60 μm.",
-            "m": 3,
-            "ms": [
-              "Student is incorrect (1).",
-              "Cheek cell is 60 ÷ 2 = 30 times bigger (1).",
-              "About one order of magnitude larger (1)."
-            ]
           }
         ]
       },
@@ -1860,15 +1859,6 @@
             "ms": [
               "Produce clones of plants quickly and cheaply (1).",
               "Save rare species from extinction / produce crops with special features such as disease resistance (1)."
-            ]
-          },
-          {
-            "q": "Explain why using embryonic stem cells in medicine is controversial.",
-            "m": 3,
-            "ms": [
-              "Embryos are destroyed (1).",
-              "Some people believe embryos have a right to life / religious objections (1).",
-              "Risk of viral infection/tumours from stem cells (1)."
             ]
           }
         ]
@@ -2253,6 +2243,26 @@
             ]
           }
         ]
+      },
+      {
+        "title": "Osmosis in potato",
+        "topic": "Cell biology",
+        "stem": "A student wants to find the concentration of sugar solution that causes no change in mass of potato tissue.",
+        "parts": [
+          {
+            "q": "Describe a method the student could use to investigate the effect of sugar concentration on the mass of potato cylinders, and explain how the results are used.",
+            "m": 6,
+            "ms": [
+              "Cut potato cylinders of the same size with a cork borer and blot them dry.",
+              "Weigh each cylinder on a balance and record the starting mass.",
+              "Place each cylinder in a different concentration of sugar solution (e.g. 0, 0.2, 0.4, 0.6, 0.8 mol/dm³) with the same volume.",
+              "Leave for the same time (e.g. 24 hours) at the same temperature, then blot dry and reweigh.",
+              "Calculate the percentage change in mass for each cylinder; repeat and find the mean.",
+              "Plot percentage change against concentration; where the line crosses zero gives the concentration with no net osmosis."
+            ],
+            "note": "Award one mark for each distinct valid point, maximum 6. Responses should be logically linked; equivalent scientifically correct wording is acceptable."
+          }
+        ]
       }
     ]
   },
@@ -2346,15 +2356,6 @@
             ],
             "answer": -10,
             "unit": "%"
-          },
-          {
-            "q": "Explain the result in terms of osmosis.",
-            "m": 3,
-            "ms": [
-              "Sugar solution more concentrated than cell contents (1).",
-              "Water moved out of the cells by osmosis (1).",
-              "Through a partially permeable membrane, so mass decreased (1)."
-            ]
           }
         ]
       },
@@ -2388,15 +2389,6 @@
               "pH changes the shape of the active site (1).",
               "Starch fits less well / fewer enzyme–substrate complexes (1).",
               "So digestion slower (1)."
-            ]
-          },
-          {
-            "q": "Give two variables the student should control and explain why a water bath is used.",
-            "m": 3,
-            "ms": [
-              "Temperature (1).",
-              "Volume/concentration of starch or amylase (1).",
-              "Water bath keeps temperature constant so only pH affects the rate (1)."
             ]
           }
         ]
@@ -2710,6 +2702,26 @@
             ]
           }
         ]
+      },
+      {
+        "title": "Respiration and exercise",
+        "topic": "Bioenergetics",
+        "stem": "During a sprint, the muscles of an athlete respire both aerobically and anaerobically.",
+        "parts": [
+          {
+            "q": "Compare aerobic and anaerobic respiration in muscles, and explain why the athlete continues to breathe deeply after the sprint.",
+            "m": 6,
+            "ms": [
+              "Aerobic respiration uses oxygen; anaerobic does not.",
+              "Aerobic: glucose + oxygen → carbon dioxide + water; anaerobic: glucose → lactic acid.",
+              "Aerobic releases much more energy per glucose because the oxidation of glucose is complete.",
+              "Anaerobic respiration happens when oxygen supply is insufficient and causes lactic acid to build up / muscle fatigue.",
+              "After the sprint an oxygen debt must be repaid: extra oxygen is needed to remove the lactic acid.",
+              "Lactic acid is carried in the blood to the liver and converted back to glucose, so breathing and heart rate stay high."
+            ],
+            "note": "Award one mark for each distinct valid point, maximum 6. Responses should be logically linked; equivalent scientifically correct wording is acceptable."
+          }
+        ]
       }
     ]
   },
@@ -2762,15 +2774,6 @@
             "ms": [
               "It is fast/automatic (1).",
               "Protects the body from damage (1)."
-            ]
-          },
-          {
-            "q": "Describe how a nerve impulse passes across a synapse.",
-            "m": 3,
-            "ms": [
-              "Impulse arrives and a chemical is released (1).",
-              "Chemical diffuses across the gap (1).",
-              "Triggers a new impulse in the next neurone (1)."
             ]
           }
         ]
@@ -2864,15 +2867,6 @@
             "ms": [
               "This is the optimum temperature for enzymes (1).",
               "Enzymes denature if too hot / reactions slow if too cold (1)."
-            ]
-          },
-          {
-            "q": "Describe how the body responds if core temperature falls too low.",
-            "m": 3,
-            "ms": [
-              "Shivering: muscles contract, respiration releases energy (1).",
-              "Vasoconstriction: less blood flows near the skin (1).",
-              "Less sweat produced (1)."
             ]
           }
         ]
@@ -3214,6 +3208,26 @@
             "ms": [
               "Methane (1)."
             ]
+          }
+        ]
+      },
+      {
+        "title": "Reflex actions",
+        "topic": "Homeostasis and response",
+        "stem": "A person touches a hot pan and quickly moves their hand away.",
+        "parts": [
+          {
+            "q": "Describe the pathway of the nerve impulse in this reflex action and explain why reflex actions are important.",
+            "m": 6,
+            "ms": [
+              "Heat (stimulus) is detected by receptors in the skin.",
+              "An impulse travels along a sensory neurone to the spinal cord (CNS).",
+              "The impulse passes across a synapse to a relay neurone, then to a motor neurone.",
+              "At synapses a chemical diffuses across the gap to start an impulse in the next neurone.",
+              "The motor neurone carries the impulse to the effector (muscle), which contracts and moves the hand.",
+              "Reflexes are automatic and rapid (do not involve the conscious brain), so they protect the body from harm."
+            ],
+            "note": "Award one mark for each distinct valid point, maximum 6. Responses should be logically linked; equivalent scientifically correct wording is acceptable."
           }
         ]
       }
