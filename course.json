@@ -11460,6 +11460,149 @@
       }
     },
     {
+      "id": "b-environment-change",
+      "unit": "ecology",
+      "title": "Impact of environmental change",
+      "spec": "4.7.2.4",
+      "paper": [
+        2
+      ],
+      "tier": "higher",
+      "separate": true,
+      "checkId": "qz-b-environment-change",
+      "summary": "Changes in temperature, water availability and atmospheric gases alter where species can live.",
+      "notes": [
+        {
+          "title": "Understand the biology",
+          "html": "<p>Every species has a range of conditions in which it can survive and reproduce. Its <b>distribution</b> is where it is found. When the environment changes, the places that meet a species’ needs change too, so the species may spread into new areas, retreat from old ones, or decline. The key changes in the specification are in <b>temperature</b>, the <b>availability of water</b> and the <b>composition of atmospheric gases</b>.</p><p>Changes can be <b>seasonal</b> (birds migrate as temperature and day length change; some animals hibernate), <b>geographic</b> (conditions change with latitude, altitude or distance from the sea) or caused by <b>human interaction</b> (climate change, draining wetlands, irrigation, pollution, building).</p>"
+        },
+        {
+          "title": "Apply and explain",
+          "html": "<p><b>Temperature.</b> As the UK has warmed, several species of butterfly and dragonfly have been recorded further north, and some plants flower earlier in spring. Species adapted to cold conditions, such as mountain plants, may lose habitat as they cannot move any higher. <b>Water.</b> Draining wetlands removes habitat for wading birds and amphibians; drought reduces the populations of species that need moist conditions, while irrigation lets crops grow where they otherwise could not. <b>Atmospheric gases.</b> Lichens are sensitive to sulfur dioxide, so they disappear from polluted areas and return when air quality improves; rising carbon dioxide dissolves in the oceans and lowers their pH, which can harm corals and shellfish.</p>"
+        },
+        {
+          "title": "Go deeper",
+          "html": "<p><b>Evaluating evidence.</b> When you are given data about a change in distribution, look for: how long the records cover; whether the sample is large and representative; whether other factors changed at the same time (for example habitat loss as well as warming); and whether there is a plausible biological mechanism linking the environmental change to the change in distribution. A correlation between rising temperature and a species moving north is strong evidence only if the data cover many years and alternative explanations have been considered. Conclusions should be limited to the species, area and time period studied.</p>"
+        }
+      ],
+      "keypoints": [
+        "Changes in temperature, water availability and atmospheric gases affect the distribution of species.",
+        "Changes may be seasonal, geographic or caused by human interaction.",
+        "Species may spread, retreat or decline when conditions change.",
+        "Evaluate evidence by checking time scale, sample size and other factors."
+      ],
+      "mistakes": [
+        "Saying a species \"adapts\" in its lifetime to a new climate: individuals do not evolve; distributions shift or populations change by natural selection over generations.",
+        "Concluding that one factor caused a change without considering other factors that changed at the same time."
+      ],
+      "checks": [
+        {
+          "q": "Which of these is an example of a seasonal change affecting distribution?",
+          "opts": [
+            "Swallows migrating to Africa each autumn as insects become scarce",
+            "A peat bog being drained to build houses",
+            "Sea levels rising slowly over a century",
+            "Lichens disappearing near a new factory"
+          ],
+          "a": 0,
+          "why": "Migration happens every year as the seasons change; the others are long-term or caused by humans."
+        },
+        {
+          "q": "Several UK butterfly species are now found further north than they were 50 years ago. Which environmental change is the most likely cause?",
+          "opts": [
+            "A decrease in carbon dioxide in the atmosphere",
+            "A rise in average temperatures",
+            "An increase in sulfur dioxide pollution",
+            "More frequent seasonal flooding of rivers"
+          ],
+          "a": 1,
+          "why": "Warmer temperatures allow species to survive further north than before."
+        },
+        {
+          "q": "Why can lichens be used to monitor air quality?",
+          "opts": [
+            "They need high carbon dioxide levels to grow quickly",
+            "They only grow in areas with plenty of water",
+            "Many species are killed by sulfur dioxide pollution",
+            "They absorb nitrogen from the air for proteins"
+          ],
+          "a": 2,
+          "why": "Lichens are sensitive to sulfur dioxide, so their presence shows clean air."
+        },
+        {
+          "q": "Draining a wetland for farmland is an example of which type of change?",
+          "opts": [
+            "A seasonal change in temperature",
+            "A geographic change with altitude",
+            "A natural change in atmospheric gases",
+            "A change caused by human interaction"
+          ],
+          "a": 3,
+          "why": "People drained the land, removing water that wetland species depend on."
+        },
+        {
+          "q": "A mountain plant is found only above 900 m. The climate warms. What is the most likely effect?",
+          "opts": [
+            "Its lower limit moves higher, so its range shrinks",
+            "It spreads to lower altitudes where it is warmer",
+            "It is unaffected because plants cannot move",
+            "It evolves a new species within a few years"
+          ],
+          "a": 0,
+          "why": "Warmer conditions push the plant up the mountain, and there is less land at higher altitudes."
+        },
+        {
+          "q": "Increased carbon dioxide dissolving in the oceans can harm corals. Why?",
+          "opts": [
+            "It raises the temperature of the water directly",
+            "It lowers the pH of the water, making it more acidic",
+            "It reduces the amount of light reaching the corals",
+            "It increases the amount of salt in the sea water"
+          ],
+          "a": 1,
+          "why": "Carbon dioxide forms an acid in water, which damages the calcium carbonate skeletons of corals."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Records show that a species of dragonfly has moved 150 km north in 30 years while average temperatures rose. Calculate the mean rate at which its range moved north in km per year.",
+          "m": 1,
+          "ms": [
+            "150 ÷ 30 = 5 km per year"
+          ]
+        },
+        {
+          "q": "Suggest two reasons why the dragonfly records alone do not prove that rising temperature caused the change.",
+          "m": 2,
+          "ms": [
+            "other factors may have changed, e.g. new ponds / habitat or less pollution",
+            "more people recording dragonflies in the north / sampling effort changed / correlation is not causation"
+          ]
+        },
+        {
+          "q": "Explain how draining a wetland could change the distribution of species in an area.",
+          "m": 3,
+          "ms": [
+            "less water available / habitat lost",
+            "species that need wet conditions (e.g. frogs, wading birds, reeds) decline or move away",
+            "species suited to drier conditions may move in / food chains are affected"
+          ]
+        },
+        {
+          "q": "Evaluate the evidence that environmental change affects the distribution of species, using examples of changes in temperature, water availability and atmospheric gases.",
+          "m": 6,
+          "ms": [
+            "temperature: species recorded further north or at higher altitude as climate warms",
+            "water: drought or draining reduces species needing moist habitats; irrigation allows crops elsewhere",
+            "gases: lichens absent where sulfur dioxide is high and returning as it falls",
+            "gases: carbon dioxide lowers ocean pH, harming corals and shellfish",
+            "evaluation: long-term data and large samples make conclusions stronger; other factors such as habitat loss may also contribute",
+            "judgement: several independent lines of evidence support the conclusion"
+          ]
+        }
+      ]
+    },
+    {
       "id": "b-biomass",
       "unit": "ecology",
       "title": "Trophic levels and biomass efficiency",

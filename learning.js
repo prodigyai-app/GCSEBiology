@@ -131,7 +131,7 @@
   if(l.example)blocks.push(B.example(l.example.title,l.example.q,l.example.steps));
   if(l.practical)blocks.push(practical(l.practical));
   const labLinks={"b-microscopy": "bmic", "b-osmosis": "bosm", "b-culture": "bzone", "b-enzymes": "benz", "b-foodtests": "bfood", "b-photo-rate": "bphot", "b-reaction": "breac", "b-tropisms": "bshoot", "b-sampling": "bfield", "b-decay": "bdecaylab"}; if(labLinks[l.id])blocks.push(B.text("Try the practical lab",`<p><a class="btn" href="#${labLinks[l.id]}">Open interactive practical</a></p>`));
-  blocks.push(B.check(l.checks),B.keypoints(l.keypoints),B.mistakes(l.mistakes));
+  blocks.push(B.check(l.checks,undefined,l.checkId),B.keypoints(l.keypoints),B.mistakes(l.mistakes));
   lesson({id:l.id,group:'lessons',num:i+1,lvl:l.spec,name:l.title,icon:'bio',tag:[l.tier==='higher'?'Higher':null,l.separate?'Biology only':null].filter(Boolean).join(' · '),eyebrow:meta.sub+' · '+l.spec,title:l.title,intro:l.summary,outcomes:l.keypoints.slice(0,3).map(k=>[k,l.spec]),blocks});
   if(l.exam?.length)EXAM.attach(l.id,{title:'Apply your understanding',intro:'Write your response, then use each marking point to award your marks. Equivalent scientifically correct wording is acceptable.',qs:qsToExam(l.exam)});
  });

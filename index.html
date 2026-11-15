@@ -941,7 +941,7 @@ const B={
  keypoints:(list,title="Key points")=>`<div class="lcard"><h3>${title}</h3><ul class="kp">${list.map(x=>`<li>${x}</li>`).join("")}</ul></div>`,
  mistakes:(list)=>`<div class="lcard"><h3>Common mistakes</h3><ul class="kp kbad">${list.map(x=>`<li>${x}</li>`).join("")}</ul></div>`,
  practical:(html,label)=>`<div class="lcard"><h3>${kind("k-prac","Practical")}${label}</h3><div class="prac-link"><div class="prose" style="flex:1 1 320px">${html}</div></div></div>`,
- check:(qs,title="Check your understanding")=>{ const id="qz"+(++qid); QZ[id]=qs;
+ check:(qs,title="Check your understanding",fixed)=>{ const id=fixed||"qz"+(++qid); QZ[id]=qs;
   return `<div class="lcard" id="${id}"><h3>${kind("k-chk","Check")}${title} <span class="qscore" id="${id}-score"></span></h3><div class="qz">${qs.map((q,i)=>{ const n=`${id}-${i}`;
    const body=q.opts?`<div class="qo">${q.opts.map((o,j)=>`<label><input type="radio" name="${n}" value="${j}"><span>${o}</span></label>`).join("")}</div>`:`<div class="qnum"><input type="text" inputmode="decimal" id="${n}-in" aria-label="Your answer" autocomplete="off"><span>${q.unit||""}</span></div>`;
    return `<div class="qi" data-q="${n}"><div class="qq"><b class="qn">${i+1}</b>${q.q}</div>${body}<div class="qact"><button class="btn primary" data-chk="${n}">Check</button><button class="btn" data-show="${n}">Show answer</button></div><div class="qfb" id="${n}-fb" hidden></div></div>`; }).join("")}</div></div>`; }
@@ -1511,13 +1511,13 @@ window.COURSE_META={"id": "gcse-biology", "title": "GCSE Biology", "sub": "AQA G
 </script>
 <!-- BEGIN SHARED SCIENCE LESSONS -->
 <!-- END SHARED SCIENCE LESSONS -->
-<script src="course-data.js"></script>
+<script src="course-data.js?v=20261115"></script>
 <script src="investigation-engine.js?v=20261025-labs"></script>
 <script src="biology-glassware.js"></script>
 <script src="biology-labs.js"></script>
 <script src="biology-investigations.js"></script>
 <script src="gcse-skills.js?v=20261106-skills"></script>
-<script src="learning.js?v=20261106-skills"></script>
+<script src="learning.js?v=20261115-depth"></script>
 <style>
 .co-tag{display:inline-block;font-family:var(--f-mono);font-size:.68rem;letter-spacing:.05em;text-transform:uppercase;border:1px solid var(--data);color:var(--data);border-radius:999px;padding:1px 8px;vertical-align:1px}
 .pt-out{font-size:.92rem;min-height:1.6em;margin-top:6px}
@@ -1818,6 +1818,11 @@ window.ALP_ACCOUNTS={sb,merge,stats,get user(){ return user; },get profile(){ re
 <script src="depth-s1.js?v=20261115"></script>
 <script src="depth-s2.js?v=20261115"></script>
 <script src="depth-s3.js?v=20261115"></script>
+<script src="depth-o1.js?v=20261115"></script>
+<script src="depth-o2.js?v=20261115"></script>
+<script src="depth-o3.js?v=20261115"></script>
+<script src="depth-o4.js?v=20261115"></script>
+<script src="depth-o5.js?v=20261115"></script>
 <script>GcseDepth.apply();</script>
 <script src="subject-icons.js?v=20261023-ks3"></script>
 <script src="maths-keyboard.js?v=20261031-fast"></script>
